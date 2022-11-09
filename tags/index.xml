@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Cybernotes</title>
-    <link>https://mariosdaskalas.github.io/tags/</link>
+    <link>http://cybernotes.uk/tags/</link>
     <description>Recent content in Tags on Cybernotes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Nov 2022 13:02:11 +0200</lastBuildDate><atom:link href="https://mariosdaskalas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2022 13:02:11 +0200</lastBuildDate><atom:link href="http://cybernotes.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cryptography</title>
-      <link>https://mariosdaskalas.github.io/tags/cryptography/</link>
+      <link>http://cybernotes.uk/tags/cryptography/</link>
       <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
       
-      <guid>https://mariosdaskalas.github.io/tags/cryptography/</guid>
+      <guid>http://cybernotes.uk/tags/cryptography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://mariosdaskalas.github.io/tags/python/</link>
+      <link>http://cybernotes.uk/tags/python/</link>
       <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
       
-      <guid>https://mariosdaskalas.github.io/tags/python/</guid>
+      <guid>http://cybernotes.uk/tags/python/</guid>
       <description></description>
     </item>
     

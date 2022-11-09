@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cybernotes</title>
-    <link>https://mariosdaskalas.github.io/</link>
+    <link>http://cybernotes.uk/</link>
     <description>Recent content on Cybernotes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Nov 2022 13:02:11 +0200</lastBuildDate><atom:link href="https://mariosdaskalas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2022 13:02:11 +0200</lastBuildDate><atom:link href="http://cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shift Caesar Cipher</title>
-      <link>https://mariosdaskalas.github.io/posts/shift/</link>
+      <link>http://cybernotes.uk/posts/shift/</link>
       <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
       
-      <guid>https://mariosdaskalas.github.io/posts/shift/</guid>
+      <guid>http://cybernotes.uk/posts/shift/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>https://mariosdaskalas.github.io/about/</link>
+      <link>http://cybernotes.uk/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mariosdaskalas.github.io/about/</guid>
+      <guid>http://cybernotes.uk/about/</guid>
       <description>Hi, I&amp;rsquo;m Marios. I&amp;rsquo;m from Greece 🇬🇷.
 Currently working as a Software Developer and MSc Cyber Security student @ Leeds Beckett University 🇬🇧.
 This is a personal blog, in which I will write stuff about Cyber Security, with topics such as Penetration Testing, Bug Bounty, Cryptography, CTF and more.
@@ -32,10 +32,10 @@ You can contact me via email here.</description>
     
     <item>
       <title>Useful Sources</title>
-      <link>https://mariosdaskalas.github.io/useful/</link>
+      <link>http://cybernotes.uk/useful/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mariosdaskalas.github.io/useful/</guid>
+      <guid>http://cybernotes.uk/useful/</guid>
       <description>📚 Books 🔊 Audiobooks  Cybersecurity for Dummies  🔴 YouTube 📹 Udemy  Complete Ethical Hacking Bootcamp 2023: Zero to Mastery  </description>
     </item>
     
