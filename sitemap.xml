@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mariosdaskalas.github.io/tags/cipher/</loc>
-    <lastmod>2022-11-06T13:02:11+02:00</lastmod>
-  </url><url>
     <loc>https://mariosdaskalas.github.io/tags/cryptography/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
@@ -14,18 +11,23 @@
     <loc>https://mariosdaskalas.github.io/posts/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
+    <loc>https://mariosdaskalas.github.io/tags/python/</loc>
+    <lastmod>2022-11-06T13:02:11+02:00</lastmod>
+  </url><url>
     <loc>https://mariosdaskalas.github.io/posts/shift/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
     <loc>https://mariosdaskalas.github.io/tags/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>https://mariosdaskalas.github.io/posts/about/</loc>
+    <loc>https://mariosdaskalas.github.io/about/</loc>
   </url><url>
     <loc>https://mariosdaskalas.github.io/archives/</loc>
   </url><url>
     <loc>https://mariosdaskalas.github.io/categories/</loc>
   </url><url>
     <loc>https://mariosdaskalas.github.io/search/</loc>
+  </url><url>
+    <loc>https://mariosdaskalas.github.io/useful/</loc>
   </url>
 </urlset>

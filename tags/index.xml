@@ -8,20 +8,20 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Nov 2022 13:02:11 +0200</lastBuildDate><atom:link href="https://mariosdaskalas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cipher</title>
-      <link>https://mariosdaskalas.github.io/tags/cipher/</link>
-      <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
-      
-      <guid>https://mariosdaskalas.github.io/tags/cipher/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cryptography</title>
       <link>https://mariosdaskalas.github.io/tags/cryptography/</link>
       <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
       
       <guid>https://mariosdaskalas.github.io/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://mariosdaskalas.github.io/tags/python/</link>
+      <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
+      
+      <guid>https://mariosdaskalas.github.io/tags/python/</guid>
       <description></description>
     </item>
     
