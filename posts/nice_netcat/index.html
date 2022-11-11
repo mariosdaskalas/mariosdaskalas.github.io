@@ -5,14 +5,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>About Me | Cybernotes</title>
-<meta name="keywords" content="">
-<meta name="description" content="Hi, I&rsquo;m Marios. I&rsquo;m from Greece 🇬🇷.
-Currently working as a Software Developer and MSc Cyber Security student @ Leeds Beckett University 🇬🇧.
-This is a personal blog, in which I will write stuff about Cyber Security, with topics such as Penetration Testing, Bug Bounty, Cryptography, CTF and more.
-You can contact me via email here.">
+<title>Nice Netcat | Cybernotes</title>
+<meta name="keywords" content="picoCTF, General Skills">
+<meta name="description" content="Run the following command.
+nc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.
+First save the output to a file named flag.txt
+nc mercury.picoctf.net 35652 &gt; flag.txt After that, we need to place the numbers in the same line using awk.
+cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in the same line, here is the python script that converts decimal to ASCII text.">
 <meta name="author" content="">
-<link rel="canonical" href="http://cybernotes.uk/about/">
+<link rel="canonical" href="http://cybernotes.uk/posts/nice_netcat/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
@@ -59,22 +60,24 @@ You can contact me via email here.">
         }
 
     </style>
-</noscript><meta property="og:title" content="About Me" />
-<meta property="og:description" content="Hi, I&rsquo;m Marios. I&rsquo;m from Greece 🇬🇷.
-Currently working as a Software Developer and MSc Cyber Security student @ Leeds Beckett University 🇬🇧.
-This is a personal blog, in which I will write stuff about Cyber Security, with topics such as Penetration Testing, Bug Bounty, Cryptography, CTF and more.
-You can contact me via email here." />
+</noscript><meta property="og:title" content="Nice Netcat" />
+<meta property="og:description" content="Run the following command.
+nc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.
+First save the output to a file named flag.txt
+nc mercury.picoctf.net 35652 &gt; flag.txt After that, we need to place the numbers in the same line using awk.
+cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in the same line, here is the python script that converts decimal to ASCII text." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://cybernotes.uk/about/" /><meta property="article:section" content="" />
-
-
+<meta property="og:url" content="http://cybernotes.uk/posts/nice_netcat/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-06T13:02:11+02:00" />
+<meta property="article:modified_time" content="2022-11-06T13:02:11+02:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="About Me"/>
-<meta name="twitter:description" content="Hi, I&rsquo;m Marios. I&rsquo;m from Greece 🇬🇷.
-Currently working as a Software Developer and MSc Cyber Security student @ Leeds Beckett University 🇬🇧.
-This is a personal blog, in which I will write stuff about Cyber Security, with topics such as Penetration Testing, Bug Bounty, Cryptography, CTF and more.
-You can contact me via email here."/>
+<meta name="twitter:title" content="Nice Netcat"/>
+<meta name="twitter:description" content="Run the following command.
+nc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.
+First save the output to a file named flag.txt
+nc mercury.picoctf.net 35652 &gt; flag.txt After that, we need to place the numbers in the same line using awk.
+cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in the same line, here is the python script that converts decimal to ASCII text."/>
 
 
 <script type="application/ld+json">
@@ -85,8 +88,14 @@ You can contact me via email here."/>
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "About Me",
-      "item": "http://cybernotes.uk/about/"
+      "name": "Posts",
+      "item": "http://cybernotes.uk/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Nice Netcat",
+      "item": "http://cybernotes.uk/posts/nice_netcat/"
     }
   ]
 }
@@ -95,20 +104,20 @@ You can contact me via email here."/>
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "About Me",
-  "name": "About Me",
-  "description": "Hi, I\u0026rsquo;m Marios. I\u0026rsquo;m from Greece 🇬🇷.\nCurrently working as a Software Developer and MSc Cyber Security student @ Leeds Beckett University 🇬🇧.\nThis is a personal blog, in which I will write stuff about Cyber Security, with topics such as Penetration Testing, Bug Bounty, Cryptography, CTF and more.\nYou can contact me via email here.",
+  "headline": "Nice Netcat",
+  "name": "Nice Netcat",
+  "description": "Run the following command.\nnc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.\nFirst save the output to a file named flag.txt\nnc mercury.picoctf.net 35652 \u0026gt; flag.txt After that, we need to place the numbers in the same line using awk.\ncat flag.txt | awk \u0026#39;{print}\u0026#39; ORS=\u0026#39;\u0026#39; After we got the output in the same line, here is the python script that converts decimal to ASCII text.",
   "keywords": [
-    
+    "picoCTF", "General Skills"
   ],
-  "articleBody": "Hi, I’m Marios. I’m from Greece 🇬🇷.\nCurrently working as a Software Developer and MSc Cyber Security student @ Leeds Beckett University 🇬🇧.\nThis is a personal blog, in which I will write stuff about Cyber Security, with topics such as Penetration Testing, Bug Bounty, Cryptography, CTF and more.\nYou can contact me via email here.\n \n",
-  "wordCount" : "56",
+  "articleBody": "Run the following command.\nnc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.\nFirst save the output to a file named flag.txt\nnc mercury.picoctf.net 35652  flag.txt After that, we need to place the numbers in the same line using awk.\ncat flag.txt | awk '{print}' ORS='' After we got the output in the same line, here is the python script that converts decimal to ASCII text.\ndef decimal_to_ascii(decimal_str): string_convert = \"\" for decimal_char in decimal_str.split(\" \"): string_convert += chr(int(decimal_char, 10)) return string_convert val = input(\"Enter decimal format: \") print(decimal_to_ascii(val)) ",
+  "wordCount" : "110",
   "inLanguage": "en",
-  "datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
+  "datePublished": "2022-11-06T13:02:11+02:00",
+  "dateModified": "2022-11-06T13:02:11+02:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://cybernotes.uk/about/"
+    "@id": "http://cybernotes.uk/posts/nice_netcat/"
   },
   "publisher": {
     "@type": "Organization",
@@ -166,7 +175,7 @@ You can contact me via email here."/>
         <ul id="menu">
             <li>
                 <a href="http://cybernotes.uk/about/" title="ℹ️ About">
-                    <span class="active">ℹ️ About</span>
+                    <span>ℹ️ About</span>
                 </a>
             </li>
             <li>
@@ -217,29 +226,47 @@ You can contact me via email here."/>
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://cybernotes.uk/">Home</a></div>
+    <div class="breadcrumbs"><a href="http://cybernotes.uk/">Home</a>&nbsp;»&nbsp;<a href="http://cybernotes.uk/posts/">Posts</a></div>
     <h1 class="post-title">
-      About Me
+      Nice Netcat
     </h1>
-    <div class="post-meta">
+    <div class="post-meta"><span title='2022-11-06 13:02:11 +0200 EET'>November 6, 2022</span>&nbsp;·&nbsp;1 min
 
 </div>
   </header> 
-  <div class="post-content"><p>Hi, I&rsquo;m Marios. I&rsquo;m from Greece 🇬🇷.</p>
-<p>Currently working as a Software Developer and MSc Cyber Security student @ <a href="https://www.leedsbeckett.ac.uk/">Leeds Beckett University</a> 🇬🇧.</p>
-<p>This is a personal blog, in which I will write stuff about Cyber Security, with topics such as <em>Penetration Testing</em>, <em>Bug Bounty</em>, <em>Cryptography</em>, <em>CTF</em> and more.</p>
-<p>You can contact me via email <a href="mailto:contact@cybernotes.uk">here</a>.</p>
-<p><a href="https://themes.gohugo.io/themes/hugo-papermod/"><img loading="lazy" src="https://img.shields.io/badge/Hugo--Themes-@PaperMod-blue" alt="hugo-papermod"  />
-</a>
-<a href="https://app.netlify.com/sites/majestic-haupia-dbb633/deploys"><img loading="lazy" src="https://api.netlify.com/api/v1/badges/d7c12c4b-f909-4f2d-9905-671955d5e13e/deploy-status" alt="Netlify Status"  />
-</a></p>
+  <div class="post-content"><p>Run the following command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nc mercury.picoctf.net <span style="color:#ae81ff">35652</span>
+</code></pre></div><p>returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.</p>
+<p>First save the output to a file named flag.txt</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nc mercury.picoctf.net <span style="color:#ae81ff">35652</span> &gt; flag.txt
+</code></pre></div><p>After that, we need to place the numbers in the same line using awk.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat flag.txt | awk <span style="color:#e6db74">&#39;{print}&#39;</span> ORS<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>
+</code></pre></div><p>After we got the output in the same line, here is the python script that converts decimal to ASCII text.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decimal_to_ascii</span>(decimal_str):
+    
+    string_convert <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+    <span style="color:#66d9ef">for</span> decimal_char <span style="color:#f92672">in</span> decimal_str<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34; &#34;</span>):
+        string_convert <span style="color:#f92672">+=</span> chr(int(decimal_char, <span style="color:#ae81ff">10</span>))
+    <span style="color:#66d9ef">return</span> string_convert
 
+val <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter decimal format: &#34;</span>)
+print(decimal_to_ascii(val))
+</code></pre></div>
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="http://cybernotes.uk/tags/picoctf/">picoCTF</a></li>
+      <li><a href="http://cybernotes.uk/tags/general-skills/">General Skills</a></li>
     </ul>
+<nav class="paginav">
+  <a class="next" href="http://cybernotes.uk/posts/obedient_cat/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Obedient Cat</span>
+  </a>
+</nav>
 
   </footer>
 </article>

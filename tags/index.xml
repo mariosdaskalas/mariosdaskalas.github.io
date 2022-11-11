@@ -8,20 +8,20 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Nov 2022 13:02:11 +0200</lastBuildDate><atom:link href="http://cybernotes.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cryptography</title>
-      <link>http://cybernotes.uk/tags/cryptography/</link>
+      <title>General Skills</title>
+      <link>http://cybernotes.uk/tags/general-skills/</link>
       <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
       
-      <guid>http://cybernotes.uk/tags/cryptography/</guid>
+      <guid>http://cybernotes.uk/tags/general-skills/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>python</title>
-      <link>http://cybernotes.uk/tags/python/</link>
+      <title>picoCTF</title>
+      <link>http://cybernotes.uk/tags/picoctf/</link>
       <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
       
-      <guid>http://cybernotes.uk/tags/python/</guid>
+      <guid>http://cybernotes.uk/tags/picoctf/</guid>
       <description></description>
     </item>
     
