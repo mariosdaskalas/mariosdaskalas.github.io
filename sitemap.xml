@@ -2,43 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://cybernotes.netlify.app/</loc>
+    <loc>https://cybernotes.netlify.app/</loc>
+    <lastmod>2022-11-12T16:13:24+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.netlify.app/tags/general-skills/</loc>
+    <lastmod>2022-11-12T16:13:24+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.netlify.app/tags/picoctf/</loc>
+    <lastmod>2022-11-12T16:13:24+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.netlify.app/posts/</loc>
+    <lastmod>2022-11-12T16:13:24+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.netlify.app/posts/tab_tab_attack/</loc>
+    <lastmod>2022-11-12T16:13:24+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.netlify.app/tags/</loc>
+    <lastmod>2022-11-12T16:13:24+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.netlify.app/posts/static_noise/</loc>
+    <lastmod>2022-11-12T14:48:36+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.netlify.app/posts/nice_netcat/</loc>
+    <lastmod>2022-11-06T13:02:30+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.netlify.app/posts/wave_a_flag/</loc>
+    <lastmod>2022-11-06T13:02:20+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.netlify.app/posts/python_wrangling/</loc>
+    <lastmod>2022-11-06T13:02:15+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.netlify.app/posts/obedient_cat/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>http://cybernotes.netlify.app/tags/general-skills/</loc>
-    <lastmod>2022-11-06T13:02:11+02:00</lastmod>
+    <loc>https://cybernotes.netlify.app/about/</loc>
   </url><url>
-    <loc>http://cybernotes.netlify.app/posts/nice_netcat/</loc>
-    <lastmod>2022-11-06T13:02:11+02:00</lastmod>
+    <loc>https://cybernotes.netlify.app/archives/</loc>
   </url><url>
-    <loc>http://cybernotes.netlify.app/posts/obedient_cat/</loc>
-    <lastmod>2022-11-06T13:02:11+02:00</lastmod>
+    <loc>https://cybernotes.netlify.app/ctf/</loc>
   </url><url>
-    <loc>http://cybernotes.netlify.app/tags/picoctf/</loc>
-    <lastmod>2022-11-06T13:02:11+02:00</lastmod>
+    <loc>https://cybernotes.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://cybernotes.netlify.app/posts/</loc>
-    <lastmod>2022-11-06T13:02:11+02:00</lastmod>
+    <loc>https://cybernotes.netlify.app/search/</loc>
   </url><url>
-    <loc>http://cybernotes.netlify.app/posts/python_wrangling/</loc>
-    <lastmod>2022-11-06T13:02:11+02:00</lastmod>
-  </url><url>
-    <loc>http://cybernotes.netlify.app/tags/</loc>
-    <lastmod>2022-11-06T13:02:11+02:00</lastmod>
-  </url><url>
-    <loc>http://cybernotes.netlify.app/posts/wave_a_flag/</loc>
-    <lastmod>2022-11-06T13:02:11+02:00</lastmod>
-  </url><url>
-    <loc>http://cybernotes.netlify.app/about/</loc>
-  </url><url>
-    <loc>http://cybernotes.netlify.app/archives/</loc>
-  </url><url>
-    <loc>http://cybernotes.netlify.app/categories/</loc>
-  </url><url>
-    <loc>http://cybernotes.netlify.app/search/</loc>
-  </url><url>
-    <loc>http://cybernotes.netlify.app/ctf/</loc>
-  </url><url>
-    <loc>http://cybernotes.netlify.app/useful/</loc>
+    <loc>https://cybernotes.netlify.app/useful/</loc>
   </url>
 </urlset>

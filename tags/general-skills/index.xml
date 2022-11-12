@@ -2,17 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>General Skills on Cybernotes</title>
-    <link>http://cybernotes.netlify.app/tags/general-skills/</link>
+    <link>https://cybernotes.netlify.app/tags/general-skills/</link>
     <description>Recent content in General Skills on Cybernotes</description>
+    <image>
+      <url>https://cybernotes.netlify.app/papermod-cover.png</url>
+      <link>https://cybernotes.netlify.app/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Nov 2022 13:02:11 +0200</lastBuildDate><atom:link href="http://cybernotes.netlify.app/tags/general-skills/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Nov 2022 16:13:24 +0200</lastBuildDate><atom:link href="https://cybernotes.netlify.app/tags/general-skills/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tab Tab Attack</title>
+      <link>https://cybernotes.netlify.app/posts/tab_tab_attack/</link>
+      <pubDate>Sat, 12 Nov 2022 16:13:24 +0200</pubDate>
+      
+      <guid>https://cybernotes.netlify.app/posts/tab_tab_attack/</guid>
+      <description>First dowload the Addadshashanammu.zip file.
+Run the following command to unzip its contents.
+unzip -u Addadshashanammu.zip Then change directory to Addadshashanammu
+cd Addadshashanammu/ We noticed that there are a lot of folders inside each one. So, we can either use Tab to autocomplete the path to the folders, until we reach to the deepest one.
+Alternative, we can run this command when we are inside Addadshashanammu folder.
+cd `find -printf &amp;#39;%d %p\n&amp;#39; | sort -n | tail -n 1 | cut -d &amp;#39; &amp;#39; -f 2-` That in turn returns the deepest level of the folder structure.</description>
+    </item>
+    
+    <item>
+      <title>Static ain&#39;t always noise</title>
+      <link>https://cybernotes.netlify.app/posts/static_noise/</link>
+      <pubDate>Sat, 12 Nov 2022 14:48:36 +0200</pubDate>
+      
+      <guid>https://cybernotes.netlify.app/posts/static_noise/</guid>
+      <description>Download all files, (static and ltdis.sh)
+cat static Provides an output that includes the flag itself. However, we will look into ltdis.sh to learn more about it.
+cat ltdis.sh Inside the program, we can see PHP code that we can use to our advantage.
+else echo &amp;#34;Disassembly failed!&amp;#34; echo &amp;#34;Usage: ltdis.sh &amp;lt;program-file&amp;gt;&amp;#34; echo &amp;#34;Bye!&amp;#34; fi Use the following command to give permissions to the file.
+chmod +x ltdis.sh Then in order to run the program use.</description>
+    </item>
+    
     <item>
       <title>Nice Netcat</title>
-      <link>http://cybernotes.netlify.app/posts/nice_netcat/</link>
-      <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
+      <link>https://cybernotes.netlify.app/posts/nice_netcat/</link>
+      <pubDate>Sun, 06 Nov 2022 13:02:30 +0200</pubDate>
       
-      <guid>http://cybernotes.netlify.app/posts/nice_netcat/</guid>
+      <guid>https://cybernotes.netlify.app/posts/nice_netcat/</guid>
       <description>Run the following command.
 nc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.
 First save the output to a file named flag.txt
@@ -21,36 +52,36 @@ cat flag.txt | awk &amp;#39;{print}&amp;#39; ORS=&amp;#39;&amp;#39; After we got
     </item>
     
     <item>
-      <title>Obedient Cat</title>
-      <link>http://cybernotes.netlify.app/posts/obedient_cat/</link>
-      <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
+      <title>Wave a Flag</title>
+      <link>https://cybernotes.netlify.app/posts/wave_a_flag/</link>
+      <pubDate>Sun, 06 Nov 2022 13:02:20 +0200</pubDate>
       
-      <guid>http://cybernotes.netlify.app/posts/obedient_cat/</guid>
-      <description>Download the file and use the following command in the terminal.
-cat flag; </description>
+      <guid>https://cybernotes.netlify.app/posts/wave_a_flag/</guid>
+      <description>Download the warm program.
+cat warm; returns Hello user! Pass me a -h to learn what I can do!-hOh, help? I actually don&amp;rsquo;t do much, but I do have this flag here:
+We can already see the flag here, but we can take it a step further. Give permissions of the executable with:
+chmod +x warm ./warm -h returns the flag.</description>
     </item>
     
     <item>
       <title>Python Wrangling</title>
-      <link>http://cybernotes.netlify.app/posts/python_wrangling/</link>
-      <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
+      <link>https://cybernotes.netlify.app/posts/python_wrangling/</link>
+      <pubDate>Sun, 06 Nov 2022 13:02:15 +0200</pubDate>
       
-      <guid>http://cybernotes.netlify.app/posts/python_wrangling/</guid>
+      <guid>https://cybernotes.netlify.app/posts/python_wrangling/</guid>
       <description>Download the python script, pw.txt and flag.txt.en.
 cat pw.txt cat flag.txt.en python3 ende.py -d flag.txt.en Enter the password of pw.txt and you get the flag.
 import sys import base64 from cryptography.fernet import Fernet usage_msg = &amp;#34;Usage: &amp;#34;+ sys.argv[0] +&amp;#34; (-e/-d) [file]&amp;#34; help_msg = usage_msg + &amp;#34;\n&amp;#34; +\ &amp;#34;Examples:\n&amp;#34; +\ &amp;#34; To decrypt a file named &amp;#39;pole.txt&amp;#39;, do: &amp;#34; +\ &amp;#34;&amp;#39;$ python &amp;#34;+ sys.argv[0] +&amp;#34; -d pole.txt&amp;#39;\n&amp;#34; if len(sys.argv) &amp;lt; 2 or len(sys.</description>
     </item>
     
     <item>
-      <title>Wave a Flag</title>
-      <link>http://cybernotes.netlify.app/posts/wave_a_flag/</link>
+      <title>Obedient Cat</title>
+      <link>https://cybernotes.netlify.app/posts/obedient_cat/</link>
       <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
       
-      <guid>http://cybernotes.netlify.app/posts/wave_a_flag/</guid>
-      <description>Download the warm program.
-cat warm; returns Hello user! Pass me a -h to learn what I can do!-hOh, help? I actually don&amp;rsquo;t do much, but I do have this flag here:
-We can already see the flag here, but we can take it a step further. Give permissions of the executable with:
-chmod +x warm ./warm -h returns the flag.</description>
+      <guid>https://cybernotes.netlify.app/posts/obedient_cat/</guid>
+      <description>Download the file and use the following command in the terminal.
+cat flag; </description>
     </item>
     
   </channel>

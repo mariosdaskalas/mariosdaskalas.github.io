@@ -13,15 +13,15 @@ First save the output to a file named flag.txt
 nc mercury.picoctf.net 35652 &gt; flag.txt After that, we need to place the numbers in the same line using awk.
 cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in the same line, here is the python script that converts decimal to ASCII text.">
 <meta name="author" content="">
-<link rel="canonical" href="http://cybernotes.netlify.app/posts/nice_netcat/">
+<link rel="canonical" href="https://cybernotes.netlify.app/posts/nice_netcat/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="http://cybernotes.netlify.app/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://cybernotes.netlify.app/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://cybernotes.netlify.app/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://cybernotes.netlify.app/apple-touch-icon.png">
-<link rel="mask-icon" href="http://cybernotes.netlify.app/safari-pinned-tab.svg">
+<link rel="icon" href="https://cybernotes.netlify.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://cybernotes.netlify.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cybernotes.netlify.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://cybernotes.netlify.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://cybernotes.netlify.app/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -32,34 +32,6 @@ cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in t
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript><meta property="og:title" content="Nice Netcat" />
 <meta property="og:description" content="Run the following command.
 nc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.
@@ -67,11 +39,13 @@ First save the output to a file named flag.txt
 nc mercury.picoctf.net 35652 &gt; flag.txt After that, we need to place the numbers in the same line using awk.
 cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in the same line, here is the python script that converts decimal to ASCII text." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://cybernotes.netlify.app/posts/nice_netcat/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-06T13:02:11+02:00" />
-<meta property="article:modified_time" content="2022-11-06T13:02:11+02:00" />
+<meta property="og:url" content="https://cybernotes.netlify.app/posts/nice_netcat/" /><meta property="og:image" content="https://cybernotes.netlify.app/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-06T13:02:30+02:00" />
+<meta property="article:modified_time" content="2022-11-06T13:02:30+02:00" />
 
-<meta name="twitter:card" content="summary"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://cybernotes.netlify.app/papermod-cover.png"/>
+
 <meta name="twitter:title" content="Nice Netcat"/>
 <meta name="twitter:description" content="Run the following command.
 nc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.
@@ -89,13 +63,13 @@ cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in t
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "http://cybernotes.netlify.app/posts/"
+      "item": "https://cybernotes.netlify.app/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Nice Netcat",
-      "item": "http://cybernotes.netlify.app/posts/nice_netcat/"
+      "item": "https://cybernotes.netlify.app/posts/nice_netcat/"
     }
   ]
 }
@@ -110,101 +84,71 @@ cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in t
   "keywords": [
     "picoCTF", "General Skills"
   ],
-  "articleBody": "Run the following command.\nnc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.\nFirst save the output to a file named flag.txt\nnc mercury.picoctf.net 35652  flag.txt After that, we need to place the numbers in the same line using awk.\ncat flag.txt | awk '{print}' ORS='' After we got the output in the same line, here is the python script that converts decimal to ASCII text.\ndef decimal_to_ascii(decimal_str): string_convert = \"\" for decimal_char in decimal_str.split(\" \"): string_convert += chr(int(decimal_char, 10)) return string_convert val = input(\"Enter decimal format: \") print(decimal_to_ascii(val)) ",
-  "wordCount" : "110",
+  "articleBody": "Run the following command.\nnc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.\nFirst save the output to a file named flag.txt\nnc mercury.picoctf.net 35652  flag.txt After that, we need to place the numbers in the same line using awk.\ncat flag.txt | awk '{print}' ORS='' After we got the output in the same line, here is the python script that converts decimal to ASCII text.\ndef decimal_to_ascii(decimal_str): string_convert = \"\" for decimal_char in decimal_str.split(\" \"): string_convert += chr(int(decimal_char, 10)) return string_convert val = input(\"Enter decimal format: \") print(decimal_to_ascii(val)) Name the file decimal.py and run it with the following command. In the prompt enter the decimal numbers.\npython3 decimal.py You got the flag!\n",
+  "wordCount" : "134",
   "inLanguage": "en",
-  "datePublished": "2022-11-06T13:02:11+02:00",
-  "dateModified": "2022-11-06T13:02:11+02:00",
+  "datePublished": "2022-11-06T13:02:30+02:00",
+  "dateModified": "2022-11-06T13:02:30+02:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://cybernotes.netlify.app/posts/nice_netcat/"
+    "@id": "https://cybernotes.netlify.app/posts/nice_netcat/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Cybernotes",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://cybernotes.netlify.app/favicon.ico"
+      "url": "https://cybernotes.netlify.app/favicon.ico"
     }
   }
 }
 </script>
 </head>
 
-<body class="" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
+<body class=" dark" id="top">
 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://cybernotes.netlify.app/" accesskey="h" title="Cybernotes (Alt + H)">
-                <img src="https://mariosdaskalas.gr/images/cybernotes.jpg" alt="" aria-label="logo"
+            <a href="https://cybernotes.netlify.app/" accesskey="h" title="Cybernotes (Alt + H)">
+                <img src="https://cybernotes.netlify.app/static/cybernotes.jpg" alt="" aria-label="logo"
                     height="30">Cybernotes</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://cybernotes.netlify.app/about/" title="ℹ️ About">
+                <a href="https://cybernotes.netlify.app/about/" title="ℹ️ About">
                     <span>ℹ️ About</span>
                 </a>
             </li>
             <li>
-                <a href="http://cybernotes.netlify.app/archives/" title="📁 Archives">
+                <a href="https://cybernotes.netlify.app/archives/" title="📁 Archives">
                     <span>📁 Archives</span>
                 </a>
             </li>
             <li>
-                <a href="http://cybernotes.netlify.app/tags/" title="🏷️ Tags">
+                <a href="https://cybernotes.netlify.app/tags/" title="🏷️ Tags">
                     <span>🏷️ Tags</span>
                 </a>
             </li>
             <li>
-                <a href="http://cybernotes.netlify.app/useful/" title="✅ Useful">
+                <a href="https://cybernotes.netlify.app/useful/" title="✅ Useful">
                     <span>✅ Useful</span>
                 </a>
             </li>
             <li>
-                <a href="http://cybernotes.netlify.app/ctf/" title="🚩 CTF">
+                <a href="https://cybernotes.netlify.app/ctf/" title="🚩 CTF">
                     <span>🚩 CTF</span>
                 </a>
             </li>
             <li>
-                <a href="http://cybernotes.netlify.app/posts/" title="📝 Blog">
+                <a href="https://cybernotes.netlify.app/posts/" title="📝 Blog">
                     <span>📝 Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://cybernotes.netlify.app/search/" title="🔍 Search (Alt &#43; /)" accesskey=/>
+                <a href="https://cybernotes.netlify.app/search/" title="🔍 Search (Alt &#43; /)" accesskey=/>
                     <span>🔍 Search</span>
                 </a>
             </li>
@@ -226,14 +170,15 @@ cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in t
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://cybernotes.netlify.app/">Home</a>&nbsp;»&nbsp;<a href="http://cybernotes.netlify.app/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://cybernotes.netlify.app/">Home</a>&nbsp;»&nbsp;<a href="https://cybernotes.netlify.app/posts/">Posts</a></div>
     <h1 class="post-title">
       Nice Netcat
     </h1>
-    <div class="post-meta"><span title='2022-11-06 13:02:11 +0200 EET'>November 6, 2022</span>&nbsp;·&nbsp;1 min
+    <div class="post-meta"><span title='2022-11-06 13:02:30 +0200 EET'>November 6, 2022</span>&nbsp;·&nbsp;1 min
 
 </div>
   </header> 
+
   <div class="post-content"><p>Run the following command.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nc mercury.picoctf.net <span style="color:#ae81ff">35652</span>
 </code></pre></div><p>returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.</p>
@@ -251,20 +196,28 @@ cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in t
 
 val <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter decimal format: &#34;</span>)
 print(decimal_to_ascii(val))
-</code></pre></div>
+</code></pre></div><p>Name the file decimal.py and run it with the following command. In the prompt enter the decimal numbers.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">python3 decimal.py
+</code></pre></div><p>You got the flag!</p>
+
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://cybernotes.netlify.app/tags/picoctf/">picoCTF</a></li>
-      <li><a href="http://cybernotes.netlify.app/tags/general-skills/">General Skills</a></li>
+      <li><a href="https://cybernotes.netlify.app/tags/picoctf/">picoCTF</a></li>
+      <li><a href="https://cybernotes.netlify.app/tags/general-skills/">General Skills</a></li>
     </ul>
 <nav class="paginav">
-  <a class="next" href="http://cybernotes.netlify.app/posts/obedient_cat/">
+  <a class="prev" href="https://cybernotes.netlify.app/posts/static_noise/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Static ain&#39;t always noise</span>
+  </a>
+  <a class="next" href="https://cybernotes.netlify.app/posts/wave_a_flag/">
     <span class="title">Next »</span>
     <br>
-    <span>Obedient Cat</span>
+    <span>Wave a Flag</span>
   </a>
 </nav>
 
@@ -273,7 +226,7 @@ print(decimal_to_ascii(val))
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="http://cybernotes.netlify.app/">Cybernotes</a></span>
+    <span>&copy; 2022 <a href="https://cybernotes.netlify.app/">Cybernotes</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
@@ -326,18 +279,6 @@ print(decimal_to_ascii(val))
             mybutton.style.opacity = "0";
         }
     };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
 
 </script>
 <script>
