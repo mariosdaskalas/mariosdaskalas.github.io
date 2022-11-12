@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://cybernotes.uk/</loc>
+    <loc>http://cybernotes.netlify.app/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>http://cybernotes.uk/tags/general-skills/</loc>
+    <loc>http://cybernotes.netlify.app/tags/general-skills/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>http://cybernotes.uk/posts/nice_netcat/</loc>
+    <loc>http://cybernotes.netlify.app/posts/nice_netcat/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>http://cybernotes.uk/posts/obedient_cat/</loc>
+    <loc>http://cybernotes.netlify.app/posts/obedient_cat/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>http://cybernotes.uk/tags/picoctf/</loc>
+    <loc>http://cybernotes.netlify.app/tags/picoctf/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>http://cybernotes.uk/posts/</loc>
+    <loc>http://cybernotes.netlify.app/posts/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>http://cybernotes.uk/posts/python_wrangling/</loc>
+    <loc>http://cybernotes.netlify.app/posts/python_wrangling/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>http://cybernotes.uk/tags/</loc>
+    <loc>http://cybernotes.netlify.app/tags/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>http://cybernotes.uk/posts/wave_a_flag/</loc>
+    <loc>http://cybernotes.netlify.app/posts/wave_a_flag/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>http://cybernotes.uk/about/</loc>
+    <loc>http://cybernotes.netlify.app/about/</loc>
   </url><url>
-    <loc>http://cybernotes.uk/archives/</loc>
+    <loc>http://cybernotes.netlify.app/archives/</loc>
   </url><url>
-    <loc>http://cybernotes.uk/categories/</loc>
+    <loc>http://cybernotes.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://cybernotes.uk/search/</loc>
+    <loc>http://cybernotes.netlify.app/search/</loc>
   </url><url>
-    <loc>http://cybernotes.uk/ctf/</loc>
+    <loc>http://cybernotes.netlify.app/ctf/</loc>
   </url><url>
-    <loc>http://cybernotes.uk/useful/</loc>
+    <loc>http://cybernotes.netlify.app/useful/</loc>
   </url>
 </urlset>

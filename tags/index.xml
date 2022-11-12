@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Cybernotes</title>
-    <link>http://cybernotes.uk/tags/</link>
+    <link>http://cybernotes.netlify.app/tags/</link>
     <description>Recent content in Tags on Cybernotes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Nov 2022 13:02:11 +0200</lastBuildDate><atom:link href="http://cybernotes.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2022 13:02:11 +0200</lastBuildDate><atom:link href="http://cybernotes.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>General Skills</title>
-      <link>http://cybernotes.uk/tags/general-skills/</link>
+      <link>http://cybernotes.netlify.app/tags/general-skills/</link>
       <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
       
-      <guid>http://cybernotes.uk/tags/general-skills/</guid>
+      <guid>http://cybernotes.netlify.app/tags/general-skills/</guid>
       <description></description>
     </item>
     
     <item>
       <title>picoCTF</title>
-      <link>http://cybernotes.uk/tags/picoctf/</link>
+      <link>http://cybernotes.netlify.app/tags/picoctf/</link>
       <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
       
-      <guid>http://cybernotes.uk/tags/picoctf/</guid>
+      <guid>http://cybernotes.netlify.app/tags/picoctf/</guid>
       <description></description>
     </item>
     
