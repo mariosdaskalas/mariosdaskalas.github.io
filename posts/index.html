@@ -88,8 +88,18 @@
                 </a>
             </li>
             <li>
+                <a href="https://cybernotes.uk/tools/" title="🪛 Tools">
+                    <span>🪛 Tools</span>
+                </a>
+            </li>
+            <li>
                 <a href="https://cybernotes.uk/ctf/" title="🚩 CTF">
                     <span>🚩 CTF</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://cybernotes.uk/cryptography/" title="🔒 Cryptography">
+                    <span>🔒 Cryptography</span>
                 </a>
             </li>
             <li>
@@ -133,6 +143,22 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>Convert hex to base64
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Run the following command in the terminal.
+echo &#39;49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d&#39; | xxd -p -r | base64 This produces the output that we want.
+For learning something more run…
+echo &#39;49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d&#39; | xxd -p -r If you want to learn more about xxd or base64 run the following commands.
+man xxd man base64 </p>
+  </div>
+  <footer class="entry-footer"><span title='2022-11-14 15:06:03 +0200 EET'>November 14, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Convert hex to base64" href="https://cybernotes.uk/posts/hex_to_base64/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>Tab Tab Attack
     </h2>
   </header>
@@ -162,22 +188,6 @@ chmod &#43;x ltdis.sh Then in order to run the program use....</p>
   </div>
   <footer class="entry-footer"><span title='2022-11-12 14:48:36 +0200 EET'>November 12, 2022</span>&nbsp;·&nbsp;1 min</footer>
   <a class="entry-link" aria-label="post link to Static ain&#39;t always noise" href="https://cybernotes.uk/posts/static_noise/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>Nice Netcat
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Run the following command.
-nc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.
-First save the output to a file named flag.txt
-nc mercury.picoctf.net 35652 &gt; flag.txt After that, we need to place the numbers in the same line using awk.
-cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in the same line, here is the python script that converts decimal to ASCII text....</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-11-06 13:02:30 +0200 EET'>November 6, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Nice Netcat" href="https://cybernotes.uk/posts/nice_netcat/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

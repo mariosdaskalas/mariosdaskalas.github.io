@@ -10,7 +10,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Nov 2022 16:13:24 +0200</lastBuildDate><atom:link href="https://cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Nov 2022 15:06:03 +0200</lastBuildDate><atom:link href="https://cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convert hex to base64</title>
+      <link>https://cybernotes.uk/posts/hex_to_base64/</link>
+      <pubDate>Mon, 14 Nov 2022 15:06:03 +0200</pubDate>
+      
+      <guid>https://cybernotes.uk/posts/hex_to_base64/</guid>
+      <description>Run the following command in the terminal.
+echo &amp;#39;49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d&amp;#39; | xxd -p -r | base64 This produces the output that we want.
+For learning something more run&amp;hellip;
+echo &amp;#39;49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d&amp;#39; | xxd -p -r If you want to learn more about xxd or base64 run the following commands.
+man xxd man base64 </description>
+    </item>
+    
     <item>
       <title>Tab Tab Attack</title>
       <link>https://cybernotes.uk/posts/tab_tab_attack/</link>
@@ -106,6 +119,24 @@ You can contact me via email here.</description>
       <description>🚩 Capture the Flag  picoCTF  1️⃣ picoCTF - General Skills  Obedient Cat Python Wrangling Wave a flag Nice netcat&amp;hellip; Static ain&amp;rsquo;t always noise Tab, Tab, Attack  </description>
     </item>
     
+    <item>
+      <title>Cryptography</title>
+      <link>https://cybernotes.uk/cryptography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cybernotes.uk/cryptography/</guid>
+      <description>🔒 Cryptography  Cryptopals  1️⃣ Cryptopals - Set 1  Challenge 1  </description>
+    </item>
+    
+    
+    <item>
+      <title>Tools</title>
+      <link>https://cybernotes.uk/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cybernotes.uk/tools/</guid>
+      <description>🕸️ Server  Hetzner - €⁠20 in cloud credits (On Signup)  📧 Email Hosting (£0.50 / Month)  UK2  🌐 Buy Domain  Netcetera  </description>
+    </item>
     
     <item>
       <title>Useful Sources</title>

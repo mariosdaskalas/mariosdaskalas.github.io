@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Challenge 1 on Cybernotes</title>
+    <link>https://cybernotes.uk/tags/challenge-1/</link>
+    <description>Recent content in Challenge 1 on Cybernotes</description>
+    <image>
+      <url>https://cybernotes.uk/papermod-cover.png</url>
+      <link>https://cybernotes.uk/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Nov 2022 15:06:03 +0200</lastBuildDate><atom:link href="https://cybernotes.uk/tags/challenge-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convert hex to base64</title>
+      <link>https://cybernotes.uk/posts/hex_to_base64/</link>
+      <pubDate>Mon, 14 Nov 2022 15:06:03 +0200</pubDate>
+      
+      <guid>https://cybernotes.uk/posts/hex_to_base64/</guid>
+      <description>Run the following command in the terminal.
+echo &amp;#39;49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d&amp;#39; | xxd -p -r | base64 This produces the output that we want.
+For learning something more run&amp;hellip;
+echo &amp;#39;49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d&amp;#39; | xxd -p -r If you want to learn more about xxd or base64 run the following commands.
+man xxd man base64 </description>
+    </item>
+    
+  </channel>
+</rss>

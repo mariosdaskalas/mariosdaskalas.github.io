@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cybernotes.uk/tags/challenge-1/</loc>
+    <lastmod>2022-11-14T15:06:03+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.uk/posts/hex_to_base64/</loc>
+    <lastmod>2022-11-14T15:06:03+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.uk/tags/cryptopals/</loc>
+    <lastmod>2022-11-14T15:06:03+02:00</lastmod>
+  </url><url>
     <loc>https://cybernotes.uk/</loc>
-    <lastmod>2022-11-12T16:13:24+02:00</lastmod>
+    <lastmod>2022-11-14T15:06:03+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.uk/posts/</loc>
+    <lastmod>2022-11-14T15:06:03+02:00</lastmod>
+  </url><url>
+    <loc>https://cybernotes.uk/tags/</loc>
+    <lastmod>2022-11-14T15:06:03+02:00</lastmod>
   </url><url>
     <loc>https://cybernotes.uk/tags/general-skills/</loc>
     <lastmod>2022-11-12T16:13:24+02:00</lastmod>
@@ -11,13 +26,7 @@
     <loc>https://cybernotes.uk/tags/picoctf/</loc>
     <lastmod>2022-11-12T16:13:24+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/posts/</loc>
-    <lastmod>2022-11-12T16:13:24+02:00</lastmod>
-  </url><url>
     <loc>https://cybernotes.uk/posts/tab_tab_attack/</loc>
-    <lastmod>2022-11-12T16:13:24+02:00</lastmod>
-  </url><url>
-    <loc>https://cybernotes.uk/tags/</loc>
     <lastmod>2022-11-12T16:13:24+02:00</lastmod>
   </url><url>
     <loc>https://cybernotes.uk/posts/static_noise/</loc>
@@ -43,7 +52,11 @@
   </url><url>
     <loc>https://cybernotes.uk/categories/</loc>
   </url><url>
+    <loc>https://cybernotes.uk/cryptography/</loc>
+  </url><url>
     <loc>https://cybernotes.uk/search/</loc>
+  </url><url>
+    <loc>https://cybernotes.uk/tools/</loc>
   </url><url>
     <loc>https://cybernotes.uk/useful/</loc>
   </url>

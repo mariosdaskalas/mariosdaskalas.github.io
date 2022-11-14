@@ -5,16 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Tab Tab Attack | Cybernotes</title>
-<meta name="keywords" content="picoCTF, General Skills">
-<meta name="description" content="First dowload the Addadshashanammu.zip file.
-Run the following command to unzip its contents.
-unzip -u Addadshashanammu.zip Then change directory to Addadshashanammu
-cd Addadshashanammu/ We noticed that there are a lot of folders inside each one. So, we can either use Tab to autocomplete the path to the folders, until we reach to the deepest one.
-Alternative, we can run this command when we are inside Addadshashanammu folder.
-cd `find -printf &#39;%d %p\n&#39; | sort -n | tail -n 1 | cut -d &#39; &#39; -f 2-` That in turn returns the deepest level of the folder structure.">
+<title>Cryptography | Cybernotes</title>
+<meta name="keywords" content="">
+<meta name="description" content="🔒 Cryptography  Cryptopals  1️⃣ Cryptopals - Set 1  Challenge 1  ">
 <meta name="author" content="">
-<link rel="canonical" href="https://cybernotes.uk/posts/tab_tab_attack/">
+<link rel="canonical" href="https://cybernotes.uk/cryptography/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
@@ -33,28 +28,18 @@ cd `find -printf &#39;%d %p\n&#39; | sort -n | tail -n 1 | cut -d &#39; &#39; -f
         }
 
     </style>
-</noscript><meta property="og:title" content="Tab Tab Attack" />
-<meta property="og:description" content="First dowload the Addadshashanammu.zip file.
-Run the following command to unzip its contents.
-unzip -u Addadshashanammu.zip Then change directory to Addadshashanammu
-cd Addadshashanammu/ We noticed that there are a lot of folders inside each one. So, we can either use Tab to autocomplete the path to the folders, until we reach to the deepest one.
-Alternative, we can run this command when we are inside Addadshashanammu folder.
-cd `find -printf &#39;%d %p\n&#39; | sort -n | tail -n 1 | cut -d &#39; &#39; -f 2-` That in turn returns the deepest level of the folder structure." />
+</noscript><meta property="og:title" content="Cryptography" />
+<meta property="og:description" content="🔒 Cryptography  Cryptopals  1️⃣ Cryptopals - Set 1  Challenge 1  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://cybernotes.uk/posts/tab_tab_attack/" /><meta property="og:image" content="https://cybernotes.uk/papermod-cover.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-12T16:13:24+02:00" />
-<meta property="article:modified_time" content="2022-11-12T16:13:24+02:00" />
+<meta property="og:url" content="https://cybernotes.uk/cryptography/" /><meta property="og:image" content="https://cybernotes.uk/papermod-cover.png"/><meta property="article:section" content="" />
+
+
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://cybernotes.uk/papermod-cover.png"/>
 
-<meta name="twitter:title" content="Tab Tab Attack"/>
-<meta name="twitter:description" content="First dowload the Addadshashanammu.zip file.
-Run the following command to unzip its contents.
-unzip -u Addadshashanammu.zip Then change directory to Addadshashanammu
-cd Addadshashanammu/ We noticed that there are a lot of folders inside each one. So, we can either use Tab to autocomplete the path to the folders, until we reach to the deepest one.
-Alternative, we can run this command when we are inside Addadshashanammu folder.
-cd `find -printf &#39;%d %p\n&#39; | sort -n | tail -n 1 | cut -d &#39; &#39; -f 2-` That in turn returns the deepest level of the folder structure."/>
+<meta name="twitter:title" content="Cryptography"/>
+<meta name="twitter:description" content="🔒 Cryptography  Cryptopals  1️⃣ Cryptopals - Set 1  Challenge 1  "/>
 
 
 <script type="application/ld+json">
@@ -65,14 +50,8 @@ cd `find -printf &#39;%d %p\n&#39; | sort -n | tail -n 1 | cut -d &#39; &#39; -f
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "Posts",
-      "item": "https://cybernotes.uk/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Tab Tab Attack",
-      "item": "https://cybernotes.uk/posts/tab_tab_attack/"
+      "name": "Cryptography",
+      "item": "https://cybernotes.uk/cryptography/"
     }
   ]
 }
@@ -81,20 +60,20 @@ cd `find -printf &#39;%d %p\n&#39; | sort -n | tail -n 1 | cut -d &#39; &#39; -f
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Tab Tab Attack",
-  "name": "Tab Tab Attack",
-  "description": "First dowload the Addadshashanammu.zip file.\nRun the following command to unzip its contents.\nunzip -u Addadshashanammu.zip Then change directory to Addadshashanammu\ncd Addadshashanammu/ We noticed that there are a lot of folders inside each one. So, we can either use Tab to autocomplete the path to the folders, until we reach to the deepest one.\nAlternative, we can run this command when we are inside Addadshashanammu folder.\ncd `find -printf \u0026#39;%d %p\\n\u0026#39; | sort -n | tail -n 1 | cut -d \u0026#39; \u0026#39; -f 2-` That in turn returns the deepest level of the folder structure.",
+  "headline": "Cryptography",
+  "name": "Cryptography",
+  "description": "🔒 Cryptography  Cryptopals  1️⃣ Cryptopals - Set 1  Challenge 1  ",
   "keywords": [
-    "picoCTF", "General Skills"
+    
   ],
-  "articleBody": "First dowload the Addadshashanammu.zip file.\nRun the following command to unzip its contents.\nunzip -u Addadshashanammu.zip Then change directory to Addadshashanammu\ncd Addadshashanammu/ We noticed that there are a lot of folders inside each one. So, we can either use Tab to autocomplete the path to the folders, until we reach to the deepest one.\nAlternative, we can run this command when we are inside Addadshashanammu folder.\ncd `find -printf '%d %p\\n' | sort -n | tail -n 1 | cut -d ' ' -f 2-` That in turn returns the deepest level of the folder structure.\nbash: cd: ./Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku/fang-of-haynekhtnamet: Not a directory cd Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku cat fang-of-haynekhtnamet We got the flag!\n",
-  "wordCount" : "111",
+  "articleBody": "🔒 Cryptography  Cryptopals  1️⃣ Cryptopals - Set 1  Challenge 1  ",
+  "wordCount" : "10",
   "inLanguage": "en",
-  "datePublished": "2022-11-12T16:13:24+02:00",
-  "dateModified": "2022-11-12T16:13:24+02:00",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://cybernotes.uk/posts/tab_tab_attack/"
+    "@id": "https://cybernotes.uk/cryptography/"
   },
   "publisher": {
     "@type": "Organization",
@@ -152,7 +131,7 @@ cd `find -printf &#39;%d %p\n&#39; | sort -n | tail -n 1 | cut -d &#39; &#39; -f
             </li>
             <li>
                 <a href="https://cybernotes.uk/cryptography/" title="🔒 Cryptography">
-                    <span>🔒 Cryptography</span>
+                    <span class="active">🔒 Cryptography</span>
                 </a>
             </li>
             <li>
@@ -183,49 +162,45 @@ cd `find -printf &#39;%d %p\n&#39; | sort -n | tail -n 1 | cut -d &#39; &#39; -f
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://cybernotes.uk/">Home</a>&nbsp;»&nbsp;<a href="https://cybernotes.uk/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://cybernotes.uk/">Home</a></div>
     <h1 class="post-title">
-      Tab Tab Attack
+      Cryptography
     </h1>
-    <div class="post-meta"><span title='2022-11-12 16:13:24 +0200 EET'>November 12, 2022</span>&nbsp;·&nbsp;1 min
+    <div class="post-meta">1 min
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
 
-  <div class="post-content"><p>First dowload the Addadshashanammu.zip file.</p>
-<p>Run the following command to unzip its contents.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">unzip -u Addadshashanammu.zip
-</code></pre></div><p>Then change directory to Addadshashanammu</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd Addadshashanammu/
-</code></pre></div><p>We noticed that there are a lot of folders inside each one. So, we can either use Tab to autocomplete the path to the folders, until we reach to the deepest one.</p>
-<p>Alternative, we can run this command when we are inside Addadshashanammu folder.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd <span style="color:#e6db74">`</span>find -printf <span style="color:#e6db74">&#39;%d %p\n&#39;</span> | sort -n | tail -n <span style="color:#ae81ff">1</span> | cut -d <span style="color:#e6db74">&#39; &#39;</span> -f 2-<span style="color:#e6db74">`</span>
-</code></pre></div><p>That in turn returns the deepest level of the folder structure.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">bash: cd: ./Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku/fang-of-haynekhtnamet: Not a directory
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku
-</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat fang-of-haynekhtnamet
-</code></pre></div><p>We got the flag!</p>
+        <div class="inner"><ul>
+                <li>
+                    <a href="#-cryptography" aria-label="🔒 Cryptography">🔒 Cryptography</a></li>
+                <li>
+                    <a href="#1-cryptopals---set-1httpscryptopalscomsets1" aria-label="1️⃣ Cryptopals - Set 1">1️⃣ <a href="https://cryptopals.com/sets/1">Cryptopals - Set 1</a></a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h3 id="-cryptography">🔒 Cryptography<a hidden class="anchor" aria-hidden="true" href="#-cryptography">#</a></h3>
+<ul>
+<li><a href="https://cryptopals.com/">Cryptopals</a></li>
+</ul>
+<h3 id="1-cryptopals---set-1httpscryptopalscomsets1">1️⃣ <a href="https://cryptopals.com/sets/1">Cryptopals - Set 1</a><a hidden class="anchor" aria-hidden="true" href="#1-cryptopals---set-1httpscryptopalscomsets1">#</a></h3>
+<ul>
+<li><a href="/posts/hex_to_base64/">Challenge 1</a></li>
+</ul>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://cybernotes.uk/tags/picoctf/">picoCTF</a></li>
-      <li><a href="https://cybernotes.uk/tags/general-skills/">General Skills</a></li>
     </ul>
-<nav class="paginav">
-  <a class="prev" href="https://cybernotes.uk/posts/hex_to_base64/">
-    <span class="title">« Prev</span>
-    <br>
-    <span>Convert hex to base64</span>
-  </a>
-  <a class="next" href="https://cybernotes.uk/posts/static_noise/">
-    <span class="title">Next »</span>
-    <br>
-    <span>Static ain&#39;t always noise</span>
-  </a>
-</nav>
 
   </footer>
 </article>
