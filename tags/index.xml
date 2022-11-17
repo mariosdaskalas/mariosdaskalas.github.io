@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Cybernotes</title>
-    <link>https://cybernotes.uk/tags/</link>
+    <link>https://www.cybernotes.uk/tags/</link>
     <description>Recent content in Tags on Cybernotes</description>
     <image>
-      <url>https://cybernotes.uk/papermod-cover.png</url>
-      <link>https://cybernotes.uk/papermod-cover.png</link>
+      <url>https://www.cybernotes.uk/papermod-cover.png</url>
+      <link>https://www.cybernotes.uk/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Nov 2022 15:06:03 +0200</lastBuildDate><atom:link href="https://cybernotes.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Nov 2022 15:06:03 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Challenge 1</title>
-      <link>https://cybernotes.uk/tags/challenge-1/</link>
+      <title>Cryptopals</title>
+      <link>https://www.cybernotes.uk/tags/cryptopals/</link>
       <pubDate>Mon, 14 Nov 2022 15:06:03 +0200</pubDate>
       
-      <guid>https://cybernotes.uk/tags/challenge-1/</guid>
+      <guid>https://www.cybernotes.uk/tags/cryptopals/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cryptopals</title>
-      <link>https://cybernotes.uk/tags/cryptopals/</link>
+      <title>Set 1</title>
+      <link>https://www.cybernotes.uk/tags/set-1/</link>
       <pubDate>Mon, 14 Nov 2022 15:06:03 +0200</pubDate>
       
-      <guid>https://cybernotes.uk/tags/cryptopals/</guid>
+      <guid>https://www.cybernotes.uk/tags/set-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>General Skills</title>
-      <link>https://cybernotes.uk/tags/general-skills/</link>
+      <link>https://www.cybernotes.uk/tags/general-skills/</link>
       <pubDate>Sat, 12 Nov 2022 16:13:24 +0200</pubDate>
       
-      <guid>https://cybernotes.uk/tags/general-skills/</guid>
+      <guid>https://www.cybernotes.uk/tags/general-skills/</guid>
       <description></description>
     </item>
     
     <item>
       <title>picoCTF</title>
-      <link>https://cybernotes.uk/tags/picoctf/</link>
+      <link>https://www.cybernotes.uk/tags/picoctf/</link>
       <pubDate>Sat, 12 Nov 2022 16:13:24 +0200</pubDate>
       
-      <guid>https://cybernotes.uk/tags/picoctf/</guid>
+      <guid>https://www.cybernotes.uk/tags/picoctf/</guid>
       <description></description>
     </item>
     

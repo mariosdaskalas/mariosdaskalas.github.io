@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cybernotes.uk/tags/challenge-1/</loc>
+    <loc>https://www.cybernotes.uk/posts/hex_to_base64/</loc>
     <lastmod>2022-11-14T15:06:03+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/posts/hex_to_base64/</loc>
+    <loc>https://www.cybernotes.uk/tags/cryptopals/</loc>
     <lastmod>2022-11-14T15:06:03+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/tags/cryptopals/</loc>
+    <loc>https://www.cybernotes.uk/</loc>
     <lastmod>2022-11-14T15:06:03+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/</loc>
+    <loc>https://www.cybernotes.uk/posts/</loc>
     <lastmod>2022-11-14T15:06:03+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/posts/</loc>
+    <loc>https://www.cybernotes.uk/tags/set-1/</loc>
     <lastmod>2022-11-14T15:06:03+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/tags/</loc>
+    <loc>https://www.cybernotes.uk/tags/</loc>
     <lastmod>2022-11-14T15:06:03+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/tags/general-skills/</loc>
+    <loc>https://www.cybernotes.uk/tags/general-skills/</loc>
     <lastmod>2022-11-12T16:13:24+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/tags/picoctf/</loc>
+    <loc>https://www.cybernotes.uk/tags/picoctf/</loc>
     <lastmod>2022-11-12T16:13:24+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/posts/tab_tab_attack/</loc>
+    <loc>https://www.cybernotes.uk/posts/tab_tab_attack/</loc>
     <lastmod>2022-11-12T16:13:24+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/posts/static_noise/</loc>
+    <loc>https://www.cybernotes.uk/posts/static_noise/</loc>
     <lastmod>2022-11-12T14:48:36+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/posts/nice_netcat/</loc>
+    <loc>https://www.cybernotes.uk/posts/nice_netcat/</loc>
     <lastmod>2022-11-06T13:02:30+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/posts/wave_a_flag/</loc>
+    <loc>https://www.cybernotes.uk/posts/wave_a_flag/</loc>
     <lastmod>2022-11-06T13:02:20+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/posts/python_wrangling/</loc>
+    <loc>https://www.cybernotes.uk/posts/python_wrangling/</loc>
     <lastmod>2022-11-06T13:02:15+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/posts/obedient_cat/</loc>
+    <loc>https://www.cybernotes.uk/posts/obedient_cat/</loc>
     <lastmod>2022-11-06T13:02:11+02:00</lastmod>
   </url><url>
-    <loc>https://cybernotes.uk/about/</loc>
+    <loc>https://www.cybernotes.uk/about/</loc>
   </url><url>
-    <loc>https://cybernotes.uk/archives/</loc>
+    <loc>https://www.cybernotes.uk/archives/</loc>
   </url><url>
-    <loc>https://cybernotes.uk/ctf/</loc>
+    <loc>https://www.cybernotes.uk/ctf/</loc>
   </url><url>
-    <loc>https://cybernotes.uk/categories/</loc>
+    <loc>https://www.cybernotes.uk/categories/</loc>
   </url><url>
-    <loc>https://cybernotes.uk/cryptography/</loc>
+    <loc>https://www.cybernotes.uk/cryptography/</loc>
   </url><url>
-    <loc>https://cybernotes.uk/search/</loc>
+    <loc>https://www.cybernotes.uk/search/</loc>
   </url><url>
-    <loc>https://cybernotes.uk/tools/</loc>
+    <loc>https://www.cybernotes.uk/tools/</loc>
   </url><url>
-    <loc>https://cybernotes.uk/useful/</loc>
+    <loc>https://www.cybernotes.uk/useful/</loc>
   </url>
 </urlset>

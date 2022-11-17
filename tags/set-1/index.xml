@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Cryptopals on Cybernotes</title>
-    <link>https://www.cybernotes.uk/tags/cryptopals/</link>
-    <description>Recent content in Cryptopals on Cybernotes</description>
+    <title>Set 1 on Cybernotes</title>
+    <link>https://www.cybernotes.uk/tags/set-1/</link>
+    <description>Recent content in Set 1 on Cybernotes</description>
     <image>
       <url>https://www.cybernotes.uk/papermod-cover.png</url>
       <link>https://www.cybernotes.uk/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Nov 2022 15:06:03 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/cryptopals/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Nov 2022 15:06:03 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/set-1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convert hex to base64</title>
       <link>https://www.cybernotes.uk/posts/hex_to_base64/</link>
