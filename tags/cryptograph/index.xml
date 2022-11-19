@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cryptograph on Cybernotes</title>
+    <link>https://www.cybernotes.uk/tags/cryptograph/</link>
+    <description>Recent content in Cryptograph on Cybernotes</description>
+    <image>
+      <url>https://www.cybernotes.uk/papermod-cover.png</url>
+      <link>https://www.cybernotes.uk/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Nov 2022 18:01:11 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/cryptograph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mod 26</title>
+      <link>https://www.cybernotes.uk/posts/rot13/</link>
+      <pubDate>Sat, 19 Nov 2022 18:01:11 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/rot13/</guid>
+      <description>We are being presented with the following text.
+cvpbPGS{arkg_gvzr_V&amp;rsquo;yy_gel_2_ebhaqf_bs_ebg13_Ncualgvd}
+This is a cipher text, meaning that the letters of the alphabet need to be &amp;lsquo;moved&amp;rsquo; 13 places forward, in order to decrypt the message.
+Now, open up the terminal, making sure that you have python3 installed.
+If you don&amp;rsquo;t in the terminal type the following command.
+sudo apt-get install python3 Then, in the terminal write the following.
+python3 import codecs codecs.</description>
+    </item>
+    
+  </channel>
+</rss>

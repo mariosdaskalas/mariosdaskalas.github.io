@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Nov 2022 15:06:03 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Nov 2022 18:01:11 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptograph</title>
+      <link>https://www.cybernotes.uk/tags/cryptograph/</link>
+      <pubDate>Sat, 19 Nov 2022 18:01:11 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/tags/cryptograph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>picoCTF</title>
+      <link>https://www.cybernotes.uk/tags/picoctf/</link>
+      <pubDate>Sat, 19 Nov 2022 18:01:11 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/tags/picoctf/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Cryptopals</title>
       <link>https://www.cybernotes.uk/tags/cryptopals/</link>
@@ -35,15 +53,6 @@
       <pubDate>Sat, 12 Nov 2022 16:13:24 +0200</pubDate>
       
       <guid>https://www.cybernotes.uk/tags/general-skills/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>picoCTF</title>
-      <link>https://www.cybernotes.uk/tags/picoctf/</link>
-      <pubDate>Sat, 12 Nov 2022 16:13:24 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/tags/picoctf/</guid>
       <description></description>
     </item>
     
