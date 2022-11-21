@@ -10,20 +10,52 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Nov 2022 18:01:11 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 17:33:05 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lets Warm Up</title>
+      <link>https://www.cybernotes.uk/posts/warm_up/</link>
+      <pubDate>Mon, 21 Nov 2022 17:33:05 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/warm_up/</guid>
+      <description>If I told you a word started with 0x70 in hexadecimal, what would it start with in ASCII?
+There is a thing called ASCII table that contains data in different formats. For example, the ASCII 65 corresponds to the HEX -&amp;gt; 41 and the symbol &amp;lsquo;A&amp;rsquo;. These values are all equal, but in different representations.
+You can take a look at ASCII Codes Table. Image Credit: ASCII Codes Table
+You have to keep in mind that hex values can start with 0x.</description>
+    </item>
+    
+    <item>
+      <title>Magikarp Ground Mission</title>
+      <link>https://www.cybernotes.uk/posts/magikarp/</link>
+      <pubDate>Mon, 21 Nov 2022 15:21:24 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/magikarp/</guid>
+      <description>In this ctf, we will learn about SSH, ls and cat. If you know nothing about these terms, do not worry, we will cover them right now.
+You can always use the following commands to learn more about them in the terminal.
+man ssh man ls In a short, ssh is a program that has the purpose of logging into a remote machine and executes commands that the user wants.</description>
+    </item>
+    
+    <item>
+      <title>Mind your Ps and Qs</title>
+      <link>https://www.cybernotes.uk/posts/rsa/</link>
+      <pubDate>Sat, 19 Nov 2022 18:44:50 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/rsa/</guid>
+      <description>First, download the file and use the following command to see it&amp;rsquo;s contents.
+cat values That in turn, returns the following output.
+Decrypt my super sick RSA: c: 8533139361076999596208540806559574687666062896040360148742851107661304651861689 n: 769457290801263793712740792519696786147248001937382943813345728685422050738403253 e: 65537 </description>
+    </item>
+    
     <item>
       <title>Mod 26</title>
       <link>https://www.cybernotes.uk/posts/rot13/</link>
       <pubDate>Sat, 19 Nov 2022 18:01:11 +0200</pubDate>
       
       <guid>https://www.cybernotes.uk/posts/rot13/</guid>
-      <description>We are being presented with the following text.
+      <description>We are being presented with the following description &amp;ldquo;Cryptography can be easy, do you know what ROT13 is?&amp;rdquo; and the following text.
 cvpbPGS{arkg_gvzr_V&amp;rsquo;yy_gel_2_ebhaqf_bs_ebg13_Ncualgvd}
 This is a cipher text, meaning that the letters of the alphabet need to be &amp;lsquo;moved&amp;rsquo; 13 places forward, in order to decrypt the message.
 Now, open up the terminal, making sure that you have python3 installed.
-If you don&amp;rsquo;t in the terminal type the following command.
-sudo apt-get install python3 Then, in the terminal write the following.
-python3 import codecs codecs.</description>
+If you don&amp;rsquo;t in the terminal type the following command.</description>
     </item>
     
     <item>

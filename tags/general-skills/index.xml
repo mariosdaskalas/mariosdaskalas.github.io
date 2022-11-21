@@ -10,7 +10,30 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Nov 2022 16:13:24 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/general-skills/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 17:33:05 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/general-skills/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lets Warm Up</title>
+      <link>https://www.cybernotes.uk/posts/warm_up/</link>
+      <pubDate>Mon, 21 Nov 2022 17:33:05 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/warm_up/</guid>
+      <description>If I told you a word started with 0x70 in hexadecimal, what would it start with in ASCII?
+There is a thing called ASCII table that contains data in different formats. For example, the ASCII 65 corresponds to the HEX -&amp;gt; 41 and the symbol &amp;lsquo;A&amp;rsquo;. These values are all equal, but in different representations.
+You can take a look at ASCII Codes Table. Image Credit: ASCII Codes Table
+You have to keep in mind that hex values can start with 0x.</description>
+    </item>
+    
+    <item>
+      <title>Magikarp Ground Mission</title>
+      <link>https://www.cybernotes.uk/posts/magikarp/</link>
+      <pubDate>Mon, 21 Nov 2022 15:21:24 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/magikarp/</guid>
+      <description>In this ctf, we will learn about SSH, ls and cat. If you know nothing about these terms, do not worry, we will cover them right now.
+You can always use the following commands to learn more about them in the terminal.
+man ssh man ls In a short, ssh is a program that has the purpose of logging into a remote machine and executes commands that the user wants.</description>
+    </item>
+    
     <item>
       <title>Tab Tab Attack</title>
       <link>https://www.cybernotes.uk/posts/tab_tab_attack/</link>
