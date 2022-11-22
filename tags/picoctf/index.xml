@@ -10,7 +10,33 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Nov 2022 17:33:05 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/picoctf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Nov 2022 14:07:19 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/picoctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2Warm</title>
+      <link>https://www.cybernotes.uk/posts/2warm/</link>
+      <pubDate>Tue, 22 Nov 2022 14:07:19 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/2warm/</guid>
+      <description>Can you convert the number 42 (base 10) to binary (base 2)?
+Every decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to &amp;lsquo;11&amp;rsquo;.
+If you want to learn about this, I recommend look at the table below.
+Decimal/Binary Conversion Table.
+Image Credit: Decimal/Binary Conversion Table
+python3 print(bin(42)[2:]) The program above converts the decimal number &amp;lsquo;42&amp;rsquo; to it&amp;rsquo;s binary representation.</description>
+    </item>
+    
+    <item>
+      <title>Warmed up</title>
+      <link>https://www.cybernotes.uk/posts/warmed_up/</link>
+      <pubDate>Tue, 22 Nov 2022 13:58:41 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/warmed_up/</guid>
+      <description>What is 0x3D (base 16) in decimal (base 10)?
+There is a thing called ASCII table that contains data in different formats. For example, the ASCII 65 corresponds to the HEX -&amp;gt; 41 and the symbol &amp;lsquo;A&amp;rsquo;. These values are all equal, but in different representations.
+You can take a look at ASCII Codes Table. Image Credit: ASCII Codes Table
+You have to keep in mind that hex values can start with 0x.</description>
+    </item>
+    
     <item>
       <title>Lets Warm Up</title>
       <link>https://www.cybernotes.uk/posts/warm_up/</link>

@@ -22,5 +22,18 @@ cat values That in turn, returns the following output.
 Decrypt my super sick RSA: c: 8533139361076999596208540806559574687666062896040360148742851107661304651861689 n: 769457290801263793712740792519696786147248001937382943813345728685422050738403253 e: 65537 </description>
     </item>
     
+    <item>
+      <title>Mod 26</title>
+      <link>https://www.cybernotes.uk/posts/rot13/</link>
+      <pubDate>Sat, 19 Nov 2022 18:01:11 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/rot13/</guid>
+      <description>We are being presented with the following description &amp;ldquo;Cryptography can be easy, do you know what ROT13 is?&amp;rdquo; and the following text.
+cvpbPGS{arkg_gvzr_V&amp;rsquo;yy_gel_2_ebhaqf_bs_ebg13_Ncualgvd}
+This is a cipher text, meaning that the letters of the alphabet need to be &amp;lsquo;moved&amp;rsquo; 13 places forward, in order to decrypt the message.
+Now, open up the terminal, making sure that you have python3 installed.
+If you don&amp;rsquo;t in the terminal type the following command.</description>
+    </item>
+    
   </channel>
 </rss>
