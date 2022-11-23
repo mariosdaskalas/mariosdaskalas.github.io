@@ -10,7 +10,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Nov 2022 14:07:19 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Nov 2022 19:27:15 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>what&#39;s a net cat?</title>
+      <link>https://www.cybernotes.uk/posts/what_netcat/</link>
+      <pubDate>Wed, 23 Nov 2022 19:27:15 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/what_netcat/</guid>
+      <description>Using netcat (nc) is going to be pretty important. Can you connect to jupiter.challenges.picoctf.org at port 25103 to get the flag?
+Open up the terminal and type the following command.
+nc jupiter.challenges.picoctf.org 25103 You&amp;rsquo;ve got the flag. If you want to learn more about nc type the following command to the terminal.
+man nc </description>
+    </item>
+    
     <item>
       <title>2Warm</title>
       <link>https://www.cybernotes.uk/posts/2warm/</link>
