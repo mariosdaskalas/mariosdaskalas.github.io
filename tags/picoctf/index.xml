@@ -10,68 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Nov 2022 19:27:15 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/picoctf/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>what&#39;s a net cat?</title>
-      <link>https://www.cybernotes.uk/posts/what_netcat/</link>
-      <pubDate>Wed, 23 Nov 2022 19:27:15 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/what_netcat/</guid>
-      <description>Using netcat (nc) is going to be pretty important. Can you connect to jupiter.challenges.picoctf.org at port 25103 to get the flag?
-Open up the terminal and type the following command.
-nc jupiter.challenges.picoctf.org 25103 You&amp;rsquo;ve got the flag. If you want to learn more about nc type the following command to the terminal.
-man nc </description>
-    </item>
-    
-    <item>
-      <title>2Warm</title>
-      <link>https://www.cybernotes.uk/posts/2warm/</link>
-      <pubDate>Tue, 22 Nov 2022 14:07:19 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/2warm/</guid>
-      <description>Can you convert the number 42 (base 10) to binary (base 2)?
-Every decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to &amp;lsquo;11&amp;rsquo;.
-If you want to learn about this, I recommend look at the table below.
-Decimal/Binary Conversion Table.
-Image Credit: Decimal/Binary Conversion Table
-python3 print(bin(42)[2:]) The program above converts the decimal number &amp;lsquo;42&amp;rsquo; to it&amp;rsquo;s binary representation.</description>
-    </item>
-    
-    <item>
-      <title>Warmed up</title>
-      <link>https://www.cybernotes.uk/posts/warmed_up/</link>
-      <pubDate>Tue, 22 Nov 2022 13:58:41 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/warmed_up/</guid>
-      <description>What is 0x3D (base 16) in decimal (base 10)?
-There is a thing called ASCII table that contains data in different formats. For example, the ASCII 65 corresponds to the HEX -&amp;gt; 41 and the symbol &amp;lsquo;A&amp;rsquo;. These values are all equal, but in different representations.
-You can take a look at ASCII Codes Table. Image Credit: ASCII Codes Table
-You have to keep in mind that hex values can start with 0x.</description>
-    </item>
-    
-    <item>
-      <title>Lets Warm Up</title>
-      <link>https://www.cybernotes.uk/posts/warm_up/</link>
-      <pubDate>Mon, 21 Nov 2022 17:33:05 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/warm_up/</guid>
-      <description>If I told you a word started with 0x70 in hexadecimal, what would it start with in ASCII?
-There is a thing called ASCII table that contains data in different formats. For example, the ASCII 65 corresponds to the HEX -&amp;gt; 41 and the symbol &amp;lsquo;A&amp;rsquo;. These values are all equal, but in different representations.
-You can take a look at ASCII Codes Table. Image Credit: ASCII Codes Table
-You have to keep in mind that hex values can start with 0x.</description>
-    </item>
-    
-    <item>
-      <title>Magikarp Ground Mission</title>
-      <link>https://www.cybernotes.uk/posts/magikarp/</link>
-      <pubDate>Mon, 21 Nov 2022 15:21:24 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/magikarp/</guid>
-      <description>In this ctf, we will learn about SSH, ls and cat. If you know nothing about these terms, do not worry, we will cover them right now.
-You can always use the following commands to learn more about them in the terminal.
-man ssh man ls In a short, ssh is a program that has the purpose of logging into a remote machine and executes commands that the user wants.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 19 Nov 2022 18:44:50 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/picoctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mind your Ps and Qs</title>
       <link>https://www.cybernotes.uk/posts/rsa/</link>
@@ -94,79 +33,6 @@ cvpbPGS{arkg_gvzr_V&amp;rsquo;yy_gel_2_ebhaqf_bs_ebg13_Ncualgvd}
 This is a cipher text, meaning that the letters of the alphabet need to be &amp;lsquo;moved&amp;rsquo; 13 places forward, in order to decrypt the message.
 Now, open up the terminal, making sure that you have python3 installed.
 If you don&amp;rsquo;t in the terminal type the following command.</description>
-    </item>
-    
-    <item>
-      <title>Tab Tab Attack</title>
-      <link>https://www.cybernotes.uk/posts/tab_tab_attack/</link>
-      <pubDate>Sat, 12 Nov 2022 16:13:24 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/tab_tab_attack/</guid>
-      <description>First dowload the Addadshashanammu.zip file.
-Run the following command to unzip its contents.
-unzip -u Addadshashanammu.zip Then change directory to Addadshashanammu
-cd Addadshashanammu/ We noticed that there are a lot of folders inside each one. So, we can either use Tab to autocomplete the path to the folders, until we reach to the deepest one.
-Alternative, we can run this command when we are inside Addadshashanammu folder.
-cd `find -printf &amp;#39;%d %p\n&amp;#39; | sort -n | tail -n 1 | cut -d &amp;#39; &amp;#39; -f 2-` That in turn returns the deepest level of the folder structure.</description>
-    </item>
-    
-    <item>
-      <title>Static ain&#39;t always noise</title>
-      <link>https://www.cybernotes.uk/posts/static_noise/</link>
-      <pubDate>Sat, 12 Nov 2022 14:48:36 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/static_noise/</guid>
-      <description>Download all files, (static and ltdis.sh)
-cat static Provides an output that includes the flag itself. However, we will look into ltdis.sh to learn more about it.
-cat ltdis.sh Inside the program, we can see PHP code that we can use to our advantage.
-else echo &amp;#34;Disassembly failed!&amp;#34; echo &amp;#34;Usage: ltdis.sh &amp;lt;program-file&amp;gt;&amp;#34; echo &amp;#34;Bye!&amp;#34; fi Use the following command to give permissions to the file.
-chmod +x ltdis.sh Then in order to run the program use.</description>
-    </item>
-    
-    <item>
-      <title>Nice Netcat</title>
-      <link>https://www.cybernotes.uk/posts/nice_netcat/</link>
-      <pubDate>Sun, 06 Nov 2022 13:02:30 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/nice_netcat/</guid>
-      <description>Run the following command.
-nc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.
-First save the output to a file named flag.txt
-nc mercury.picoctf.net 35652 &amp;gt; flag.txt After that, we need to place the numbers in the same line using awk.
-cat flag.txt | awk &amp;#39;{print}&amp;#39; ORS=&amp;#39;&amp;#39; After we got the output in the same line, here is the python script that converts decimal to ASCII text.</description>
-    </item>
-    
-    <item>
-      <title>Wave a Flag</title>
-      <link>https://www.cybernotes.uk/posts/wave_a_flag/</link>
-      <pubDate>Sun, 06 Nov 2022 13:02:20 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/wave_a_flag/</guid>
-      <description>Download the warm program.
-cat warm; returns Hello user! Pass me a -h to learn what I can do!-hOh, help? I actually don&amp;rsquo;t do much, but I do have this flag here:
-We can already see the flag here, but we can take it a step further. Give permissions of the executable with:
-chmod +x warm ./warm -h returns the flag.</description>
-    </item>
-    
-    <item>
-      <title>Python Wrangling</title>
-      <link>https://www.cybernotes.uk/posts/python_wrangling/</link>
-      <pubDate>Sun, 06 Nov 2022 13:02:15 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/python_wrangling/</guid>
-      <description>Download the python script, pw.txt and flag.txt.en.
-cat pw.txt cat flag.txt.en python3 ende.py -d flag.txt.en Enter the password of pw.txt and you get the flag.
-import sys import base64 from cryptography.fernet import Fernet usage_msg = &amp;#34;Usage: &amp;#34;+ sys.argv[0] +&amp;#34; (-e/-d) [file]&amp;#34; help_msg = usage_msg + &amp;#34;\n&amp;#34; +\ &amp;#34;Examples:\n&amp;#34; +\ &amp;#34; To decrypt a file named &amp;#39;pole.txt&amp;#39;, do: &amp;#34; +\ &amp;#34;&amp;#39;$ python &amp;#34;+ sys.argv[0] +&amp;#34; -d pole.txt&amp;#39;\n&amp;#34; if len(sys.argv) &amp;lt; 2 or len(sys.</description>
-    </item>
-    
-    <item>
-      <title>Obedient Cat</title>
-      <link>https://www.cybernotes.uk/posts/obedient_cat/</link>
-      <pubDate>Sun, 06 Nov 2022 13:02:11 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/obedient_cat/</guid>
-      <description>Download the file and use the following command in the terminal.
-cat flag; </description>
     </item>
     
   </channel>

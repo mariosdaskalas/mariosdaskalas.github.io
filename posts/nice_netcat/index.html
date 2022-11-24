@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Nice Netcat | Cybernotes</title>
-<meta name="keywords" content="picoCTF, General Skills">
+<meta name="keywords" content="picoCTF 2021, General Skills">
 <meta name="description" content="Run the following command.
 nc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.
 First save the output to a file named flag.txt
@@ -82,7 +82,7 @@ cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in t
   "name": "Nice Netcat",
   "description": "Run the following command.\nnc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.\nFirst save the output to a file named flag.txt\nnc mercury.picoctf.net 35652 \u0026gt; flag.txt After that, we need to place the numbers in the same line using awk.\ncat flag.txt | awk \u0026#39;{print}\u0026#39; ORS=\u0026#39;\u0026#39; After we got the output in the same line, here is the python script that converts decimal to ASCII text.",
   "keywords": [
-    "picoCTF", "General Skills"
+    "picoCTF 2021", "General Skills"
   ],
   "articleBody": "Run the following command.\nnc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.\nFirst save the output to a file named flag.txt\nnc mercury.picoctf.net 35652  flag.txt After that, we need to place the numbers in the same line using awk.\ncat flag.txt | awk '{print}' ORS='' After we got the output in the same line, here is the python script that converts decimal to ASCII text.\ndef decimal_to_ascii(decimal_str): string_convert = \"\" for decimal_char in decimal_str.split(\" \"): string_convert += chr(int(decimal_char, 10)) return string_convert val = input(\"Enter decimal format: \") print(decimal_to_ascii(val)) Name the file decimal.py and run it with the following command. In the prompt enter the decimal numbers.\npython3 decimal.py You got the flag!\n",
   "wordCount" : "134",
@@ -218,7 +218,7 @@ print(decimal_to_ascii(val))
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://www.cybernotes.uk/tags/picoctf/">picoCTF</a></li>
+      <li><a href="https://www.cybernotes.uk/tags/picoctf-2021/">picoCTF 2021</a></li>
       <li><a href="https://www.cybernotes.uk/tags/general-skills/">General Skills</a></li>
     </ul>
 <nav class="paginav">

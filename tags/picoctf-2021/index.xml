@@ -1,100 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>General Skills on Cybernotes</title>
-    <link>https://www.cybernotes.uk/tags/general-skills/</link>
-    <description>Recent content in General Skills on Cybernotes</description>
+    <title>picoCTF 2021 on Cybernotes</title>
+    <link>https://www.cybernotes.uk/tags/picoctf-2021/</link>
+    <description>Recent content in picoCTF 2021 on Cybernotes</description>
     <image>
       <url>https://www.cybernotes.uk/papermod-cover.png</url>
       <link>https://www.cybernotes.uk/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Nov 2022 14:09:50 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/general-skills/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>First Grep</title>
-      <link>https://www.cybernotes.uk/posts/first_grep/</link>
-      <pubDate>Thu, 24 Nov 2022 14:09:50 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/first_grep/</guid>
-      <description>First, download the file. Then navigate to the destination of the file and in terminal type the following command.
-grep &amp;#39;picoCTF&amp;#39; file The command grep &amp;lsquo;picoCTF&amp;rsquo; just searches through the file and prints the string that contains picoCTF.</description>
-    </item>
-    
-    <item>
-      <title>Bases</title>
-      <link>https://www.cybernotes.uk/posts/bases/</link>
-      <pubDate>Thu, 24 Nov 2022 14:00:11 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/bases/</guid>
-      <description>What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
-Run the following command in the terminal.
-echo &amp;#39;bDNhcm5fdGgzX3IwcDM1&amp;#39; | base64 -d Engulf the output inside picoCTF{output}
-But, let&amp;rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format. So, base64 is just a format that is a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read.</description>
-    </item>
-    
-    <item>
-      <title>strings it</title>
-      <link>https://www.cybernotes.uk/posts/strings_it/</link>
-      <pubDate>Thu, 24 Nov 2022 13:38:01 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/strings_it/</guid>
-      <description>Download strings file and type the following command in the terminal.
-strings strings | grep picoCTF If you want to learn more about strings type the following command.
-man strings So, in a sense the strings command prints printable strings in a binary or object file. The second part of the command | grep picoCTF just searches through the file and prints the string that contains picoCTF.
-Nice, you&amp;rsquo;ve got the flag!</description>
-    </item>
-    
-    <item>
-      <title>what&#39;s a net cat?</title>
-      <link>https://www.cybernotes.uk/posts/what_netcat/</link>
-      <pubDate>Wed, 23 Nov 2022 19:27:15 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/what_netcat/</guid>
-      <description>Using netcat (nc) is going to be pretty important. Can you connect to jupiter.challenges.picoctf.org at port 25103 to get the flag?
-Open up the terminal and type the following command.
-nc jupiter.challenges.picoctf.org 25103 You&amp;rsquo;ve got the flag. If you want to learn more about nc type the following command to the terminal.
-man nc </description>
-    </item>
-    
-    <item>
-      <title>2Warm</title>
-      <link>https://www.cybernotes.uk/posts/2warm/</link>
-      <pubDate>Tue, 22 Nov 2022 14:07:19 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/2warm/</guid>
-      <description>Can you convert the number 42 (base 10) to binary (base 2)?
-Every decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to &amp;lsquo;11&amp;rsquo;.
-If you want to learn about this, I recommend look at the table below.
-Decimal/Binary Conversion Table.
-Image Credit: Decimal/Binary Conversion Table
-python3 print(bin(42)[2:]) The program above converts the decimal number &amp;lsquo;42&amp;rsquo; to it&amp;rsquo;s binary representation.</description>
-    </item>
-    
-    <item>
-      <title>Warmed up</title>
-      <link>https://www.cybernotes.uk/posts/warmed_up/</link>
-      <pubDate>Tue, 22 Nov 2022 13:58:41 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/warmed_up/</guid>
-      <description>What is 0x3D (base 16) in decimal (base 10)?
-There is a thing called ASCII table that contains data in different formats. For example, the ASCII 65 corresponds to the HEX -&amp;gt; 41 and the symbol &amp;lsquo;A&amp;rsquo;. These values are all equal, but in different representations.
-You can take a look at ASCII Codes Table. Image Credit: ASCII Codes Table
-You have to keep in mind that hex values can start with 0x.</description>
-    </item>
-    
-    <item>
-      <title>Lets Warm Up</title>
-      <link>https://www.cybernotes.uk/posts/warm_up/</link>
-      <pubDate>Mon, 21 Nov 2022 17:33:05 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/posts/warm_up/</guid>
-      <description>If I told you a word started with 0x70 in hexadecimal, what would it start with in ASCII?
-There is a thing called ASCII table that contains data in different formats. For example, the ASCII 65 corresponds to the HEX -&amp;gt; 41 and the symbol &amp;lsquo;A&amp;rsquo;. These values are all equal, but in different representations.
-You can take a look at ASCII Codes Table. Image Credit: ASCII Codes Table
-You have to keep in mind that hex values can start with 0x.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 21 Nov 2022 15:21:24 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/picoctf-2021/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Magikarp Ground Mission</title>
       <link>https://www.cybernotes.uk/posts/magikarp/</link>

@@ -5,16 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>2Warm | Cybernotes</title>
+<title>Bases | Cybernotes</title>
 <meta name="keywords" content="picoCTF 2019, General Skills">
-<meta name="description" content="Can you convert the number 42 (base 10) to binary (base 2)?
-Every decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to &lsquo;11&rsquo;.
-If you want to learn about this, I recommend look at the table below.
-Decimal/Binary Conversion Table.
-Image Credit: Decimal/Binary Conversion Table
-python3 print(bin(42)[2:]) The program above converts the decimal number &lsquo;42&rsquo; to it&rsquo;s binary representation.">
+<meta name="description" content="What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
+Run the following command in the terminal.
+echo &#39;bDNhcm5fdGgzX3IwcDM1&#39; | base64 -d Engulf the output inside picoCTF{output}
+But, let&rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format. So, base64 is just a format that is a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read.">
 <meta name="author" content="">
-<link rel="canonical" href="https://www.cybernotes.uk/posts/2warm/">
+<link rel="canonical" href="https://www.cybernotes.uk/posts/bases/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
@@ -33,28 +31,24 @@ python3 print(bin(42)[2:]) The program above converts the decimal number &lsquo;
         }
 
     </style>
-</noscript><meta property="og:title" content="2Warm" />
-<meta property="og:description" content="Can you convert the number 42 (base 10) to binary (base 2)?
-Every decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to &lsquo;11&rsquo;.
-If you want to learn about this, I recommend look at the table below.
-Decimal/Binary Conversion Table.
-Image Credit: Decimal/Binary Conversion Table
-python3 print(bin(42)[2:]) The program above converts the decimal number &lsquo;42&rsquo; to it&rsquo;s binary representation." />
+</noscript><meta property="og:title" content="Bases" />
+<meta property="og:description" content="What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
+Run the following command in the terminal.
+echo &#39;bDNhcm5fdGgzX3IwcDM1&#39; | base64 -d Engulf the output inside picoCTF{output}
+But, let&rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format. So, base64 is just a format that is a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.cybernotes.uk/posts/2warm/" /><meta property="og:image" content="https://www.cybernotes.uk/papermod-cover.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-22T14:07:19+02:00" />
-<meta property="article:modified_time" content="2022-11-22T14:07:19+02:00" />
+<meta property="og:url" content="https://www.cybernotes.uk/posts/bases/" /><meta property="og:image" content="https://www.cybernotes.uk/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-24T14:00:11+02:00" />
+<meta property="article:modified_time" content="2022-11-24T14:00:11+02:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.cybernotes.uk/papermod-cover.png"/>
 
-<meta name="twitter:title" content="2Warm"/>
-<meta name="twitter:description" content="Can you convert the number 42 (base 10) to binary (base 2)?
-Every decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to &lsquo;11&rsquo;.
-If you want to learn about this, I recommend look at the table below.
-Decimal/Binary Conversion Table.
-Image Credit: Decimal/Binary Conversion Table
-python3 print(bin(42)[2:]) The program above converts the decimal number &lsquo;42&rsquo; to it&rsquo;s binary representation."/>
+<meta name="twitter:title" content="Bases"/>
+<meta name="twitter:description" content="What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
+Run the following command in the terminal.
+echo &#39;bDNhcm5fdGgzX3IwcDM1&#39; | base64 -d Engulf the output inside picoCTF{output}
+But, let&rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format. So, base64 is just a format that is a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read."/>
 
 
 <script type="application/ld+json">
@@ -71,8 +65,8 @@ python3 print(bin(42)[2:]) The program above converts the decimal number &lsquo;
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "2Warm",
-      "item": "https://www.cybernotes.uk/posts/2warm/"
+      "name": "Bases",
+      "item": "https://www.cybernotes.uk/posts/bases/"
     }
   ]
 }
@@ -81,20 +75,20 @@ python3 print(bin(42)[2:]) The program above converts the decimal number &lsquo;
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "2Warm",
-  "name": "2Warm",
-  "description": "Can you convert the number 42 (base 10) to binary (base 2)?\nEvery decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to \u0026lsquo;11\u0026rsquo;.\nIf you want to learn about this, I recommend look at the table below.\nDecimal/Binary Conversion Table.\nImage Credit: Decimal/Binary Conversion Table\npython3 print(bin(42)[2:]) The program above converts the decimal number \u0026lsquo;42\u0026rsquo; to it\u0026rsquo;s binary representation.",
+  "headline": "Bases",
+  "name": "Bases",
+  "description": "What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.\nRun the following command in the terminal.\necho \u0026#39;bDNhcm5fdGgzX3IwcDM1\u0026#39; | base64 -d Engulf the output inside picoCTF{output}\nBut, let\u0026rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format. So, base64 is just a format that is a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read.",
   "keywords": [
     "picoCTF 2019", "General Skills"
   ],
-  "articleBody": "Can you convert the number 42 (base 10) to binary (base 2)?\nEvery decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to ‘11’.\nIf you want to learn about this, I recommend look at the table below.\nDecimal/Binary Conversion Table.\nImage Credit: Decimal/Binary Conversion Table\npython3 print(bin(42)[2:]) The program above converts the decimal number ‘42’ to it’s binary representation. Nice, you’ve got the flag!\n",
-  "wordCount" : "84",
+  "articleBody": "What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.\nRun the following command in the terminal.\necho 'bDNhcm5fdGgzX3IwcDM1' | base64 -d Engulf the output inside picoCTF{output}\nBut, let’s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format. So, base64 is just a format that is a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read.\nbase64 Description\n",
+  "wordCount" : "80",
   "inLanguage": "en",
-  "datePublished": "2022-11-22T14:07:19+02:00",
-  "dateModified": "2022-11-22T14:07:19+02:00",
+  "datePublished": "2022-11-24T14:00:11+02:00",
+  "dateModified": "2022-11-24T14:00:11+02:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.cybernotes.uk/posts/2warm/"
+    "@id": "https://www.cybernotes.uk/posts/bases/"
   },
   "publisher": {
     "@type": "Organization",
@@ -188,23 +182,19 @@ python3 print(bin(42)[2:]) The program above converts the decimal number &lsquo;
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://www.cybernotes.uk/">Home</a>&nbsp;»&nbsp;<a href="https://www.cybernotes.uk/posts/">Posts</a></div>
     <h1 class="post-title">
-      2Warm
+      Bases
     </h1>
-    <div class="post-meta"><span title='2022-11-22 14:07:19 +0200 EET'>November 22, 2022</span>&nbsp;·&nbsp;1 min
+    <div class="post-meta"><span title='2022-11-24 14:00:11 +0200 EET'>November 24, 2022</span>&nbsp;·&nbsp;1 min
 
 </div>
   </header> 
 
-  <div class="post-content"><p>Can you convert the number 42 (base 10) to binary (base 2)?</p>
-<p>Every decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to &lsquo;11&rsquo;.</p>
-<p>If you want to learn about this, I recommend look at the table below.</p>
-<p><a href="https://www.exploringbinary.com/decimal-binary-conversion-table/">Decimal/Binary Conversion Table</a>.</p>
-<p><img loading="lazy" src="/decimal_to_binary.png" alt="Decimal/Binary Conversion Table"  title="Decimal/Binary Conversion Table"  />
-
-Image Credit: <a href="https://www.exploringbinary.com/">Decimal/Binary Conversion Table</a></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">python3
-print<span style="color:#f92672">(</span>bin<span style="color:#f92672">(</span>42<span style="color:#f92672">)[</span>2:<span style="color:#f92672">])</span>
-</code></pre></div><p>The program above converts the decimal number &lsquo;42&rsquo; to it&rsquo;s binary representation. Nice, you&rsquo;ve got the flag!</p>
+  <div class="post-content"><p>What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.</p>
+<p>Run the following command in the terminal.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">echo <span style="color:#e6db74">&#39;bDNhcm5fdGgzX3IwcDM1&#39;</span> | base64 -d
+</code></pre></div><p>Engulf the output inside picoCTF{output}</p>
+<p>But, let&rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format. So, base64 is just a format that is a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read.</p>
+<p><a href="https://docs.oracle.com/cd/E19623-01/820-6171/base64.html"><em>base64 Description</em></a></p>
 
 
   </div>
@@ -215,15 +205,15 @@ print<span style="color:#f92672">(</span>bin<span style="color:#f92672">(</span>
       <li><a href="https://www.cybernotes.uk/tags/general-skills/">General Skills</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://www.cybernotes.uk/posts/what_netcat/">
+  <a class="prev" href="https://www.cybernotes.uk/posts/first_grep/">
     <span class="title">« Prev</span>
     <br>
-    <span>what&#39;s a net cat?</span>
+    <span>First Grep</span>
   </a>
-  <a class="next" href="https://www.cybernotes.uk/posts/warmed_up/">
+  <a class="next" href="https://www.cybernotes.uk/posts/strings_it/">
     <span class="title">Next »</span>
     <br>
-    <span>Warmed up</span>
+    <span>strings it</span>
   </a>
 </nav>
 

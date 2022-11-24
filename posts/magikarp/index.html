@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Magikarp Ground Mission | Cybernotes</title>
-<meta name="keywords" content="picoCTF, General Skills">
+<meta name="keywords" content="picoCTF 2021, General Skills">
 <meta name="description" content="In this ctf, we will learn about SSH, ls and cat. If you know nothing about these terms, do not worry, we will cover them right now.
 You can always use the following commands to learn more about them in the terminal.
 man ssh man ls In a short, ssh is a program that has the purpose of logging into a remote machine and executes commands that the user wants.">
@@ -76,7 +76,7 @@ man ssh man ls In a short, ssh is a program that has the purpose of logging into
   "name": "Magikarp Ground Mission",
   "description": "In this ctf, we will learn about SSH, ls and cat. If you know nothing about these terms, do not worry, we will cover them right now.\nYou can always use the following commands to learn more about them in the terminal.\nman ssh man ls In a short, ssh is a program that has the purpose of logging into a remote machine and executes commands that the user wants.",
   "keywords": [
-    "picoCTF", "General Skills"
+    "picoCTF 2021", "General Skills"
   ],
   "articleBody": "In this ctf, we will learn about SSH, ls and cat. If you know nothing about these terms, do not worry, we will cover them right now.\nYou can always use the following commands to learn more about them in the terminal.\nman ssh man ls In a short, ssh is a program that has the purpose of logging into a remote machine and executes commands that the user wants.\nFor example, if we have a server pointing to the IP, 192.168.2.7 and there is a user named root then we can connect to it by using the following command.\nssh root@192.168.2.7 Notice, here that we may be prompted for a password. If that’s the case, type the password of the user root and we are logged in via the terminal into that remote machine.\nls is pretty straightforward and simple. In your terminal, type ls and all of your directories inside that path are being listed.\nFor example, imagine you are on the path /.\nIf you type ls, you will get a result similar to this.\nbin cdrom etc lib lib64 lost+found mnt proc run snap sys usr boot dev home lib32 libx32 media opt root sbin srv tmp var Now, let’s continue into some real action. Click on “Launch Istance”. Below ‘Challenge Endpoints\" there is an SSH field generated. It will look similar to this.\nssh ctf-player@venus.picoctf.net -p 52830 Enter the above command to the terminal with the password: b60940ca. If prompted type yes.\nYou are now connected to that remote machine somewhere on the world.\nFirst thing that we will do is to type ls to see the folders and files of our path.\ncat instructions-to-2of3.txt It notifies us to go the root, which is the same as /.\nIf we execute the following command, we can see the first part of the flag.\ncat 1of3.flag.txt After that type the following to go the root or /.\ncd / Again, list the contents of the root folder with ls.\ncat 2of3.flag.txt cat instructions-to-3of3.txt That file instructs us to go to the home folder or ~. Home and ~ is the same thing.\ncd ~ List the folders once again.\ncat 3of3.flag.txt Congratulations! You got the final part of the flag. Now, you combine all these flags in order, to product the final flag.\nA little bonus at the end…\nIf you want to automate the above solution, you can run the following commands. Do not worry, I will explain what each of them do later.\ncat 1of3.flag.txt  /home/ctf-player/drop-in/flag.txt cd / cat 2of3.flag.txt  /home/ctf-player/drop-in/flag.txt cd ~ cat 3of3.flag.txt  /home/ctf-player/drop-in/flag.txt cd /home/ctf-player/drop-in/ cat flag.txt | tr -d '\\r\\n' In the first command, the command cat displays the contents of a file in the terminal.\nThe » symbol just writes that content into a file named flag.txt located in /home/ctf-player/drop-in We write three times to that file (flag.txt) and then with the last command, we display all of these contents into the same line. That’s the flag.\n",
   "wordCount" : "501",
@@ -236,7 +236,7 @@ We write three times to that file (flag.txt) and then with the last command, we 
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://www.cybernotes.uk/tags/picoctf/">picoCTF</a></li>
+      <li><a href="https://www.cybernotes.uk/tags/picoctf-2021/">picoCTF 2021</a></li>
       <li><a href="https://www.cybernotes.uk/tags/general-skills/">General Skills</a></li>
     </ul>
 <nav class="paginav">

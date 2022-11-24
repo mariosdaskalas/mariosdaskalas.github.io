@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Python Wrangling | Cybernotes</title>
-<meta name="keywords" content="picoCTF, General Skills">
+<meta name="keywords" content="picoCTF 2021, General Skills">
 <meta name="description" content="Download the python script, pw.txt and flag.txt.en.
 cat pw.txt cat flag.txt.en python3 ende.py -d flag.txt.en Enter the password of pw.txt and you get the flag.
 import sys import base64 from cryptography.fernet import Fernet usage_msg = &#34;Usage: &#34;&#43; sys.argv[0] &#43;&#34; (-e/-d) [file]&#34; help_msg = usage_msg &#43; &#34;\n&#34; &#43;\ &#34;Examples:\n&#34; &#43;\ &#34; To decrypt a file named &#39;pole.txt&#39;, do: &#34; &#43;\ &#34;&#39;$ python &#34;&#43; sys.argv[0] &#43;&#34; -d pole.txt&#39;\n&#34; if len(sys.argv) &lt; 2 or len(sys.">
@@ -76,7 +76,7 @@ import sys import base64 from cryptography.fernet import Fernet usage_msg = &#34
   "name": "Python Wrangling",
   "description": "Download the python script, pw.txt and flag.txt.en.\ncat pw.txt cat flag.txt.en python3 ende.py -d flag.txt.en Enter the password of pw.txt and you get the flag.\nimport sys import base64 from cryptography.fernet import Fernet usage_msg = \u0026#34;Usage: \u0026#34;+ sys.argv[0] +\u0026#34; (-e/-d) [file]\u0026#34; help_msg = usage_msg + \u0026#34;\\n\u0026#34; +\\ \u0026#34;Examples:\\n\u0026#34; +\\ \u0026#34; To decrypt a file named \u0026#39;pole.txt\u0026#39;, do: \u0026#34; +\\ \u0026#34;\u0026#39;$ python \u0026#34;+ sys.argv[0] +\u0026#34; -d pole.txt\u0026#39;\\n\u0026#34; if len(sys.argv) \u0026lt; 2 or len(sys.",
   "keywords": [
-    "picoCTF", "General Skills"
+    "picoCTF 2021", "General Skills"
   ],
   "articleBody": "Download the python script, pw.txt and flag.txt.en.\ncat pw.txt cat flag.txt.en python3 ende.py -d flag.txt.en Enter the password of pw.txt and you get the flag.\nimport sys import base64 from cryptography.fernet import Fernet usage_msg = \"Usage: \"+ sys.argv[0] +\" (-e/-d) [file]\" help_msg = usage_msg + \"\\n\" +\\ \"Examples:\\n\" +\\ \" To decrypt a file named 'pole.txt', do: \" +\\ \"'$ python \"+ sys.argv[0] +\" -d pole.txt'\\n\" if len(sys.argv)  2 or len(sys.argv)  4: print(usage_msg) sys.exit(1) if sys.argv[1] == \"-e\": if len(sys.argv)  4: sim_sala_bim = input(\"Please enter the password:\") else: sim_sala_bim = sys.argv[3] ssb_b64 = base64.b64encode(sim_sala_bim.encode()) c = Fernet(ssb_b64) with open(sys.argv[2], \"rb\") as f: data = f.read() data_c = c.encrypt(data) sys.stdout.write(data_c.decode()) elif sys.argv[1] == \"-d\": if len(sys.argv)  4: sim_sala_bim = input(\"Please enter the password:\") else: sim_sala_bim = sys.argv[3] ssb_b64 = base64.b64encode(sim_sala_bim.encode()) c = Fernet(ssb_b64) with open(sys.argv[2], \"r\") as f: data = f.read() data_c = c.decrypt(data.encode()) sys.stdout.buffer.write(data_c) elif sys.argv[1] == \"-h\" or sys.argv[1] == \"--help\": print(help_msg) sys.exit(1) else: print(\"Unrecognized first argument: \"+ sys.argv[1]) print(\"Please use '-e', '-d', or '-h'.\") ",
   "wordCount" : "170",
@@ -257,7 +257,7 @@ help_msg <span style="color:#f92672">=</span> usage_msg <span style="color:#f926
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://www.cybernotes.uk/tags/picoctf/">picoCTF</a></li>
+      <li><a href="https://www.cybernotes.uk/tags/picoctf-2021/">picoCTF 2021</a></li>
       <li><a href="https://www.cybernotes.uk/tags/general-skills/">General Skills</a></li>
     </ul>
 <nav class="paginav">

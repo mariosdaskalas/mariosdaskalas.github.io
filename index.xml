@@ -10,7 +10,41 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Nov 2022 19:27:15 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 14:09:50 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Grep</title>
+      <link>https://www.cybernotes.uk/posts/first_grep/</link>
+      <pubDate>Thu, 24 Nov 2022 14:09:50 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/first_grep/</guid>
+      <description>First, download the file. Then navigate to the destination of the file and in terminal type the following command.
+grep &amp;#39;picoCTF&amp;#39; file The command grep &amp;lsquo;picoCTF&amp;rsquo; just searches through the file and prints the string that contains picoCTF.</description>
+    </item>
+    
+    <item>
+      <title>Bases</title>
+      <link>https://www.cybernotes.uk/posts/bases/</link>
+      <pubDate>Thu, 24 Nov 2022 14:00:11 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/bases/</guid>
+      <description>What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
+Run the following command in the terminal.
+echo &amp;#39;bDNhcm5fdGgzX3IwcDM1&amp;#39; | base64 -d Engulf the output inside picoCTF{output}
+But, let&amp;rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format. So, base64 is just a format that is a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read.</description>
+    </item>
+    
+    <item>
+      <title>strings it</title>
+      <link>https://www.cybernotes.uk/posts/strings_it/</link>
+      <pubDate>Thu, 24 Nov 2022 13:38:01 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/strings_it/</guid>
+      <description>Download strings file and type the following command in the terminal.
+strings strings | grep picoCTF If you want to learn more about strings type the following command.
+man strings So, in a sense the strings command prints printable strings in a binary or object file. The second part of the command | grep picoCTF just searches through the file and prints the string that contains picoCTF.
+Nice, you&amp;rsquo;ve got the flag!</description>
+    </item>
+    
     <item>
       <title>what&#39;s a net cat?</title>
       <link>https://www.cybernotes.uk/posts/what_netcat/</link>
@@ -200,7 +234,7 @@ This is a personal blog, in which I will write stuff about Cyber Security, with 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.cybernotes.uk/ctf/</guid>
-      <description>🚩 Capture the Flag  picoCTF  1️⃣ picoCTF - General Skills  Obedient Cat Python Wrangling Wave a flag Nice netcat&amp;hellip; Static ain&amp;rsquo;t always noise Tab, Tab, Attack Magikarp Ground Mission Lets Warm Up Warmed Up 2Warm  </description>
+      <description>🚩 Capture the Flag  picoCTF  1️⃣ picoCTF - General Skills  Obedient Cat Python Wrangling Wave a flag Nice netcat&amp;hellip; Static ain&amp;rsquo;t always noise Tab, Tab, Attack Magikarp Ground Mission Lets Warm Up Warmed Up 2Warm what&amp;rsquo;s a net cat? strings it Bases First Grep  </description>
     </item>
     
     <item>

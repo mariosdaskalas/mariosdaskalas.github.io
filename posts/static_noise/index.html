@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Static ain&#39;t always noise | Cybernotes</title>
-<meta name="keywords" content="picoCTF, General Skills">
+<meta name="keywords" content="picoCTF 2021, General Skills">
 <meta name="description" content="Download all files, (static and ltdis.sh)
 cat static Provides an output that includes the flag itself. However, we will look into ltdis.sh to learn more about it.
 cat ltdis.sh Inside the program, we can see PHP code that we can use to our advantage.
@@ -82,7 +82,7 @@ chmod &#43;x ltdis.sh Then in order to run the program use."/>
   "name": "Static ain\u0027t always noise",
   "description": "Download all files, (static and ltdis.sh)\ncat static Provides an output that includes the flag itself. However, we will look into ltdis.sh to learn more about it.\ncat ltdis.sh Inside the program, we can see PHP code that we can use to our advantage.\nelse echo \u0026#34;Disassembly failed!\u0026#34; echo \u0026#34;Usage: ltdis.sh \u0026lt;program-file\u0026gt;\u0026#34; echo \u0026#34;Bye!\u0026#34; fi Use the following command to give permissions to the file.\nchmod +x ltdis.sh Then in order to run the program use.",
   "keywords": [
-    "picoCTF", "General Skills"
+    "picoCTF 2021", "General Skills"
   ],
   "articleBody": "Download all files, (static and ltdis.sh)\ncat static Provides an output that includes the flag itself. However, we will look into ltdis.sh to learn more about it.\ncat ltdis.sh Inside the program, we can see PHP code that we can use to our advantage.\nelse echo \"Disassembly failed!\" echo \"Usage: ltdis.sh \" echo \"Bye!\" fi Use the following command to give permissions to the file.\nchmod +x ltdis.sh Then in order to run the program use.\n./ltdis.sh static Attempting disassembly of static ... Disassembly successful! Available at: static.ltdis.x86_64.txt Ripping strings from binary with file offsets... Any strings found in static have been written to static.ltdis.strings.txt with file offset cat static.ltdis.strings.txt Finally, we can the see the flag.\n",
   "wordCount" : "117",
@@ -218,7 +218,7 @@ Any strings found in static have been written to static.ltdis.strings.txt with f
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://www.cybernotes.uk/tags/picoctf/">picoCTF</a></li>
+      <li><a href="https://www.cybernotes.uk/tags/picoctf-2021/">picoCTF 2021</a></li>
       <li><a href="https://www.cybernotes.uk/tags/general-skills/">General Skills</a></li>
     </ul>
 <nav class="paginav">
