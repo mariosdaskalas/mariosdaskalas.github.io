@@ -10,7 +10,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Nov 2022 14:09:50 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2022 11:38:50 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>convertme.py</title>
+      <link>https://www.cybernotes.uk/posts/convert_me/</link>
+      <pubDate>Fri, 25 Nov 2022 11:38:50 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/convert_me/</guid>
+      <description>First, download the convert.py file. Run it with the folllowing command.
+python3 convert.py You are prompted with the following text.
+If 15 is in decimal base, what is it in binary base?
+Every decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to &amp;lsquo;11&amp;rsquo;.
+If you want to learn about this, I recommend look at the table below.</description>
+    </item>
+    
+    <item>
+      <title>Codebook</title>
+      <link>https://www.cybernotes.uk/posts/codebook/</link>
+      <pubDate>Fri, 25 Nov 2022 11:34:23 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/codebook/</guid>
+      <description>First download in the same directory code.py and codebook.txt
+Then run the following command and you&amp;rsquo;ve got the flag.
+python3 code.py </description>
+    </item>
+    
     <item>
       <title>First Grep</title>
       <link>https://www.cybernotes.uk/posts/first_grep/</link>
@@ -30,7 +54,7 @@ grep &amp;#39;picoCTF&amp;#39; file The command grep &amp;lsquo;picoCTF&amp;rsqu
       <description>What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
 Run the following command in the terminal.
 echo &amp;#39;bDNhcm5fdGgzX3IwcDM1&amp;#39; | base64 -d Engulf the output inside picoCTF{output}
-But, let&amp;rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format. So, base64 is just a format that is a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read.</description>
+But, let&amp;rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format. So, base64 is just a format that is in a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read.</description>
     </item>
     
     <item>
