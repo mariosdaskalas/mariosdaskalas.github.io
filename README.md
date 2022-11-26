@@ -3,7 +3,7 @@
 </h3>
 
 <p align="center"> 
-    <img style="border-radius: 5px" src="/cybernotes_logo_small.jpg">
+    <img style="border-radius: 15px" src="/cybernotes_logo_small.jpg">
 </p>
 
 This is a personal blog, in which I will write stuff about Cyber Security, with topics such as Penetration Testing, Bug Bounty, Cryptography, CTF and more.
