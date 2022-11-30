@@ -10,7 +10,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Nov 2022 11:38:50 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Nov 2022 13:37:01 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Password Generator</title>
+      <link>https://www.cybernotes.uk/posts/password_generator/</link>
+      <pubDate>Wed, 30 Nov 2022 13:37:01 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/password_generator/</guid>
+      <description>Image by Jan Alexander from Pixabay
+I started to learn Python, because I noticed it is used a lot by Cyber Security professionals, and was something that I wanted to be proficient at.
+So, I decided to create a small program generating a random password using Python. First, let&amp;rsquo;s see the main.py file and analyze it.
+main.py import random import uppercase import lowercase import number import symbols import randoms print(&amp;#34;Welcome to Password Generator&amp;#34;) print(&amp;#34; --- List of available options --- &amp;#34;) print(&amp;#34;Choice 1: Uppercase&amp;#34;) print(&amp;#34;Choice 2: Lowercase&amp;#34;) print(&amp;#34;Choice 3: Numbers&amp;#34;) print(&amp;#34;Choice 4: Symbols&amp;#34;) print(&amp;#34;Choice 5: Random&amp;#34;) print(&amp;#34;Please select one choice: &amp;#34;) choice = input() if (choice == &amp;#34;1&amp;#34;): uppercase.</description>
+    </item>
+    
     <item>
       <title>convertme.py</title>
       <link>https://www.cybernotes.uk/posts/convert_me/</link>

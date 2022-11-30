@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Password Generator | Cybernotes</title>
+<meta name="keywords" content="Python">
+<meta name="description" content="Image by Jan Alexander from Pixabay
+I started to learn Python, because I noticed it is used a lot by Cyber Security professionals, and was something that I wanted to be proficient at.
+So, I decided to create a small program generating a random password using Python. First, let&rsquo;s see the main.py file and analyze it.
+main.py import random import uppercase import lowercase import number import symbols import randoms print(&#34;Welcome to Password Generator&#34;) print(&#34; --- List of available options --- &#34;) print(&#34;Choice 1: Uppercase&#34;) print(&#34;Choice 2: Lowercase&#34;) print(&#34;Choice 3: Numbers&#34;) print(&#34;Choice 4: Symbols&#34;) print(&#34;Choice 5: Random&#34;) print(&#34;Please select one choice: &#34;) choice = input() if (choice == &#34;1&#34;): uppercase.">
+<meta name="author" content="">
+<link rel="canonical" href="https://www.cybernotes.uk/posts/password_generator/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://www.cybernotes.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.cybernotes.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.cybernotes.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.cybernotes.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.cybernotes.uk/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNG226W446"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RNG226W446');
+</script><meta property="og:title" content="Password Generator" />
+<meta property="og:description" content="Image by Jan Alexander from Pixabay
+I started to learn Python, because I noticed it is used a lot by Cyber Security professionals, and was something that I wanted to be proficient at.
+So, I decided to create a small program generating a random password using Python. First, let&rsquo;s see the main.py file and analyze it.
+main.py import random import uppercase import lowercase import number import symbols import randoms print(&#34;Welcome to Password Generator&#34;) print(&#34; --- List of available options --- &#34;) print(&#34;Choice 1: Uppercase&#34;) print(&#34;Choice 2: Lowercase&#34;) print(&#34;Choice 3: Numbers&#34;) print(&#34;Choice 4: Symbols&#34;) print(&#34;Choice 5: Random&#34;) print(&#34;Please select one choice: &#34;) choice = input() if (choice == &#34;1&#34;): uppercase." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.cybernotes.uk/posts/password_generator/" />
+<meta property="og:image" content="https://www.cybernotes.uk/password.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-11-30T13:37:01+02:00" />
+<meta property="article:modified_time" content="2022-11-30T13:37:01+02:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://www.cybernotes.uk/password.jpg" />
+<meta name="twitter:title" content="Password Generator"/>
+<meta name="twitter:description" content="Image by Jan Alexander from Pixabay
+I started to learn Python, because I noticed it is used a lot by Cyber Security professionals, and was something that I wanted to be proficient at.
+So, I decided to create a small program generating a random password using Python. First, let&rsquo;s see the main.py file and analyze it.
+main.py import random import uppercase import lowercase import number import symbols import randoms print(&#34;Welcome to Password Generator&#34;) print(&#34; --- List of available options --- &#34;) print(&#34;Choice 1: Uppercase&#34;) print(&#34;Choice 2: Lowercase&#34;) print(&#34;Choice 3: Numbers&#34;) print(&#34;Choice 4: Symbols&#34;) print(&#34;Choice 5: Random&#34;) print(&#34;Please select one choice: &#34;) choice = input() if (choice == &#34;1&#34;): uppercase."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://www.cybernotes.uk/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Password Generator",
+      "item": "https://www.cybernotes.uk/posts/password_generator/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Password Generator",
+  "name": "Password Generator",
+  "description": "Image by Jan Alexander from Pixabay\nI started to learn Python, because I noticed it is used a lot by Cyber Security professionals, and was something that I wanted to be proficient at.\nSo, I decided to create a small program generating a random password using Python. First, let\u0026rsquo;s see the main.py file and analyze it.\nmain.py import random import uppercase import lowercase import number import symbols import randoms print(\u0026#34;Welcome to Password Generator\u0026#34;) print(\u0026#34; --- List of available options --- \u0026#34;) print(\u0026#34;Choice 1: Uppercase\u0026#34;) print(\u0026#34;Choice 2: Lowercase\u0026#34;) print(\u0026#34;Choice 3: Numbers\u0026#34;) print(\u0026#34;Choice 4: Symbols\u0026#34;) print(\u0026#34;Choice 5: Random\u0026#34;) print(\u0026#34;Please select one choice: \u0026#34;) choice = input() if (choice == \u0026#34;1\u0026#34;): uppercase.",
+  "keywords": [
+    "Python"
+  ],
+  "articleBody": "Image by Jan Alexander from Pixabay\nI started to learn Python, because I noticed it is used a lot by Cyber Security professionals, and was something that I wanted to be proficient at.\nSo, I decided to create a small program generating a random password using Python. First, let’s see the main.py file and analyze it.\nmain.py import random import uppercase import lowercase import number import symbols import randoms print(\"Welcome to Password Generator\") print(\" --- List of available options --- \") print(\"Choice 1: Uppercase\") print(\"Choice 2: Lowercase\") print(\"Choice 3: Numbers\") print(\"Choice 4: Symbols\") print(\"Choice 5: Random\") print(\"Please select one choice: \") choice = input() if (choice == \"1\"): uppercase.uppercase_function() elif (choice == \"2\"): lowercase.lowercase_function() elif (choice == \"3\"): number.numbers_function() elif (choice == \"4\"): symbols.symbols_function() elif (choice == \"5\"): randoms.randoms_function() else: print(\"Invalid Choice...\") print(\"Ending program...\") First, we import the random library and all the following are individual python files that we included into our main.py using the import statement. We are waiting for an input by the user and depending the choice we call a function that lives inside all these individual .py files.\nNow, let’s see the first .py file, in our case uppercase.py.\nuppercase.py import random def uppercase_function(): print(\"You selected Uppercase.\") print(\"Give value 0 for exit...\") letters = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\" max_length = \"20\" print(\"Please enter the length of password: (max: 20) \") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") def uppercase(): count = 0 while (count  int(pass_length)): random_letter = random.randint(0,25) print(letters[random_letter], end=\"\") count = count + 1 print() if pass_length  max_length: uppercase() elif (pass_length == \"0\"): print(\"Exiting program..\") else: print(\"Please enter a number less or equal to 20.\") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program..\") while (pass_length  max_length): print(\"Please enter a number less or equal to 20.\") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program..\") uppercase() First, we define a string that contains all the letters in the English alphabet. We define a variable named max_length that contains that maximum length of the password. We wait for user input, regarding the length of the password. We define a function, uppercase(), that initiates a counter to the value of 0, and inside a while loop checks if that counter is less that the value that the user entered.\nAfterwards, we pick a random letter from the string that contained the alphabet, because in a sense a string is an array and increment the counter by 1, to avoid an infinite loop and print each letter in the same row.\nIn addition, we check if the length of the password is equal or greated compared to what user entered and call the function uppercase() appropriately. Finally, we make a final check if the length of the password is 0, because if that’s the case the program should end, because there is no password if there is no characters in it.\nA word of notice here. The following python files work in the same exact manner as the previous one, uppercase.py so if you understood that one, you will have no problem to understand the others.\nlowercase.py import random def lowercase_function(): print(\"You selected Lowercase...\") print(\"Give value 0 for exit...\") letters = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\" max_length = \"20\" print(\"Please enter the length of password: (max: 20) \") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") def lowercase(): count = 0 while (count  int(pass_length)): random_letter = random.randint(0,25) print(letters[random_letter].lower(), end=\"\") count = count + 1 print() if pass_length  max_length: lowercase() elif (pass_length == \"0\"): print(\"Exiting program..\") else: print(\"Please enter a number less or equal to 20.\") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program..\") while (pass_length  max_length): print(\"Please enter a number less or equal to 20.\") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program..\") lowercase() number.py import random def numbers_function(): print(\"You selected Numbers...\") print(\"Give value 0 for exit...\") numbers_list = \"0123456789\" max_length = \"20\" print(\"Please enter the length of password: (max: 20) \") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") def numbers(): count = 0 while (count  int(pass_length)): random_number = random.randint(0,9) print(numbers_list[random_number], end=\"\") count = count + 1 print() if pass_length  max_length: numbers() elif (pass_length == \"0\"): print(\"Exiting program...\") else: print(\"Please enter a number less or equal to 20.\") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") while (pass_length  max_length): print(\"Please enter a number less or equal to 20.\") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") numbers() symbols.py import random def symbols_function(): print(\"You selected Symbols...\") print(\"Give value 0 for exit...\") symbols = \"~`!@#$%^\u0026*()_-+={[}]|\\:;'.?/\" max_length = \"20\" print(\"Please enter the length of password: (max: 20) \") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") def symbol(): count = 0 while (count  int(pass_length)): random_symbol = random.randint(0,30) print(symbols[random_symbol], end=\"\") count = count + 1 print() if pass_length  max_length: symbol() elif (pass_length == \"0\"): print(\"Exiting program...\") else: print(\"Please enter a number less or equal to 20.\") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") while (pass_length  max_length): print(\"Please enter a number less or equal to 20.\") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") symbol() randoms.py import random def randoms_function(): print(\"You selected Random...\") print(\"Give value 0 for exit...\") all = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^\u0026*()_-+={[}]|\\:;'.?/\" max_length = \"20\" print(\"Please enter the length of password: (max: 20) \") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") def alls(): count = 0 while (count  int(pass_length)): random_all = random.randint(0,92) print(all[random_all], end=\"\") count = count + 1 print() if pass_length  max_length: alls() elif (pass_length == \"0\"): print(\"Exiting program...\") else: print(\"Please enter a number less or equal to 20.\") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") while (pass_length  max_length): print(\"Please enter a number less or equal to 20.\") pass_length = input() if (pass_length == \"0\"): print(\"Exiting program...\") alls() Run Program To close, here is the Password Generator program in action.\n Github You can find the Source Code on Github.\n",
+  "wordCount" : "972",
+  "inLanguage": "en",
+  "image":"https://www.cybernotes.uk/password.jpg","datePublished": "2022-11-30T13:37:01+02:00",
+  "dateModified": "2022-11-30T13:37:01+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.cybernotes.uk/posts/password_generator/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cybernotes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.cybernotes.uk/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.cybernotes.uk/" accesskey="h" title="Cybernotes (Alt + H)">
+                <img src="https://www.cybernotes.uk/static/cybernotes.jpg" alt="" aria-label="logo"
+                    height="30">Cybernotes</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.cybernotes.uk/about/" title="ℹ️ About">
+                    <span>ℹ️ About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/archives/" title="📁 Archives">
+                    <span>📁 Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/tags/" title="🏷️ Tags">
+                    <span>🏷️ Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/useful/" title="✅ Useful">
+                    <span>✅ Useful</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/tools/" title="🪛 Tools">
+                    <span>🪛 Tools</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/ctf/" title="🚩 CTF">
+                    <span>🚩 CTF</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/cryptography/" title="🔒 Cryptography">
+                    <span>🔒 Cryptography</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/python/" title="🐍 Python">
+                    <span>🐍 Python</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/posts/" title="📝 Blog">
+                    <span>📝 Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/search/" title="🔍 Search (Alt &#43; /)" accesskey=/>
+                    <span>🔍 Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/cybernotes" title="🌐 Linkedin">
+                    <span>🌐 Linkedin</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://www.cybernotes.uk/">Home</a>&nbsp;»&nbsp;<a href="https://www.cybernotes.uk/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Password Generator
+    </h1>
+    <div class="post-meta"><span title='2022-11-30 13:37:01 +0200 EET'>November 30, 2022</span>&nbsp;·&nbsp;5 min
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://www.cybernotes.uk/password.jpg" alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#_mainpy_" aria-label="main.py"><em>main.py</em></a></li>
+                <li>
+                    <a href="#_uppercasepy_" aria-label="uppercase.py"><em>uppercase.py</em></a></li>
+                <li>
+                    <a href="#_lowercasepy_" aria-label="lowercase.py"><em>lowercase.py</em></a></li>
+                <li>
+                    <a href="#_numberpy_" aria-label="number.py"><em>number.py</em></a></li>
+                <li>
+                    <a href="#_symbolspy_" aria-label="symbols.py"><em>symbols.py</em></a></li>
+                <li>
+                    <a href="#_randomspy_" aria-label="randoms.py"><em>randoms.py</em></a></li>
+                <li>
+                    <a href="#_run-program_" aria-label="Run Program"><em>Run Program</em></a></li>
+                <li>
+                    <a href="#github" aria-label="Github">Github</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Image by <a href="https://pixabay.com/users/janbaby-3005373/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2168233">Jan Alexander</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2168233">Pixabay</a></p>
+<p>I started to learn Python, because I noticed it is used a lot by Cyber Security professionals, and was something that I wanted to be proficient at.</p>
+<p>So, I decided to create a small program generating a random password using Python. First, let&rsquo;s see the <em>main.py</em> file and analyze it.</p>
+<h3 id="_mainpy_"><em>main.py</em><a hidden class="anchor" aria-hidden="true" href="#_mainpy_">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random
+<span style="color:#f92672">import</span> uppercase
+<span style="color:#f92672">import</span> lowercase
+<span style="color:#f92672">import</span> number
+<span style="color:#f92672">import</span> symbols
+<span style="color:#f92672">import</span> randoms
+
+print(<span style="color:#e6db74">&#34;Welcome to Password Generator&#34;</span>)
+print(<span style="color:#e6db74">&#34; --- List of available options --- &#34;</span>)
+
+print(<span style="color:#e6db74">&#34;Choice 1: Uppercase&#34;</span>)
+print(<span style="color:#e6db74">&#34;Choice 2: Lowercase&#34;</span>)
+print(<span style="color:#e6db74">&#34;Choice 3: Numbers&#34;</span>)
+print(<span style="color:#e6db74">&#34;Choice 4: Symbols&#34;</span>)
+print(<span style="color:#e6db74">&#34;Choice 5: Random&#34;</span>)
+
+print(<span style="color:#e6db74">&#34;Please select one choice: &#34;</span>)
+choice <span style="color:#f92672">=</span> input()
+
+<span style="color:#66d9ef">if</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;1&#34;</span>):
+	uppercase<span style="color:#f92672">.</span>uppercase_function()
+
+<span style="color:#66d9ef">elif</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;2&#34;</span>):
+	lowercase<span style="color:#f92672">.</span>lowercase_function()
+
+<span style="color:#66d9ef">elif</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;3&#34;</span>):
+	number<span style="color:#f92672">.</span>numbers_function()
+
+<span style="color:#66d9ef">elif</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;4&#34;</span>):
+	symbols<span style="color:#f92672">.</span>symbols_function()
+
+<span style="color:#66d9ef">elif</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;5&#34;</span>):
+	randoms<span style="color:#f92672">.</span>randoms_function()
+
+<span style="color:#66d9ef">else</span>:
+	print(<span style="color:#e6db74">&#34;Invalid Choice...&#34;</span>)
+	print(<span style="color:#e6db74">&#34;Ending program...&#34;</span>)
+
+</code></pre></div><p>First, we import the random library and all the following are individual python files that we included into our <em>main.py</em> using the import statement. We are waiting for an input by the user and depending the choice we call a function that lives inside all these individual .py files.</p>
+<p>Now, let&rsquo;s see the first .py file, in our case <em>uppercase.py</em>.</p>
+<h3 id="_uppercasepy_"><em>uppercase.py</em><a hidden class="anchor" aria-hidden="true" href="#_uppercasepy_">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">uppercase_function</span>():
+    print(<span style="color:#e6db74">&#34;You selected Uppercase.&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Give value 0 for exit...&#34;</span>)
+    letters <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ABCDEFGHIJKLMNOPQRSTUVWXYZ&#34;</span>
+    max_length <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;20&#34;</span>
+
+    print(<span style="color:#e6db74">&#34;Please enter the length of password: (max: 20) &#34;</span>)
+    pass_length <span style="color:#f92672">=</span> input()
+
+    <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">uppercase</span>():
+        count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        <span style="color:#66d9ef">while</span> (count <span style="color:#f92672">&lt;</span> int(pass_length)):
+            random_letter <span style="color:#f92672">=</span> random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">25</span>)
+            print(letters[random_letter], end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>)
+            count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+        print()
+        
+    <span style="color:#66d9ef">if</span> pass_length <span style="color:#f92672">&lt;=</span> max_length:
+        uppercase()
+    <span style="color:#66d9ef">elif</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Exiting program..&#34;</span>)
+    <span style="color:#66d9ef">else</span>:
+        print(<span style="color:#e6db74">&#34;Please enter a number less or equal to 20.&#34;</span>)
+        pass_length <span style="color:#f92672">=</span> input()
+        <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+            print(<span style="color:#e6db74">&#34;Exiting program..&#34;</span>)
+        <span style="color:#66d9ef">while</span> (pass_length <span style="color:#f92672">&gt;</span> max_length):
+            print(<span style="color:#e6db74">&#34;Please enter a number less or equal to 20.&#34;</span>)
+            pass_length <span style="color:#f92672">=</span> input()
+            <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+                print(<span style="color:#e6db74">&#34;Exiting program..&#34;</span>)
+        uppercase()
+</code></pre></div><p>First, we define a string that contains all the letters in the English alphabet. We define a variable named max_length that contains that maximum length of the password. We wait for user input, regarding the length of the password. We define a function, uppercase(), that initiates a counter to the value of 0, and inside a while loop checks if that counter is less that the value that the user entered.</p>
+<p>Afterwards, we pick a random letter from the string that contained the alphabet, because in a sense a string is an array and increment the counter by 1, to avoid an infinite loop and print each letter in the same row.</p>
+<p>In addition, we check if the length of the password is equal or greated compared to what user entered and call the function uppercase() appropriately. Finally, we make a final check if the length of the password is 0, because if that&rsquo;s the case the program should end, because there is no password if there is no characters in it.</p>
+<p>A word of notice here. The following python files work in the same exact manner as the previous one, <em>uppercase.py</em> so if you understood that one, you will have no problem to understand the others.</p>
+<h3 id="_lowercasepy_"><em>lowercase.py</em><a hidden class="anchor" aria-hidden="true" href="#_lowercasepy_">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">lowercase_function</span>():
+    print(<span style="color:#e6db74">&#34;You selected Lowercase...&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Give value 0 for exit...&#34;</span>)
+    letters <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ABCDEFGHIJKLMNOPQRSTUVWXYZ&#34;</span>
+    max_length <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;20&#34;</span>
+
+    print(<span style="color:#e6db74">&#34;Please enter the length of password: (max: 20) &#34;</span>)
+    pass_length <span style="color:#f92672">=</span> input()
+
+    <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">lowercase</span>():
+        count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        <span style="color:#66d9ef">while</span> (count <span style="color:#f92672">&lt;</span> int(pass_length)):
+            random_letter <span style="color:#f92672">=</span> random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">25</span>)
+            print(letters[random_letter]<span style="color:#f92672">.</span>lower(), end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>)
+            count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+        print()
+
+    <span style="color:#66d9ef">if</span> pass_length <span style="color:#f92672">&lt;=</span> max_length:
+        lowercase()
+    <span style="color:#66d9ef">elif</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Exiting program..&#34;</span>)
+    <span style="color:#66d9ef">else</span>:
+        print(<span style="color:#e6db74">&#34;Please enter a number less or equal to 20.&#34;</span>)
+        pass_length <span style="color:#f92672">=</span> input()
+        <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+            print(<span style="color:#e6db74">&#34;Exiting program..&#34;</span>)
+        <span style="color:#66d9ef">while</span> (pass_length <span style="color:#f92672">&gt;</span> max_length):
+            print(<span style="color:#e6db74">&#34;Please enter a number less or equal to 20.&#34;</span>)
+            pass_length <span style="color:#f92672">=</span> input()
+            <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+                print(<span style="color:#e6db74">&#34;Exiting program..&#34;</span>)
+        lowercase()
+</code></pre></div><h3 id="_numberpy_"><em>number.py</em><a hidden class="anchor" aria-hidden="true" href="#_numberpy_">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">numbers_function</span>():
+    print(<span style="color:#e6db74">&#34;You selected Numbers...&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Give value 0 for exit...&#34;</span>)
+    numbers_list <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0123456789&#34;</span>
+    max_length <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;20&#34;</span>
+
+    print(<span style="color:#e6db74">&#34;Please enter the length of password: (max: 20) &#34;</span>)
+    pass_length <span style="color:#f92672">=</span> input()
+
+    <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">numbers</span>():
+        count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        <span style="color:#66d9ef">while</span> (count <span style="color:#f92672">&lt;</span> int(pass_length)):
+            random_number <span style="color:#f92672">=</span> random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">9</span>)
+            print(numbers_list[random_number], end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>)
+            count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+        print()
+
+    <span style="color:#66d9ef">if</span> pass_length <span style="color:#f92672">&lt;=</span> max_length:
+        numbers()
+    <span style="color:#66d9ef">elif</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+    <span style="color:#66d9ef">else</span>:
+        print(<span style="color:#e6db74">&#34;Please enter a number less or equal to 20.&#34;</span>)
+        pass_length <span style="color:#f92672">=</span> input()
+        <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+            print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+        <span style="color:#66d9ef">while</span> (pass_length <span style="color:#f92672">&gt;</span> max_length):
+            print(<span style="color:#e6db74">&#34;Please enter a number less or equal to 20.&#34;</span>)
+            pass_length <span style="color:#f92672">=</span> input()
+            <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+                print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+        numbers()
+</code></pre></div><h3 id="_symbolspy_"><em>symbols.py</em><a hidden class="anchor" aria-hidden="true" href="#_symbolspy_">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">symbols_function</span>():
+
+    print(<span style="color:#e6db74">&#34;You selected Symbols...&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Give value 0 for exit...&#34;</span>)
+    symbols <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;~`!@#$%^&amp;*()_-+={[}]|\:;&#39;&lt;,&gt;.?/&#34;</span>
+    max_length <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;20&#34;</span>
+
+    print(<span style="color:#e6db74">&#34;Please enter the length of password: (max: 20) &#34;</span>)
+    pass_length <span style="color:#f92672">=</span> input()
+
+    <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">symbol</span>():
+        count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        <span style="color:#66d9ef">while</span> (count <span style="color:#f92672">&lt;</span> int(pass_length)):
+            random_symbol <span style="color:#f92672">=</span> random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">30</span>)
+            print(symbols[random_symbol], end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>)
+            count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+        print()
+
+    <span style="color:#66d9ef">if</span> pass_length <span style="color:#f92672">&lt;=</span> max_length:
+        symbol()
+    <span style="color:#66d9ef">elif</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+    <span style="color:#66d9ef">else</span>:
+        print(<span style="color:#e6db74">&#34;Please enter a number less or equal to 20.&#34;</span>)
+        pass_length <span style="color:#f92672">=</span> input()
+        <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+            print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+        <span style="color:#66d9ef">while</span> (pass_length <span style="color:#f92672">&gt;</span> max_length):
+            print(<span style="color:#e6db74">&#34;Please enter a number less or equal to 20.&#34;</span>)
+            pass_length <span style="color:#f92672">=</span> input()
+            <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+                print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+        symbol()
+</code></pre></div><h3 id="_randomspy_"><em>randoms.py</em><a hidden class="anchor" aria-hidden="true" href="#_randomspy_">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">randoms_function</span>():
+
+    print(<span style="color:#e6db74">&#34;You selected Random...&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Give value 0 for exit...&#34;</span>)
+
+    all <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&amp;*()_-+={[}]|\:;&#39;&lt;,&gt;.?/&#34;</span>
+    max_length <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;20&#34;</span>
+
+    print(<span style="color:#e6db74">&#34;Please enter the length of password: (max: 20) &#34;</span>)
+    pass_length <span style="color:#f92672">=</span> input()
+
+    <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">alls</span>():
+        count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        <span style="color:#66d9ef">while</span> (count <span style="color:#f92672">&lt;</span> int(pass_length)):
+            random_all <span style="color:#f92672">=</span> random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">92</span>)
+            print(all[random_all], end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>)
+            count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+        print()
+
+    <span style="color:#66d9ef">if</span> pass_length <span style="color:#f92672">&lt;=</span> max_length:
+        alls()
+    <span style="color:#66d9ef">elif</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+    <span style="color:#66d9ef">else</span>:
+        print(<span style="color:#e6db74">&#34;Please enter a number less or equal to 20.&#34;</span>)
+        pass_length <span style="color:#f92672">=</span> input()
+        <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+            print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>)
+        <span style="color:#66d9ef">while</span> (pass_length <span style="color:#f92672">&gt;</span> max_length):
+            print(<span style="color:#e6db74">&#34;Please enter a number less or equal to 20.&#34;</span>)
+            pass_length <span style="color:#f92672">=</span> input()
+            <span style="color:#66d9ef">if</span> (pass_length <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+                print(<span style="color:#e6db74">&#34;Exiting program...&#34;</span>) 
+        alls()
+</code></pre></div><h3 id="_run-program_"><em>Run Program</em><a hidden class="anchor" aria-hidden="true" href="#_run-program_">#</a></h3>
+<p>To close, here is the Password Generator program in action.</p>
+<iframe src="https://trinket.io/embed/python3/f18ed77fb1?outputOnly=true&runOption=run" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<h3 id="github">Github<a hidden class="anchor" aria-hidden="true" href="#github">#</a></h3>
+<p>You can find the Source Code on <a href="https://github.com/mariosdaskalas/pgenie">Github</a>.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.cybernotes.uk/tags/python/">Python</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://www.cybernotes.uk/posts/convert_me/">
+    <span class="title">Next »</span>
+    <br>
+    <span>convertme.py</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://www.cybernotes.uk/">Cybernotes</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
