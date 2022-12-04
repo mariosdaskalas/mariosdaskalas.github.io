@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Nov 2022 13:37:01 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Dec 2022 16:18:57 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fixme1.py</title>
+      <link>https://www.cybernotes.uk/posts/fixme1/</link>
+      <pubDate>Sun, 04 Dec 2022 16:18:57 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/fixme1/</guid>
+      <description>Download the fixme1.py file, open it in an editor and change it to the following.
+import random def str_xor(secret, key): #extend key to secret length new_key = key i = 0 while len(new_key) &amp;lt; len(secret): new_key = new_key + key[i] i = (i + 1) % len(key) return &amp;#34;&amp;#34;.join([chr(ord(secret_c) ^ ord(new_key_c)) for (secret_c,new_key_c) in zip(secret,new_key)]) flag_enc = chr(0x15) + chr(0x07) + chr(0x08) + chr(0x06) + chr(0x27) + chr(0x21) + chr(0x23) + chr(0x15) + chr(0x5a) + chr(0x07) + chr(0x00) + chr(0x46) + chr(0x0b) + chr(0x1a) + chr(0x5a) + chr(0x1d) + chr(0x1d) + chr(0x2a) + chr(0x06) + chr(0x1c) + chr(0x5a) + chr(0x5c) + chr(0x55) + chr(0x40) + chr(0x3a) + chr(0x5f) + chr(0x53) + chr(0x5b) + chr(0x57) + chr(0x41) + chr(0x57) + chr(0x08) + chr(0x5c) + chr(0x14) flag = str_xor(flag_enc, &amp;#39;enkidu&amp;#39;) print(&amp;#39;That is correct!</description>
+    </item>
+    
     <item>
       <title>Password Generator</title>
       <link>https://www.cybernotes.uk/posts/password_generator/</link>
