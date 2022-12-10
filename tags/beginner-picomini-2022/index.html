@@ -141,6 +141,34 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2>Glitch Cat
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Open up the terminal and type the following command.
+nc saturn.picoctf.net 51109 You will get an output. Copy that output and open up a terminal and type the following command.
+python3 print(&#39;picoCTF{gl17ch_m3_n07_&#39; &#43; chr(0x62) &#43; chr(0x64) &#43; chr(0x61) &#43; chr(0x36) &#43; chr(0x38) &#43; chr(0x66) &#43; chr(0x37) &#43; chr(0x35) &#43; &#39;}&#39;) The output you get from nc might look something different. The point is to understand what you are doing.
+If you want to learn more about nc type in the terminal the following command....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-12-10 18:50:35 +0200 EET'>December 10, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Glitch Cat" href="https://www.cybernotes.uk/posts/glitch_cat/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>fixme2.py
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Download the fixme2.py file, open it in an editor and change it to the following.
+import random def str_xor(secret, key): #extend key to secret length new_key = key i = 0 while len(new_key) &lt; len(secret): new_key = new_key &#43; key[i] i = (i &#43; 1) % len(key) return &#34;&#34;.join([chr(ord(secret_c) ^ ord(new_key_c)) for (secret_c,new_key_c) in zip(secret,new_key)]) flag_enc = chr(0x15) &#43; chr(0x07) &#43; chr(0x08) &#43; chr(0x06) &#43; chr(0x27) &#43; chr(0x21) &#43; chr(0x23) &#43; chr(0x15) &#43; chr(0x58) &#43; chr(0x18) &#43; chr(0x11) &#43; chr(0x41) &#43; chr(0x09) &#43; chr(0x5f) &#43; chr(0x1f) &#43; chr(0x10) &#43; chr(0x3b) &#43; chr(0x1b) &#43; chr(0x55) &#43; chr(0x1a) &#43; chr(0x34) &#43; chr(0x5d) &#43; chr(0x51) &#43; chr(0x40) &#43; chr(0x54) &#43; chr(0x09) &#43; chr(0x05) &#43; chr(0x04) &#43; chr(0x57) &#43; chr(0x1b) &#43; chr(0x11) &#43; chr(0x31) &#43; chr(0x0e) &#43; chr(0x51) &#43; chr(0x5c) &#43; chr(0x44) &#43; chr(0x51) &#43; chr(0x0a) &#43; chr(0x5b) &#43; chr(0x5a) &#43; chr(0x19) flag = str_xor(flag_enc, &#39;enkidu&#39;) # Check that flag is not empty if flag == &#34;&#34;: print(&#39;String XOR encountered a problem, quitting....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-12-10 18:42:51 +0200 EET'>December 10, 2022</span>&nbsp;·&nbsp;2 min</footer>
+  <a class="entry-link" aria-label="post link to fixme2.py" href="https://www.cybernotes.uk/posts/fixme2/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2>fixme1.py
     </h2>
   </header>
@@ -151,36 +179,12 @@ import random def str_xor(secret, key): #extend key to secret length new_key = k
   <footer class="entry-footer"><span title='2022-12-04 16:18:57 +0200 EET'>December 4, 2022</span>&nbsp;·&nbsp;1 min</footer>
   <a class="entry-link" aria-label="post link to fixme1.py" href="https://www.cybernotes.uk/posts/fixme1/"></a>
 </article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2>convertme.py
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>First, download the convert.py file. Run it with the folllowing command.
-python3 convert.py You are prompted with the following text.
-If 15 is in decimal base, what is it in binary base?
-Every decimal number has a representation in a binary form. For example, take the number 3, which is in the decimal format. In the binary form it is equal to ‘11’.
-If you want to learn about this, I recommend look at the table below....</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-11-25 11:38:50 +0200 EET'>November 25, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to convertme.py" href="https://www.cybernotes.uk/posts/convert_me/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2>Codebook
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>First download in the same directory code.py and codebook.txt
-Then run the following command and you’ve got the flag.
-python3 code.py </p>
-  </div>
-  <footer class="entry-footer"><span title='2022-11-25 11:34:23 +0200 EET'>November 25, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Codebook" href="https://www.cybernotes.uk/posts/codebook/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://www.cybernotes.uk/tags/beginner-picomini-2022/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>fixme2.py | Cybernotes</title>
+<meta name="keywords" content="Beginner picoMini 2022, General Skills">
+<meta name="description" content="Download the fixme2.py file, open it in an editor and change it to the following.
+import random def str_xor(secret, key): #extend key to secret length new_key = key i = 0 while len(new_key) &lt; len(secret): new_key = new_key &#43; key[i] i = (i &#43; 1) % len(key) return &#34;&#34;.join([chr(ord(secret_c) ^ ord(new_key_c)) for (secret_c,new_key_c) in zip(secret,new_key)]) flag_enc = chr(0x15) &#43; chr(0x07) &#43; chr(0x08) &#43; chr(0x06) &#43; chr(0x27) &#43; chr(0x21) &#43; chr(0x23) &#43; chr(0x15) &#43; chr(0x58) &#43; chr(0x18) &#43; chr(0x11) &#43; chr(0x41) &#43; chr(0x09) &#43; chr(0x5f) &#43; chr(0x1f) &#43; chr(0x10) &#43; chr(0x3b) &#43; chr(0x1b) &#43; chr(0x55) &#43; chr(0x1a) &#43; chr(0x34) &#43; chr(0x5d) &#43; chr(0x51) &#43; chr(0x40) &#43; chr(0x54) &#43; chr(0x09) &#43; chr(0x05) &#43; chr(0x04) &#43; chr(0x57) &#43; chr(0x1b) &#43; chr(0x11) &#43; chr(0x31) &#43; chr(0x0e) &#43; chr(0x51) &#43; chr(0x5c) &#43; chr(0x44) &#43; chr(0x51) &#43; chr(0x0a) &#43; chr(0x5b) &#43; chr(0x5a) &#43; chr(0x19) flag = str_xor(flag_enc, &#39;enkidu&#39;) # Check that flag is not empty if flag == &#34;&#34;: print(&#39;String XOR encountered a problem, quitting.">
+<meta name="author" content="">
+<link rel="canonical" href="https://www.cybernotes.uk/posts/fixme2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://www.cybernotes.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.cybernotes.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.cybernotes.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.cybernotes.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.cybernotes.uk/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNG226W446"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RNG226W446');
+</script><meta property="og:title" content="fixme2.py" />
+<meta property="og:description" content="Download the fixme2.py file, open it in an editor and change it to the following.
+import random def str_xor(secret, key): #extend key to secret length new_key = key i = 0 while len(new_key) &lt; len(secret): new_key = new_key &#43; key[i] i = (i &#43; 1) % len(key) return &#34;&#34;.join([chr(ord(secret_c) ^ ord(new_key_c)) for (secret_c,new_key_c) in zip(secret,new_key)]) flag_enc = chr(0x15) &#43; chr(0x07) &#43; chr(0x08) &#43; chr(0x06) &#43; chr(0x27) &#43; chr(0x21) &#43; chr(0x23) &#43; chr(0x15) &#43; chr(0x58) &#43; chr(0x18) &#43; chr(0x11) &#43; chr(0x41) &#43; chr(0x09) &#43; chr(0x5f) &#43; chr(0x1f) &#43; chr(0x10) &#43; chr(0x3b) &#43; chr(0x1b) &#43; chr(0x55) &#43; chr(0x1a) &#43; chr(0x34) &#43; chr(0x5d) &#43; chr(0x51) &#43; chr(0x40) &#43; chr(0x54) &#43; chr(0x09) &#43; chr(0x05) &#43; chr(0x04) &#43; chr(0x57) &#43; chr(0x1b) &#43; chr(0x11) &#43; chr(0x31) &#43; chr(0x0e) &#43; chr(0x51) &#43; chr(0x5c) &#43; chr(0x44) &#43; chr(0x51) &#43; chr(0x0a) &#43; chr(0x5b) &#43; chr(0x5a) &#43; chr(0x19) flag = str_xor(flag_enc, &#39;enkidu&#39;) # Check that flag is not empty if flag == &#34;&#34;: print(&#39;String XOR encountered a problem, quitting." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.cybernotes.uk/posts/fixme2/" /><meta property="og:image" content="https://www.cybernotes.uk/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-10T18:42:51+02:00" />
+<meta property="article:modified_time" content="2022-12-10T18:42:51+02:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.cybernotes.uk/papermod-cover.png"/>
+
+<meta name="twitter:title" content="fixme2.py"/>
+<meta name="twitter:description" content="Download the fixme2.py file, open it in an editor and change it to the following.
+import random def str_xor(secret, key): #extend key to secret length new_key = key i = 0 while len(new_key) &lt; len(secret): new_key = new_key &#43; key[i] i = (i &#43; 1) % len(key) return &#34;&#34;.join([chr(ord(secret_c) ^ ord(new_key_c)) for (secret_c,new_key_c) in zip(secret,new_key)]) flag_enc = chr(0x15) &#43; chr(0x07) &#43; chr(0x08) &#43; chr(0x06) &#43; chr(0x27) &#43; chr(0x21) &#43; chr(0x23) &#43; chr(0x15) &#43; chr(0x58) &#43; chr(0x18) &#43; chr(0x11) &#43; chr(0x41) &#43; chr(0x09) &#43; chr(0x5f) &#43; chr(0x1f) &#43; chr(0x10) &#43; chr(0x3b) &#43; chr(0x1b) &#43; chr(0x55) &#43; chr(0x1a) &#43; chr(0x34) &#43; chr(0x5d) &#43; chr(0x51) &#43; chr(0x40) &#43; chr(0x54) &#43; chr(0x09) &#43; chr(0x05) &#43; chr(0x04) &#43; chr(0x57) &#43; chr(0x1b) &#43; chr(0x11) &#43; chr(0x31) &#43; chr(0x0e) &#43; chr(0x51) &#43; chr(0x5c) &#43; chr(0x44) &#43; chr(0x51) &#43; chr(0x0a) &#43; chr(0x5b) &#43; chr(0x5a) &#43; chr(0x19) flag = str_xor(flag_enc, &#39;enkidu&#39;) # Check that flag is not empty if flag == &#34;&#34;: print(&#39;String XOR encountered a problem, quitting."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://www.cybernotes.uk/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "fixme2.py",
+      "item": "https://www.cybernotes.uk/posts/fixme2/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "fixme2.py",
+  "name": "fixme2.py",
+  "description": "Download the fixme2.py file, open it in an editor and change it to the following.\nimport random def str_xor(secret, key): #extend key to secret length new_key = key i = 0 while len(new_key) \u0026lt; len(secret): new_key = new_key + key[i] i = (i + 1) % len(key) return \u0026#34;\u0026#34;.join([chr(ord(secret_c) ^ ord(new_key_c)) for (secret_c,new_key_c) in zip(secret,new_key)]) flag_enc = chr(0x15) + chr(0x07) + chr(0x08) + chr(0x06) + chr(0x27) + chr(0x21) + chr(0x23) + chr(0x15) + chr(0x58) + chr(0x18) + chr(0x11) + chr(0x41) + chr(0x09) + chr(0x5f) + chr(0x1f) + chr(0x10) + chr(0x3b) + chr(0x1b) + chr(0x55) + chr(0x1a) + chr(0x34) + chr(0x5d) + chr(0x51) + chr(0x40) + chr(0x54) + chr(0x09) + chr(0x05) + chr(0x04) + chr(0x57) + chr(0x1b) + chr(0x11) + chr(0x31) + chr(0x0e) + chr(0x51) + chr(0x5c) + chr(0x44) + chr(0x51) + chr(0x0a) + chr(0x5b) + chr(0x5a) + chr(0x19) flag = str_xor(flag_enc, \u0026#39;enkidu\u0026#39;) # Check that flag is not empty if flag == \u0026#34;\u0026#34;: print(\u0026#39;String XOR encountered a problem, quitting.",
+  "keywords": [
+    "Beginner picoMini 2022", "General Skills"
+  ],
+  "articleBody": "Download the fixme2.py file, open it in an editor and change it to the following.\nimport random def str_xor(secret, key): #extend key to secret length new_key = key i = 0 while len(new_key)  len(secret): new_key = new_key + key[i] i = (i + 1) % len(key) return \"\".join([chr(ord(secret_c) ^ ord(new_key_c)) for (secret_c,new_key_c) in zip(secret,new_key)]) flag_enc = chr(0x15) + chr(0x07) + chr(0x08) + chr(0x06) + chr(0x27) + chr(0x21) + chr(0x23) + chr(0x15) + chr(0x58) + chr(0x18) + chr(0x11) + chr(0x41) + chr(0x09) + chr(0x5f) + chr(0x1f) + chr(0x10) + chr(0x3b) + chr(0x1b) + chr(0x55) + chr(0x1a) + chr(0x34) + chr(0x5d) + chr(0x51) + chr(0x40) + chr(0x54) + chr(0x09) + chr(0x05) + chr(0x04) + chr(0x57) + chr(0x1b) + chr(0x11) + chr(0x31) + chr(0x0e) + chr(0x51) + chr(0x5c) + chr(0x44) + chr(0x51) + chr(0x0a) + chr(0x5b) + chr(0x5a) + chr(0x19) flag = str_xor(flag_enc, 'enkidu') # Check that flag is not empty if flag == \"\": print('String XOR encountered a problem, quitting.') else: print('That is correct! Here\\'s your flag: ' + flag) The problem was at the if statement\nif flag = \"\": When we need to compare two values, we use ==. Assignment happens with just =, like when we want to assign a value to a variable, for example…\ni = 0 Finally, run the program with the following command.\npython3 fixme2.py Nice, you’ve got the flag!\n",
+  "wordCount" : "226",
+  "inLanguage": "en",
+  "datePublished": "2022-12-10T18:42:51+02:00",
+  "dateModified": "2022-12-10T18:42:51+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.cybernotes.uk/posts/fixme2/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cybernotes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.cybernotes.uk/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.cybernotes.uk/" accesskey="h" title="Cybernotes (Alt + H)">
+                <img src="https://www.cybernotes.uk/static/cybernotes.jpg" alt="" aria-label="logo"
+                    height="30">Cybernotes</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.cybernotes.uk/about/" title="ℹ️ About">
+                    <span>ℹ️ About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/archives/" title="📁 Archives">
+                    <span>📁 Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/tags/" title="🏷️ Tags">
+                    <span>🏷️ Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/useful/" title="✅ Useful">
+                    <span>✅ Useful</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/tools/" title="🪛 Tools">
+                    <span>🪛 Tools</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/ctf/" title="🚩 CTF">
+                    <span>🚩 CTF</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/cryptography/" title="🔒 Cryptography">
+                    <span>🔒 Cryptography</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/python/" title="🐍 Python">
+                    <span>🐍 Python</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/posts/" title="📝 Blog">
+                    <span>📝 Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/search/" title="🔍 Search (Alt &#43; /)" accesskey=/>
+                    <span>🔍 Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/cybernotes" title="🌐 Linkedin">
+                    <span>🌐 Linkedin</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://www.cybernotes.uk/">Home</a>&nbsp;»&nbsp;<a href="https://www.cybernotes.uk/posts/">Posts</a></div>
+    <h1 class="post-title">
+      fixme2.py
+    </h1>
+    <div class="post-meta"><span title='2022-12-10 18:42:51 +0200 EET'>December 10, 2022</span>&nbsp;·&nbsp;2 min
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>Download the fixme2.py file, open it in an editor and change it to the following.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> random
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">str_xor</span>(secret, key):
+    <span style="color:#75715e">#extend key to secret length</span>
+    new_key <span style="color:#f92672">=</span> key
+    i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+    <span style="color:#66d9ef">while</span> len(new_key) <span style="color:#f92672">&lt;</span> len(secret):
+        new_key <span style="color:#f92672">=</span> new_key <span style="color:#f92672">+</span> key[i]
+        i <span style="color:#f92672">=</span> (i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">%</span> len(key)        
+    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join([chr(ord(secret_c) <span style="color:#f92672">^</span> ord(new_key_c)) <span style="color:#66d9ef">for</span> (secret_c,new_key_c) <span style="color:#f92672">in</span> zip(secret,new_key)])
+
+flag_enc <span style="color:#f92672">=</span> chr(<span style="color:#ae81ff">0x15</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x07</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x08</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x06</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x27</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x21</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x23</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x15</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x58</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x18</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x11</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x41</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x09</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x5f</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x1f</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x10</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x3b</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x1b</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x55</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x1a</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x34</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x5d</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x51</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x40</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x54</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x09</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x05</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x04</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x57</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x1b</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x11</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x31</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x0e</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x51</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x5c</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x44</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x51</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x0a</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x5b</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x5a</span>) <span style="color:#f92672">+</span> chr(<span style="color:#ae81ff">0x19</span>)
+
+flag <span style="color:#f92672">=</span> str_xor(flag_enc, <span style="color:#e6db74">&#39;enkidu&#39;</span>)
+
+<span style="color:#75715e"># Check that flag is not empty</span>
+<span style="color:#66d9ef">if</span> flag <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span>:
+  print(<span style="color:#e6db74">&#39;String XOR encountered a problem, quitting.&#39;</span>)
+<span style="color:#66d9ef">else</span>:
+  print(<span style="color:#e6db74">&#39;That is correct! Here</span><span style="color:#ae81ff">\&#39;</span><span style="color:#e6db74">s your flag: &#39;</span> <span style="color:#f92672">+</span> flag)
+</code></pre></div><p>The problem was at the if statement</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> flag <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>:
+</code></pre></div><p>When we need to compare two values, we use ==. Assignment happens with just =, like when we want to assign a value to a variable, for example&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</code></pre></div><p>Finally, run the program with the following command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">python3 fixme2.py
+</code></pre></div><p>Nice, you&rsquo;ve got the flag!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.cybernotes.uk/tags/beginner-picomini-2022/">Beginner picoMini 2022</a></li>
+      <li><a href="https://www.cybernotes.uk/tags/general-skills/">General Skills</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://www.cybernotes.uk/posts/glitch_cat/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Glitch Cat</span>
+  </a>
+  <a class="next" href="https://www.cybernotes.uk/posts/fixme1/">
+    <span class="title">Next »</span>
+    <br>
+    <span>fixme1.py</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://www.cybernotes.uk/">Cybernotes</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

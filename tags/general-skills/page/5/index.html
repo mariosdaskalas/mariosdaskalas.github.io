@@ -141,6 +141,37 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2>Magikarp Ground Mission
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In this ctf, we will learn about SSH, ls and cat. If you know nothing about these terms, do not worry, we will cover them right now.
+You can always use the following commands to learn more about them in the terminal.
+man ssh man ls In a short, ssh is a program that has the purpose of logging into a remote machine and executes commands that the user wants....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-11-21 15:21:24 +0200 EET'>November 21, 2022</span>&nbsp;·&nbsp;3 min</footer>
+  <a class="entry-link" aria-label="post link to Magikarp Ground Mission" href="https://www.cybernotes.uk/posts/magikarp/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Tab Tab Attack
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>First dowload the Addadshashanammu.zip file.
+Run the following command to unzip its contents.
+unzip -u Addadshashanammu.zip Then change directory to Addadshashanammu
+cd Addadshashanammu/ We noticed that there are a lot of folders inside each one. So, we can either use Tab to autocomplete the path to the folders, until we reach to the deepest one.
+Alternative, we can run this command when we are inside Addadshashanammu folder.
+cd `find -printf &#39;%d %p\n&#39; | sort -n | tail -n 1 | cut -d &#39; &#39; -f 2-` That in turn returns the deepest level of the folder structure....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-11-12 16:13:24 +0200 EET'>November 12, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Tab Tab Attack" href="https://www.cybernotes.uk/posts/tab_tab_attack/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2>Static ain&#39;t always noise
     </h2>
   </header>
@@ -153,37 +184,6 @@ chmod &#43;x ltdis.sh Then in order to run the program use....</p>
   </div>
   <footer class="entry-footer"><span title='2022-11-12 14:48:36 +0200 EET'>November 12, 2022</span>&nbsp;·&nbsp;1 min</footer>
   <a class="entry-link" aria-label="post link to Static ain&#39;t always noise" href="https://www.cybernotes.uk/posts/static_noise/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2>Nice Netcat
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Run the following command.
-nc mercury.picoctf.net 35652 returns an output of numbers in decimal format. We have to create a python script in order to convert from this decimal output to ASCII text.
-First save the output to a file named flag.txt
-nc mercury.picoctf.net 35652 &gt; flag.txt After that, we need to place the numbers in the same line using awk.
-cat flag.txt | awk &#39;{print}&#39; ORS=&#39;&#39; After we got the output in the same line, here is the python script that converts decimal to ASCII text....</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-11-06 13:02:30 +0200 EET'>November 6, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Nice Netcat" href="https://www.cybernotes.uk/posts/nice_netcat/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2>Wave a Flag
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Download the warm program.
-cat warm; returns Hello user! Pass me a -h to learn what I can do!-hOh, help? I actually don’t do much, but I do have this flag here:
-We can already see the flag here, but we can take it a step further. Give permissions of the executable with:
-chmod &#43;x warm ./warm -h returns the flag.</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-11-06 13:02:20 +0200 EET'>November 6, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Wave a Flag" href="https://www.cybernotes.uk/posts/wave_a_flag/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

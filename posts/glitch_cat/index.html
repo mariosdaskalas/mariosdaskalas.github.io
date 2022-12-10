@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Glitch Cat | Cybernotes</title>
+<meta name="keywords" content="Beginner picoMini 2022, General Skills">
+<meta name="description" content="Open up the terminal and type the following command.
+nc saturn.picoctf.net 51109 You will get an output. Copy that output and open up a terminal and type the following command.
+python3 print(&#39;picoCTF{gl17ch_m3_n07_&#39; &#43; chr(0x62) &#43; chr(0x64) &#43; chr(0x61) &#43; chr(0x36) &#43; chr(0x38) &#43; chr(0x66) &#43; chr(0x37) &#43; chr(0x35) &#43; &#39;}&#39;) The output you get from nc might look something different. The point is to understand what you are doing.
+If you want to learn more about nc type in the terminal the following command.">
+<meta name="author" content="">
+<link rel="canonical" href="https://www.cybernotes.uk/posts/glitch_cat/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://www.cybernotes.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.cybernotes.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.cybernotes.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.cybernotes.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.cybernotes.uk/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNG226W446"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RNG226W446');
+</script><meta property="og:title" content="Glitch Cat" />
+<meta property="og:description" content="Open up the terminal and type the following command.
+nc saturn.picoctf.net 51109 You will get an output. Copy that output and open up a terminal and type the following command.
+python3 print(&#39;picoCTF{gl17ch_m3_n07_&#39; &#43; chr(0x62) &#43; chr(0x64) &#43; chr(0x61) &#43; chr(0x36) &#43; chr(0x38) &#43; chr(0x66) &#43; chr(0x37) &#43; chr(0x35) &#43; &#39;}&#39;) The output you get from nc might look something different. The point is to understand what you are doing.
+If you want to learn more about nc type in the terminal the following command." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.cybernotes.uk/posts/glitch_cat/" /><meta property="og:image" content="https://www.cybernotes.uk/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-10T18:50:35+02:00" />
+<meta property="article:modified_time" content="2022-12-10T18:50:35+02:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.cybernotes.uk/papermod-cover.png"/>
+
+<meta name="twitter:title" content="Glitch Cat"/>
+<meta name="twitter:description" content="Open up the terminal and type the following command.
+nc saturn.picoctf.net 51109 You will get an output. Copy that output and open up a terminal and type the following command.
+python3 print(&#39;picoCTF{gl17ch_m3_n07_&#39; &#43; chr(0x62) &#43; chr(0x64) &#43; chr(0x61) &#43; chr(0x36) &#43; chr(0x38) &#43; chr(0x66) &#43; chr(0x37) &#43; chr(0x35) &#43; &#39;}&#39;) The output you get from nc might look something different. The point is to understand what you are doing.
+If you want to learn more about nc type in the terminal the following command."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://www.cybernotes.uk/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Glitch Cat",
+      "item": "https://www.cybernotes.uk/posts/glitch_cat/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Glitch Cat",
+  "name": "Glitch Cat",
+  "description": "Open up the terminal and type the following command.\nnc saturn.picoctf.net 51109 You will get an output. Copy that output and open up a terminal and type the following command.\npython3 print(\u0026#39;picoCTF{gl17ch_m3_n07_\u0026#39; + chr(0x62) + chr(0x64) + chr(0x61) + chr(0x36) + chr(0x38) + chr(0x66) + chr(0x37) + chr(0x35) + \u0026#39;}\u0026#39;) The output you get from nc might look something different. The point is to understand what you are doing.\nIf you want to learn more about nc type in the terminal the following command.",
+  "keywords": [
+    "Beginner picoMini 2022", "General Skills"
+  ],
+  "articleBody": "Open up the terminal and type the following command.\nnc saturn.picoctf.net 51109 You will get an output. Copy that output and open up a terminal and type the following command.\npython3 print('picoCTF{gl17ch_m3_n07_' + chr(0x62) + chr(0x64) + chr(0x61) + chr(0x36) + chr(0x38) + chr(0x66) + chr(0x37) + chr(0x35) + '}') The output you get from nc might look something different. The point is to understand what you are doing.\nIf you want to learn more about nc type in the terminal the following command.\nman nc There is something called ASCII table, that is in a sense different mappings of the same representation. For example, the Decimal 98 is the same as 0x62 in the hexadecimal format and the ASCII character for that is ‘b’. Here is a link for the ASCII table in detail. So, to make things simpler, 0x62 is equal to ‘b’, chr(0x64) is equal to ’d' and so on. That’s how we fill in the remaining characters of the flag.\nImage Credit: ASCII Table\n",
+  "wordCount" : "168",
+  "inLanguage": "en",
+  "datePublished": "2022-12-10T18:50:35+02:00",
+  "dateModified": "2022-12-10T18:50:35+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.cybernotes.uk/posts/glitch_cat/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cybernotes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.cybernotes.uk/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.cybernotes.uk/" accesskey="h" title="Cybernotes (Alt + H)">
+                <img src="https://www.cybernotes.uk/static/cybernotes.jpg" alt="" aria-label="logo"
+                    height="30">Cybernotes</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.cybernotes.uk/about/" title="ℹ️ About">
+                    <span>ℹ️ About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/archives/" title="📁 Archives">
+                    <span>📁 Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/tags/" title="🏷️ Tags">
+                    <span>🏷️ Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/useful/" title="✅ Useful">
+                    <span>✅ Useful</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/tools/" title="🪛 Tools">
+                    <span>🪛 Tools</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/ctf/" title="🚩 CTF">
+                    <span>🚩 CTF</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/cryptography/" title="🔒 Cryptography">
+                    <span>🔒 Cryptography</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/python/" title="🐍 Python">
+                    <span>🐍 Python</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/posts/" title="📝 Blog">
+                    <span>📝 Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/search/" title="🔍 Search (Alt &#43; /)" accesskey=/>
+                    <span>🔍 Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/cybernotes" title="🌐 Linkedin">
+                    <span>🌐 Linkedin</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://www.cybernotes.uk/">Home</a>&nbsp;»&nbsp;<a href="https://www.cybernotes.uk/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Glitch Cat
+    </h1>
+    <div class="post-meta"><span title='2022-12-10 18:50:35 +0200 EET'>December 10, 2022</span>&nbsp;·&nbsp;1 min
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>Open up the terminal and type the following command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nc saturn.picoctf.net <span style="color:#ae81ff">51109</span>
+</code></pre></div><p>You will get an output. Copy that output and open up a terminal and type the following command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">python3
+print<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;picoCTF{gl17ch_m3_n07_&#39;</span> + chr<span style="color:#f92672">(</span>0x62<span style="color:#f92672">)</span> + chr<span style="color:#f92672">(</span>0x64<span style="color:#f92672">)</span> + chr<span style="color:#f92672">(</span>0x61<span style="color:#f92672">)</span> + chr<span style="color:#f92672">(</span>0x36<span style="color:#f92672">)</span> + chr<span style="color:#f92672">(</span>0x38<span style="color:#f92672">)</span> + chr<span style="color:#f92672">(</span>0x66<span style="color:#f92672">)</span> + chr<span style="color:#f92672">(</span>0x37<span style="color:#f92672">)</span> + chr<span style="color:#f92672">(</span>0x35<span style="color:#f92672">)</span> + <span style="color:#e6db74">&#39;}&#39;</span><span style="color:#f92672">)</span>
+</code></pre></div><p>The output you get from nc might look something different. The point is to understand what you are doing.</p>
+<p>If you want to learn more about nc type in the terminal the following command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">man nc
+</code></pre></div><p>There is something called ASCII table, that is in a sense different mappings of the same representation. For example, the Decimal 98 is the same as 0x62 in the hexadecimal format and the ASCII character for that is &lsquo;b&rsquo;. Here is a link for the ASCII table in detail. So, to make things simpler, 0x62 is equal to &lsquo;b&rsquo;, chr(0x64) is equal to &rsquo;d' and so on. That&rsquo;s how we fill in the remaining characters of the flag.</p>
+<p><img loading="lazy" src="/ascii_table.png" alt="ASCII Table"  title="ASCII Table"  />
+
+Image Credit: <a href="https://ss64.com/ascii.html">ASCII Table</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.cybernotes.uk/tags/beginner-picomini-2022/">Beginner picoMini 2022</a></li>
+      <li><a href="https://www.cybernotes.uk/tags/general-skills/">General Skills</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://www.cybernotes.uk/posts/fixme2/">
+    <span class="title">Next »</span>
+    <br>
+    <span>fixme2.py</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://www.cybernotes.uk/">Cybernotes</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
