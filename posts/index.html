@@ -156,6 +156,20 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>HashingJobApp
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>First, open up the terminal and using the following command initiate a connection with the server.
+nc saturn.picoctf.net 57689 You have to md5 hash the presented text between quotes. To do that, you can apply this command.
+echo -n &#34;cholesterol&#34; | md5sum md5sum is used to verify file integrity and authenticity. Say for example you’ve downloaded an Operating System from the Internet. If you use md5sum, a string is being generated, so you can compare that with the string of the authenticated one....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-12-18 11:02:25 +0200 EET'>December 18, 2022</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to HashingJobApp" href="https://www.cybernotes.uk/posts/hashingjobapp/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>Glitch Cat
     </h2>
   </header>
@@ -180,19 +194,6 @@ import random def str_xor(secret, key): #extend key to secret length new_key = k
   </div>
   <footer class="entry-footer"><span title='2022-12-10 18:42:51 +0200 EET'>December 10, 2022</span>&nbsp;·&nbsp;2 min</footer>
   <a class="entry-link" aria-label="post link to fixme2.py" href="https://www.cybernotes.uk/posts/fixme2/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>fixme1.py
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Download the fixme1.py file, open it in an editor and change it to the following.
-import random def str_xor(secret, key): #extend key to secret length new_key = key i = 0 while len(new_key) &lt; len(secret): new_key = new_key &#43; key[i] i = (i &#43; 1) % len(key) return &#34;&#34;.join([chr(ord(secret_c) ^ ord(new_key_c)) for (secret_c,new_key_c) in zip(secret,new_key)]) flag_enc = chr(0x15) &#43; chr(0x07) &#43; chr(0x08) &#43; chr(0x06) &#43; chr(0x27) &#43; chr(0x21) &#43; chr(0x23) &#43; chr(0x15) &#43; chr(0x5a) &#43; chr(0x07) &#43; chr(0x00) &#43; chr(0x46) &#43; chr(0x0b) &#43; chr(0x1a) &#43; chr(0x5a) &#43; chr(0x1d) &#43; chr(0x1d) &#43; chr(0x2a) &#43; chr(0x06) &#43; chr(0x1c) &#43; chr(0x5a) &#43; chr(0x5c) &#43; chr(0x55) &#43; chr(0x40) &#43; chr(0x3a) &#43; chr(0x5f) &#43; chr(0x53) &#43; chr(0x5b) &#43; chr(0x57) &#43; chr(0x41) &#43; chr(0x57) &#43; chr(0x08) &#43; chr(0x5c) &#43; chr(0x14) flag = str_xor(flag_enc, &#39;enkidu&#39;) print(&#39;That is correct!...</p>
-  </div>
-  <footer class="entry-footer"><span title='2022-12-04 16:18:57 +0200 EET'>December 4, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to fixme1.py" href="https://www.cybernotes.uk/posts/fixme1/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

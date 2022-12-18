@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Dec 2022 18:50:35 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Dec 2022 11:02:25 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HashingJobApp</title>
+      <link>https://www.cybernotes.uk/posts/hashingjobapp/</link>
+      <pubDate>Sun, 18 Dec 2022 11:02:25 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/hashingjobapp/</guid>
+      <description>First, open up the terminal and using the following command initiate a connection with the server.
+nc saturn.picoctf.net 57689 You have to md5 hash the presented text between quotes. To do that, you can apply this command.
+echo -n &amp;#34;cholesterol&amp;#34; | md5sum md5sum is used to verify file integrity and authenticity. Say for example you&amp;rsquo;ve downloaded an Operating System from the Internet. If you use md5sum, a string is being generated, so you can compare that with the string of the authenticated one.</description>
+    </item>
+    
     <item>
       <title>Glitch Cat</title>
       <link>https://www.cybernotes.uk/posts/glitch_cat/</link>
