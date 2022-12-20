@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Dec 2022 11:02:25 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 18:20:26 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PW Crack 1</title>
+      <link>https://www.cybernotes.uk/posts/pw_crack1/</link>
+      <pubDate>Tue, 20 Dec 2022 18:20:26 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/pw_crack1/</guid>
+      <description>First, dowload both the files in store them in the same directory. (level1.py and level1.flag.txt.enc).
+Open up the level1.py using your favorite editor or with the following command from the terminal.
+nano level1.py ### THIS FUNCTION WILL NOT HELP YOU FIND THE FLAG --LT ######################## def str_xor(secret, key): #extend key to secret length new_key = key i = 0 while len(new_key) &amp;lt; len(secret): new_key = new_key + key[i] i = (i + 1) % len(key) return &amp;#34;&amp;#34;.</description>
+    </item>
+    
     <item>
       <title>HashingJobApp</title>
       <link>https://www.cybernotes.uk/posts/hashingjobapp/</link>
