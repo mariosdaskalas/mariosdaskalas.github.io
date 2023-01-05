@@ -23,5 +23,16 @@ So, I decided to create a small program generating a random password using Pytho
 main.py import random import uppercase import lowercase import number import symbols import randoms print(&amp;#34;Welcome to Password Generator&amp;#34;) print(&amp;#34; --- List of available options --- &amp;#34;) print(&amp;#34;Choice 1: Uppercase&amp;#34;) print(&amp;#34;Choice 2: Lowercase&amp;#34;) print(&amp;#34;Choice 3: Numbers&amp;#34;) print(&amp;#34;Choice 4: Symbols&amp;#34;) print(&amp;#34;Choice 5: Random&amp;#34;) print(&amp;#34;Please select one choice: &amp;#34;) choice = input() if (choice == &amp;#34;1&amp;#34;): uppercase.</description>
     </item>
     
+    <item>
+      <title>Github</title>
+      <link>https://www.cybernotes.uk/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cybernotes.uk/github/</guid>
+      <description>This is a page containing personal Github repositories.
+pgenie w/ (Python) # Python program that generates a random password.
+pcrypt w/ (Python) # Python program still in progress&amp;hellip;</description>
+    </item>
+    
   </channel>
 </rss>
