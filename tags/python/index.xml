@@ -31,7 +31,7 @@ main.py import random import uppercase import lowercase import number import sym
       <guid>https://www.cybernotes.uk/github/</guid>
       <description>This is a page containing personal Github repositories.
 pgenie w/ (Python) # Python program that generates a random password.
-pcrypt w/ (Python) # Python program still in progress&amp;hellip;</description>
+pcrypt w/ (Python) # Python program that converts binary to different formats.</description>
     </item>
     
   </channel>
