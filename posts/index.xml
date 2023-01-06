@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Dec 2022 18:20:26 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 12:41:27 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binary Conversion</title>
+      <link>https://www.cybernotes.uk/posts/bin_convert/</link>
+      <pubDate>Fri, 06 Jan 2023 12:41:27 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/posts/bin_convert/</guid>
+      <description>Image by Gerd Altmann from Pixabay
+I wanted to create a python program that takes a binary input and converts them into a different format. So, here we go. The main.py is pretty straightforward, it just imports and calls the functions, presented by a series of options, regarding the intented action.
+main.py import base64 import binascii import base import ascbin import binoctal import bindecimal import binhexadecimal print(&amp;#34;Welcome to prcrypt!&amp;#34;) print(&amp;#34;Please choose one of the following options:&amp;#34;) print(&amp;#34;Choice 1: Base64:&amp;#34;) print(&amp;#34;Choice 2: Binary - Text:&amp;#34;) print(&amp;#34;Choice 3: Binary - Octal:&amp;#34;) print(&amp;#34;Choice 4: Binary - Decimal:&amp;#34;) print(&amp;#34;Choice 5: Binary - Hexadecimal:&amp;#34;) print(&amp;#34;Choice 0: Terminate the program:&amp;#34;) choice = input() if (choice == &amp;#34;0&amp;#34;): print(&amp;#34;Ending.</description>
+    </item>
+    
     <item>
       <title>PW Crack 1</title>
       <link>https://www.cybernotes.uk/posts/pw_crack1/</link>

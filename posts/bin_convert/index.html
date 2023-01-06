@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Binary Conversion | Cybernotes</title>
+<meta name="keywords" content="Python">
+<meta name="description" content="Image by Gerd Altmann from Pixabay
+I wanted to create a python program that takes a binary input and converts them into a different format. So, here we go. The main.py is pretty straightforward, it just imports and calls the functions, presented by a series of options, regarding the intented action.
+main.py import base64 import binascii import base import ascbin import binoctal import bindecimal import binhexadecimal print(&#34;Welcome to prcrypt!&#34;) print(&#34;Please choose one of the following options:&#34;) print(&#34;Choice 1: Base64:&#34;) print(&#34;Choice 2: Binary - Text:&#34;) print(&#34;Choice 3: Binary - Octal:&#34;) print(&#34;Choice 4: Binary - Decimal:&#34;) print(&#34;Choice 5: Binary - Hexadecimal:&#34;) print(&#34;Choice 0: Terminate the program:&#34;) choice = input() if (choice == &#34;0&#34;): print(&#34;Ending.">
+<meta name="author" content="">
+<link rel="canonical" href="https://www.cybernotes.uk/posts/bin_convert/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://www.cybernotes.uk/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.cybernotes.uk/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.cybernotes.uk/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.cybernotes.uk/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.cybernotes.uk/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNG226W446"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RNG226W446');
+</script><meta property="og:title" content="Binary Conversion" />
+<meta property="og:description" content="Image by Gerd Altmann from Pixabay
+I wanted to create a python program that takes a binary input and converts them into a different format. So, here we go. The main.py is pretty straightforward, it just imports and calls the functions, presented by a series of options, regarding the intented action.
+main.py import base64 import binascii import base import ascbin import binoctal import bindecimal import binhexadecimal print(&#34;Welcome to prcrypt!&#34;) print(&#34;Please choose one of the following options:&#34;) print(&#34;Choice 1: Base64:&#34;) print(&#34;Choice 2: Binary - Text:&#34;) print(&#34;Choice 3: Binary - Octal:&#34;) print(&#34;Choice 4: Binary - Decimal:&#34;) print(&#34;Choice 5: Binary - Hexadecimal:&#34;) print(&#34;Choice 0: Terminate the program:&#34;) choice = input() if (choice == &#34;0&#34;): print(&#34;Ending." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.cybernotes.uk/posts/bin_convert/" />
+<meta property="og:image" content="https://www.cybernotes.uk/binary.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-06T12:41:27+02:00" />
+<meta property="article:modified_time" content="2023-01-06T12:41:27+02:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://www.cybernotes.uk/binary.jpg" />
+<meta name="twitter:title" content="Binary Conversion"/>
+<meta name="twitter:description" content="Image by Gerd Altmann from Pixabay
+I wanted to create a python program that takes a binary input and converts them into a different format. So, here we go. The main.py is pretty straightforward, it just imports and calls the functions, presented by a series of options, regarding the intented action.
+main.py import base64 import binascii import base import ascbin import binoctal import bindecimal import binhexadecimal print(&#34;Welcome to prcrypt!&#34;) print(&#34;Please choose one of the following options:&#34;) print(&#34;Choice 1: Base64:&#34;) print(&#34;Choice 2: Binary - Text:&#34;) print(&#34;Choice 3: Binary - Octal:&#34;) print(&#34;Choice 4: Binary - Decimal:&#34;) print(&#34;Choice 5: Binary - Hexadecimal:&#34;) print(&#34;Choice 0: Terminate the program:&#34;) choice = input() if (choice == &#34;0&#34;): print(&#34;Ending."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://www.cybernotes.uk/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Binary Conversion",
+      "item": "https://www.cybernotes.uk/posts/bin_convert/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Binary Conversion",
+  "name": "Binary Conversion",
+  "description": "Image by Gerd Altmann from Pixabay\nI wanted to create a python program that takes a binary input and converts them into a different format. So, here we go. The main.py is pretty straightforward, it just imports and calls the functions, presented by a series of options, regarding the intented action.\nmain.py import base64 import binascii import base import ascbin import binoctal import bindecimal import binhexadecimal print(\u0026#34;Welcome to prcrypt!\u0026#34;) print(\u0026#34;Please choose one of the following options:\u0026#34;) print(\u0026#34;Choice 1: Base64:\u0026#34;) print(\u0026#34;Choice 2: Binary - Text:\u0026#34;) print(\u0026#34;Choice 3: Binary - Octal:\u0026#34;) print(\u0026#34;Choice 4: Binary - Decimal:\u0026#34;) print(\u0026#34;Choice 5: Binary - Hexadecimal:\u0026#34;) print(\u0026#34;Choice 0: Terminate the program:\u0026#34;) choice = input() if (choice == \u0026#34;0\u0026#34;): print(\u0026#34;Ending.",
+  "keywords": [
+    "Python"
+  ],
+  "articleBody": "Image by Gerd Altmann from Pixabay\nI wanted to create a python program that takes a binary input and converts them into a different format. So, here we go. The main.py is pretty straightforward, it just imports and calls the functions, presented by a series of options, regarding the intented action.\nmain.py import base64 import binascii import base import ascbin import binoctal import bindecimal import binhexadecimal print(\"Welcome to prcrypt!\") print(\"Please choose one of the following options:\") print(\"Choice 1: Base64:\") print(\"Choice 2: Binary - Text:\") print(\"Choice 3: Binary - Octal:\") print(\"Choice 4: Binary - Decimal:\") print(\"Choice 5: Binary - Hexadecimal:\") print(\"Choice 0: Terminate the program:\") choice = input() if (choice == \"0\"): print(\"Ending...\") elif (choice == \"1\"): base.base64_function() elif (choice == \"2\"): ascbin.ascbin_function() elif (choice == \"3\"): binoctal.binoctal_function() elif (choice == \"4\"): bindecimal.bindecimal_function() elif (choice == \"5\"): binhexadecimal.binhex_function() else: print(\"Invalid Choice...\") print(\"Ending program...\") base.py Let’s proceed with the base function. First, it takes a text as an input, encodes into the ASCII representation, then encode into b64 format, and finally decode again into ASCII in order to print it. The base64 decoding operates on the opposite logic.\nimport base64 def base64_function(): print(\"You choose Base64.\") print(\"Please type if you want to 'encode' or 'decode...\") encdec = input() # base64 encoding if (encdec == \"encode\"): print(\"You choose Encode...\") print(\"Please type the text you want to encode...\") base64txt = input() base64txt_byte = base64txt.encode(\"ascii\") base64_byte = base64.b64encode(base64txt_byte) base64_final = base64_byte.decode(\"ascii\") print(\"Result: \" + base64_final) # base64 decoding if (encdec == \"decode\"): print(\"You choose Decode...\") print(\"Please type the text you want to decode...\") base64txt = input() base64txt_byte = base64txt.encode(\"ascii\") base64_byte = base64.b64decode(base64txt_byte) base64_final = base64_byte.decode(\"ascii\") print(\"Result: \" + base64_final) ascbin.py Next, it is the turn of conversion from text to binary and vice-versa. We are using ord() that returns the number representing the unicode code of a character. For the conversion from binary to text, we first split the input and with the help of for looping. Finally we convert it to a binary value with the help if bin and afterwards we use chr() in order to return the specified unicode.\ndef ascbin_function(): print(\"You choose Binary - Text.\") print(\"Please type 'text' if you want to convert from 'text' to 'binary':\") print(\"Please type 'binary' if you want to convert from 'binary' to 'text':\") binary_input = input() if (binary_input == \"text\"): print(\"Give the text you want to convert...\") txt = input() txt_bin = ' '.join(format(ord(i), 'b') for i in txt) print(\"Result: \" + txt_bin) if (binary_input == \"binary\"): print(\"Give the binary you want to convert...\") txt = input() bin_values = txt.split() ascii_str = \"\" for bin_value in bin_values: integer_val = int(bin_value, 2) ascii_char = chr(integer_val) ascii_str = ascii_str + ascii_char print(ascii_str) binoctal.py Continuing, we move to binary - octal conversion. First, we take as an input a binary value and with the help of oct() and [2:], we convert it to an octal representaation, removing at the same time the 0b. The exact same process we follow with the opposite process, but using the bin command.\ndef binoctal_function(): print(\"You choose Binary - Octal.\") print(\"Please type 'binary' if you want to convert from 'binary' to 'octal':\") print(\"Please type 'octal' if you want to convert from 'binary' to 'binary':\") binary_input = input() if (binary_input == \"binary\"): print(\"Give the binary value you want to convert...\") txt = input() octal = int(txt, 2) octal = oct(octal) print(octal[2:]) if (binary_input == \"octal\"): print(\"Give the octal value you want to convert...\") txt = input() bin_txt = int(txt, 8) bin_txt = bin(bin_txt) print(bin_txt[2:]) bindecimal.py We have not much to say here. We convert it to an integer with int() from binary and to binary with the help of bin() and [2:] to remove ‘0b’.\ndef bindecimal_function(): print(\"You choose Binary - Decimal.\") print(\"Please type 'binary' if you want to convert from 'binary' to 'decimal':\") print(\"Please type 'decimal' if you want to convert from 'decimal' to 'binary':\") binary_input = input() if (binary_input == \"binary\"): print(\"Give the binary value you want to convert...\") txt = input() bin_txt = int(txt, 2) print(bin_txt) if (binary_input == \"decimal\"): print(\"Give the decimal value you want to convert...\") txt = input() dec_txt = bin(int(txt)) dec_txt = dec_txt[2:] print(dec_txt) binhexadecimal.py In order to convert from binary to hex we follow this procedure. First, we use hex() and int() to convert it to hex and to an integer. Afterwars, hex has a base of 16 and with bin() and [2:] we convert it to binary removing at the same time the ‘0b’.\nimport binascii def binhex_function(): print(\"You choose Binary - Hexadecimal.\") print(\"Please type 'binary' if you want to convert from 'binary' to 'hex':\") print(\"Please type 'hex' if you want to convert from 'hex' to 'binary':\") binary_input = input() if (binary_input == \"binary\"): print(\"Give the binary value you want to convert...\") txt = input() hex_txt = hex(int(txt, 2)) hex_txt = hex_txt[2:] print(hex_txt.upper()) if (binary_input == \"hex\"): print(\"Give the hex value you want to convert...\") txt = input() bin_txt = bin(int(txt, 16))[2:] print(bin_txt) Run Program  Github You can find the Source Code on Github.\n",
+  "wordCount" : "828",
+  "inLanguage": "en",
+  "image":"https://www.cybernotes.uk/binary.jpg","datePublished": "2023-01-06T12:41:27+02:00",
+  "dateModified": "2023-01-06T12:41:27+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.cybernotes.uk/posts/bin_convert/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cybernotes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.cybernotes.uk/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.cybernotes.uk/" accesskey="h" title="Cybernotes (Alt + H)">
+                <img src="https://www.cybernotes.uk/static/cybernotes.jpg" alt="" aria-label="logo"
+                    height="30">Cybernotes</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.cybernotes.uk/about/" title="ℹ️ About">
+                    <span>ℹ️ About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/archives/" title="📁 Archives">
+                    <span>📁 Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/tags/" title="🏷️ Tags">
+                    <span>🏷️ Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/useful/" title="✅ Useful">
+                    <span>✅ Useful</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/tools/" title="🪛 Tools">
+                    <span>🪛 Tools</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/ctf/" title="🚩 CTF">
+                    <span>🚩 CTF</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/cryptography/" title="🔒 Cryptography">
+                    <span>🔒 Cryptography</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/python/" title="🐍 Python">
+                    <span>🐍 Python</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/github/" title="☕ Github">
+                    <span>☕ Github</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/posts/" title="📝 Blog">
+                    <span>📝 Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cybernotes.uk/search/" title="🔍 Search (Alt &#43; /)" accesskey=/>
+                    <span>🔍 Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/cybernotes" title="🌐 Linkedin">
+                    <span>🌐 Linkedin</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://www.cybernotes.uk/">Home</a>&nbsp;»&nbsp;<a href="https://www.cybernotes.uk/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Binary Conversion
+    </h1>
+    <div class="post-meta"><span title='2023-01-06 12:41:27 +0200 EET'>January 6, 2023</span>&nbsp;·&nbsp;4 min
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://www.cybernotes.uk/binary.jpg" alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#_mainpy_" aria-label="main.py"><em>main.py</em></a></li>
+                <li>
+                    <a href="#_basepy_" aria-label="base.py"><em>base.py</em></a></li>
+                <li>
+                    <a href="#_ascbinpy_" aria-label="ascbin.py"><em>ascbin.py</em></a></li>
+                <li>
+                    <a href="#_binoctalpy_" aria-label="binoctal.py"><em>binoctal.py</em></a></li>
+                <li>
+                    <a href="#_bindecimalpy_" aria-label="bindecimal.py"><em>bindecimal.py</em></a></li>
+                <li>
+                    <a href="#_binhexadecimalpy_" aria-label="binhexadecimal.py"><em>binhexadecimal.py</em></a></li>
+                <li>
+                    <a href="#_run-program_" aria-label="Run Program"><em>Run Program</em></a></li>
+                <li>
+                    <a href="#github" aria-label="Github">Github</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=475664">Gerd Altmann</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=475664">Pixabay</a></p>
+<p>I wanted to create a python program that takes a binary input and converts them into a different format. So, here we go. The <em>main.py</em> is pretty straightforward, it just imports and calls the functions, presented by a series of options, regarding the intented action.</p>
+<h3 id="_mainpy_"><em>main.py</em><a hidden class="anchor" aria-hidden="true" href="#_mainpy_">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> base64
+<span style="color:#f92672">import</span> binascii
+<span style="color:#f92672">import</span> base
+<span style="color:#f92672">import</span> ascbin
+<span style="color:#f92672">import</span> binoctal
+<span style="color:#f92672">import</span> bindecimal
+<span style="color:#f92672">import</span> binhexadecimal
+
+print(<span style="color:#e6db74">&#34;Welcome to prcrypt!&#34;</span>)
+print(<span style="color:#e6db74">&#34;Please choose one of the following options:&#34;</span>)
+
+print(<span style="color:#e6db74">&#34;Choice 1: Base64:&#34;</span>)
+print(<span style="color:#e6db74">&#34;Choice 2: Binary - Text:&#34;</span>)
+print(<span style="color:#e6db74">&#34;Choice 3: Binary - Octal:&#34;</span>)
+print(<span style="color:#e6db74">&#34;Choice 4: Binary - Decimal:&#34;</span>)
+print(<span style="color:#e6db74">&#34;Choice 5: Binary - Hexadecimal:&#34;</span>)
+print(<span style="color:#e6db74">&#34;Choice 0: Terminate the program:&#34;</span>)
+
+choice <span style="color:#f92672">=</span> input()
+
+<span style="color:#66d9ef">if</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;0&#34;</span>):
+    print(<span style="color:#e6db74">&#34;Ending...&#34;</span>)
+<span style="color:#66d9ef">elif</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;1&#34;</span>):
+    base<span style="color:#f92672">.</span>base64_function()
+<span style="color:#66d9ef">elif</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;2&#34;</span>):
+    ascbin<span style="color:#f92672">.</span>ascbin_function()
+<span style="color:#66d9ef">elif</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;3&#34;</span>):
+    binoctal<span style="color:#f92672">.</span>binoctal_function()
+<span style="color:#66d9ef">elif</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;4&#34;</span>):
+    bindecimal<span style="color:#f92672">.</span>bindecimal_function()
+<span style="color:#66d9ef">elif</span> (choice <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;5&#34;</span>):
+    binhexadecimal<span style="color:#f92672">.</span>binhex_function()
+<span style="color:#66d9ef">else</span>:
+    print(<span style="color:#e6db74">&#34;Invalid Choice...&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Ending program...&#34;</span>)
+</code></pre></div><h3 id="_basepy_"><em>base.py</em><a hidden class="anchor" aria-hidden="true" href="#_basepy_">#</a></h3>
+<p>Let&rsquo;s proceed with the base function. First, it takes a text as an input, encodes into the ASCII representation, then encode into b64 format, and finally decode again into ASCII in order to print it. The base64 decoding operates on the opposite logic.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> base64
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">base64_function</span>():
+    print(<span style="color:#e6db74">&#34;You choose Base64.&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Please type if you want to &#39;encode&#39; or &#39;decode...&#34;</span>)
+
+    encdec <span style="color:#f92672">=</span> input()
+
+    <span style="color:#75715e"># base64 encoding</span>
+    <span style="color:#66d9ef">if</span> (encdec <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;encode&#34;</span>):
+        print(<span style="color:#e6db74">&#34;You choose Encode...&#34;</span>)
+        print(<span style="color:#e6db74">&#34;Please type the text you want to encode...&#34;</span>)
+
+        base64txt <span style="color:#f92672">=</span> input()
+        base64txt_byte <span style="color:#f92672">=</span> base64txt<span style="color:#f92672">.</span>encode(<span style="color:#e6db74">&#34;ascii&#34;</span>)
+        base64_byte <span style="color:#f92672">=</span> base64<span style="color:#f92672">.</span>b64encode(base64txt_byte)
+        base64_final <span style="color:#f92672">=</span> base64_byte<span style="color:#f92672">.</span>decode(<span style="color:#e6db74">&#34;ascii&#34;</span>)
+
+        print(<span style="color:#e6db74">&#34;Result: &#34;</span> <span style="color:#f92672">+</span> base64_final)
+
+    <span style="color:#75715e"># base64 decoding</span>
+    <span style="color:#66d9ef">if</span> (encdec <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;decode&#34;</span>):
+        print(<span style="color:#e6db74">&#34;You choose Decode...&#34;</span>)
+        print(<span style="color:#e6db74">&#34;Please type the text you want to decode...&#34;</span>)
+
+        base64txt <span style="color:#f92672">=</span> input()
+        base64txt_byte <span style="color:#f92672">=</span> base64txt<span style="color:#f92672">.</span>encode(<span style="color:#e6db74">&#34;ascii&#34;</span>)
+        base64_byte <span style="color:#f92672">=</span> base64<span style="color:#f92672">.</span>b64decode(base64txt_byte)
+        base64_final <span style="color:#f92672">=</span> base64_byte<span style="color:#f92672">.</span>decode(<span style="color:#e6db74">&#34;ascii&#34;</span>)
+
+        print(<span style="color:#e6db74">&#34;Result: &#34;</span> <span style="color:#f92672">+</span> base64_final)
+</code></pre></div><h3 id="_ascbinpy_"><em>ascbin.py</em><a hidden class="anchor" aria-hidden="true" href="#_ascbinpy_">#</a></h3>
+<p>Next, it is the turn of conversion from text to binary and vice-versa. We are using ord() that returns the number representing the unicode code of a character. For the conversion from binary to text, we first split the input and with the help of for looping. Finally we convert it to a binary value with the help if <em>bin</em> and afterwards we use <em>chr()</em> in order to return the specified unicode.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ascbin_function</span>():
+    print(<span style="color:#e6db74">&#34;You choose Binary - Text.&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Please type &#39;text&#39; if you want to convert from &#39;text&#39; to &#39;binary&#39;:&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Please type &#39;binary&#39; if you want to convert from &#39;binary&#39; to &#39;text&#39;:&#34;</span>)
+    
+    binary_input <span style="color:#f92672">=</span> input()
+
+    <span style="color:#66d9ef">if</span> (binary_input <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;text&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Give the text you want to convert...&#34;</span>)
+
+        txt <span style="color:#f92672">=</span> input()
+        txt_bin <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39; &#39;</span><span style="color:#f92672">.</span>join(format(ord(i), <span style="color:#e6db74">&#39;b&#39;</span>) <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> txt)
+        print(<span style="color:#e6db74">&#34;Result: &#34;</span> <span style="color:#f92672">+</span> txt_bin)
+
+    <span style="color:#66d9ef">if</span> (binary_input <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;binary&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Give the binary you want to convert...&#34;</span>)
+
+        txt <span style="color:#f92672">=</span> input()
+        bin_values <span style="color:#f92672">=</span> txt<span style="color:#f92672">.</span>split()
+        ascii_str <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+        <span style="color:#66d9ef">for</span> bin_value <span style="color:#f92672">in</span> bin_values:
+            integer_val <span style="color:#f92672">=</span> int(bin_value, <span style="color:#ae81ff">2</span>)
+            ascii_char <span style="color:#f92672">=</span> chr(integer_val)
+            ascii_str <span style="color:#f92672">=</span> ascii_str <span style="color:#f92672">+</span> ascii_char
+
+        print(ascii_str)
+</code></pre></div><h3 id="_binoctalpy_"><em>binoctal.py</em><a hidden class="anchor" aria-hidden="true" href="#_binoctalpy_">#</a></h3>
+<p>Continuing, we move to binary - octal conversion. First, we take as an input a binary value and with the help of <em>oct()</em> and [2:], we convert it to an octal representaation, removing at the same time the 0b. The exact same process we follow with the opposite process, but using the <em>bin</em> command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">binoctal_function</span>():
+    print(<span style="color:#e6db74">&#34;You choose Binary - Octal.&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Please type &#39;binary&#39; if you want to convert from &#39;binary&#39; to &#39;octal&#39;:&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Please type &#39;octal&#39; if you want to convert from &#39;binary&#39; to &#39;binary&#39;:&#34;</span>)
+
+    binary_input <span style="color:#f92672">=</span> input()
+
+    <span style="color:#66d9ef">if</span> (binary_input <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;binary&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Give the binary value you want to convert...&#34;</span>)
+
+        txt <span style="color:#f92672">=</span> input()
+        octal <span style="color:#f92672">=</span> int(txt, <span style="color:#ae81ff">2</span>)
+        octal <span style="color:#f92672">=</span> oct(octal)
+        print(octal[<span style="color:#ae81ff">2</span>:])
+
+    <span style="color:#66d9ef">if</span> (binary_input <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;octal&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Give the octal value you want to convert...&#34;</span>)
+        
+        txt <span style="color:#f92672">=</span> input()
+        bin_txt <span style="color:#f92672">=</span> int(txt, <span style="color:#ae81ff">8</span>)
+        bin_txt <span style="color:#f92672">=</span> bin(bin_txt)
+        print(bin_txt[<span style="color:#ae81ff">2</span>:])
+</code></pre></div><h3 id="_bindecimalpy_"><em>bindecimal.py</em><a hidden class="anchor" aria-hidden="true" href="#_bindecimalpy_">#</a></h3>
+<p>We have not much to say here. We convert it to an integer with <em>int()</em> from binary and to binary with the help of <em>bin()</em> and [2:] to remove &lsquo;0b&rsquo;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">bindecimal_function</span>():
+    print(<span style="color:#e6db74">&#34;You choose Binary - Decimal.&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Please type &#39;binary&#39; if you want to convert from &#39;binary&#39; to &#39;decimal&#39;:&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Please type &#39;decimal&#39; if you want to convert from &#39;decimal&#39; to &#39;binary&#39;:&#34;</span>)
+
+    binary_input <span style="color:#f92672">=</span> input()
+
+    <span style="color:#66d9ef">if</span> (binary_input <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;binary&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Give the binary value you want to convert...&#34;</span>)
+
+        txt <span style="color:#f92672">=</span> input()
+        bin_txt <span style="color:#f92672">=</span> int(txt, <span style="color:#ae81ff">2</span>)
+        print(bin_txt)
+    
+    <span style="color:#66d9ef">if</span> (binary_input <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;decimal&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Give the decimal value you want to convert...&#34;</span>)
+
+        txt <span style="color:#f92672">=</span> input()
+        dec_txt <span style="color:#f92672">=</span> bin(int(txt))
+        dec_txt <span style="color:#f92672">=</span> dec_txt[<span style="color:#ae81ff">2</span>:]
+        print(dec_txt)
+</code></pre></div><h3 id="_binhexadecimalpy_"><em>binhexadecimal.py</em><a hidden class="anchor" aria-hidden="true" href="#_binhexadecimalpy_">#</a></h3>
+<p>In order to convert from binary to hex we follow this procedure. First, we use <em>hex()</em> and <em>int()</em> to convert it to hex and to an integer. Afterwars, hex has a base of 16 and with <em>bin()</em> and [2:] we convert it to binary removing at the same time the &lsquo;0b&rsquo;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> binascii
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">binhex_function</span>():
+    print(<span style="color:#e6db74">&#34;You choose Binary - Hexadecimal.&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Please type &#39;binary&#39; if you want to convert from &#39;binary&#39; to &#39;hex&#39;:&#34;</span>)
+    print(<span style="color:#e6db74">&#34;Please type &#39;hex&#39; if you want to convert from &#39;hex&#39; to &#39;binary&#39;:&#34;</span>)
+
+    binary_input <span style="color:#f92672">=</span> input()
+
+    <span style="color:#66d9ef">if</span> (binary_input <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;binary&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Give the binary value you want to convert...&#34;</span>)
+
+        txt <span style="color:#f92672">=</span> input()
+        hex_txt <span style="color:#f92672">=</span> hex(int(txt, <span style="color:#ae81ff">2</span>))
+        hex_txt <span style="color:#f92672">=</span> hex_txt[<span style="color:#ae81ff">2</span>:]
+        print(hex_txt<span style="color:#f92672">.</span>upper())
+    
+    <span style="color:#66d9ef">if</span> (binary_input <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;hex&#34;</span>):
+        print(<span style="color:#e6db74">&#34;Give the hex value you want to convert...&#34;</span>)
+
+        txt <span style="color:#f92672">=</span> input()
+        bin_txt <span style="color:#f92672">=</span> bin(int(txt, <span style="color:#ae81ff">16</span>))[<span style="color:#ae81ff">2</span>:]
+        print(bin_txt)
+</code></pre></div><h3 id="_run-program_"><em>Run Program</em><a hidden class="anchor" aria-hidden="true" href="#_run-program_">#</a></h3>
+<iframe src="https://trinket.io/embed/python3/2893e33243?outputOnly=true&runOption=run" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<h3 id="github">Github<a hidden class="anchor" aria-hidden="true" href="#github">#</a></h3>
+<p>You can find the Source Code on <a href="https://github.com/mariosdaskalas/pcrypt">Github</a>.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.cybernotes.uk/tags/python/">Python</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://www.cybernotes.uk/posts/pw_crack1/">
+    <span class="title">Next »</span>
+    <br>
+    <span>PW Crack 1</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://www.cybernotes.uk/">Cybernotes</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Dec 2022 18:20:26 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 12:41:27 +0200</lastBuildDate><atom:link href="https://www.cybernotes.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://www.cybernotes.uk/tags/python/</link>
+      <pubDate>Fri, 06 Jan 2023 12:41:27 +0200</pubDate>
+      
+      <guid>https://www.cybernotes.uk/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Beginner picoMini 2022</title>
       <link>https://www.cybernotes.uk/tags/beginner-picomini-2022/</link>
@@ -26,15 +35,6 @@
       <pubDate>Tue, 20 Dec 2022 18:20:26 +0200</pubDate>
       
       <guid>https://www.cybernotes.uk/tags/general-skills/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://www.cybernotes.uk/tags/python/</link>
-      <pubDate>Wed, 30 Nov 2022 13:37:01 +0200</pubDate>
-      
-      <guid>https://www.cybernotes.uk/tags/python/</guid>
       <description></description>
     </item>
     
