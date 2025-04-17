@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyber Security on cybernotes.uk</title>
+    <link>http://localhost:1313/docs/cyber-security/</link>
+    <description>Recent content in Cyber Security on cybernotes.uk</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Apr 2025 16:57:53 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/cyber-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Malware Analysis</title>
+      <link>http://localhost:1313/docs/cyber-security/malware-analysis/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/cyber-security/malware-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Penetration Testing</title>
+      <link>http://localhost:1313/docs/cyber-security/penetration-testing/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/cyber-security/penetration-testing/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Engineering on cybernotes.uk</title>
+    <link>http://localhost:1313/docs/software-engineering/</link>
+    <description>Recent content in Software Engineering on cybernotes.uk</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Apr 2025 16:57:53 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C</title>
+      <link>http://localhost:1313/docs/software-engineering/c/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/software-engineering/c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>http://localhost:1313/docs/software-engineering/go/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/software-engineering/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/docs/software-engineering/python/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/software-engineering/python/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

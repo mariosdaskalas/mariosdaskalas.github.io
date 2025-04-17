@@ -1,18 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>cybernotes.uk</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on cybernotes.uk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Apr 2025 16:57:53 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Page</title>
-      <link>http://localhost:1313/docs/example-page/</link>
+      <title>C</title>
+      <link>http://localhost:1313/docs/software-engineering/c/</link>
       <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
-      <guid>http://localhost:1313/docs/example-page/</guid>
+      <guid>http://localhost:1313/docs/software-engineering/c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>http://localhost:1313/docs/artificial-intelligence/data-science/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/artificial-intelligence/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>http://localhost:1313/docs/software-engineering/go/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/software-engineering/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/docs/artificial-intelligence/machine-learning/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/artificial-intelligence/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Malware Analysis</title>
+      <link>http://localhost:1313/docs/cyber-security/malware-analysis/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/cyber-security/malware-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neuroscience</title>
+      <link>http://localhost:1313/docs/neuroscience/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/neuroscience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Penetration Testing</title>
+      <link>http://localhost:1313/docs/cyber-security/penetration-testing/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/cyber-security/penetration-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psychology</title>
+      <link>http://localhost:1313/docs/psychology/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/psychology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/docs/software-engineering/python/</link>
+      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
+      <guid>http://localhost:1313/docs/software-engineering/python/</guid>
       <description></description>
     </item>
   </channel>

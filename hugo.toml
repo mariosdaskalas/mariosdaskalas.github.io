@@ -1,6 +1,6 @@
 baseURL = 'https://mariosdaskalas.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'cybernotes.uk'
 
 [module]
     [[module.imports]]
@@ -12,6 +12,15 @@ title = 'My New Hugo Site'
 
 [markup.goldmark.renderer]
     unsafe = true
+
+[params.docs] 
+darkMode = true
+lastMod = true
+sidebarIcons = true
+
+[params.social]
+github = "mariosdaskalas"
+rss = true
 
 [[menu.primary]]
     name  = "Blog"
