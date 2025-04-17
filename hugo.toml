@@ -14,7 +14,7 @@ title = 'My New Hugo Site'
     unsafe = true
 
 [[menu.primary]]
-    name  = "Docs"
-    url = "/docs/"
-    identifier = "docs"
+    name  = "Blog"
+    url = "/blog/"
+    identifier = "blog"
     weight = 10
