@@ -15,6 +15,6 @@ title = 'My New Hugo Site'
 
 [[menu.primary]]
     name  = "Blog"
-    url = "/blog/"
+    url = "/docs/"
     identifier = "blog"
     weight = 10
