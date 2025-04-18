@@ -2,13 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/docs/software-development/c/</loc>
+    <lastmod>2025-04-18T12:34:06+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/software-development/go/</loc>
+    <lastmod>2025-04-18T12:33:53+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/software-development/python/</loc>
+    <lastmod>2025-04-18T12:31:39+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/artificial-intelligence/machine-learning/</loc>
+    <lastmod>2025-04-18T12:26:04+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/artificial-intelligence/data-science/</loc>
+    <lastmod>2025-04-18T12:25:56+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/cyber-security/reverse-engineering/</loc>
+    <lastmod>2025-04-18T12:24:30+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/cyber-security/penetration-testing/</loc>
+    <lastmod>2025-04-18T12:24:07+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/cyber-security/malware-analysis/</loc>
+    <lastmod>2025-04-18T12:23:56+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/cyber-security/capture-the-flag/</loc>
+    <lastmod>2025-04-18T12:23:07+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/docs/neuroscience/</loc>
     <lastmod>2025-04-17T22:45:35+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/psychology/</loc>
     <lastmod>2025-04-17T22:45:29+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/software-engineering/</loc>
+    <loc>http://localhost:1313/docs/software-development/</loc>
     <lastmod>2025-04-17T19:44:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/artificial-intelligence/</loc>
@@ -17,32 +44,11 @@
     <loc>http://localhost:1313/docs/cyber-security/</loc>
     <lastmod>2025-04-17T19:38:53+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/software-engineering/c/</loc>
-    <lastmod>2025-04-17T16:57:53+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/artificial-intelligence/data-science/</loc>
-    <lastmod>2025-04-17T16:57:53+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/software-engineering/go/</loc>
-    <lastmod>2025-04-17T16:57:53+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/artificial-intelligence/machine-learning/</loc>
-    <lastmod>2025-04-17T16:57:53+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/cyber-security/malware-analysis/</loc>
-    <lastmod>2025-04-17T16:57:53+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/cyber-security/penetration-testing/</loc>
-    <lastmod>2025-04-17T16:57:53+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/software-engineering/python/</loc>
-    <lastmod>2025-04-17T16:57:53+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-17T22:45:35+03:00</lastmod>
+    <lastmod>2025-04-18T12:34:06+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2025-04-17T22:45:35+03:00</lastmod>
+    <lastmod>2025-04-18T12:34:06+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

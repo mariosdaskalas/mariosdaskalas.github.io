@@ -6,56 +6,7 @@
     <description>Recent content on cybernotes.uk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Apr 2025 16:57:53 +0300</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>C</title>
-      <link>http://localhost:1313/docs/software-engineering/c/</link>
-      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
-      <guid>http://localhost:1313/docs/software-engineering/c/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Science</title>
-      <link>http://localhost:1313/docs/artificial-intelligence/data-science/</link>
-      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
-      <guid>http://localhost:1313/docs/artificial-intelligence/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go</title>
-      <link>http://localhost:1313/docs/software-engineering/go/</link>
-      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
-      <guid>http://localhost:1313/docs/software-engineering/go/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine Learning</title>
-      <link>http://localhost:1313/docs/artificial-intelligence/machine-learning/</link>
-      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
-      <guid>http://localhost:1313/docs/artificial-intelligence/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Malware Analysis</title>
-      <link>http://localhost:1313/docs/cyber-security/malware-analysis/</link>
-      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
-      <guid>http://localhost:1313/docs/cyber-security/malware-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Penetration Testing</title>
-      <link>http://localhost:1313/docs/cyber-security/penetration-testing/</link>
-      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
-      <guid>http://localhost:1313/docs/cyber-security/penetration-testing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/docs/software-engineering/python/</link>
-      <pubDate>Thu, 17 Apr 2025 16:57:53 +0300</pubDate>
-      <guid>http://localhost:1313/docs/software-engineering/python/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
