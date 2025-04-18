@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cybernotes.uk</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on cybernotes.uk</description>
+    <title>General Skills on cybernotes.uk</title>
+    <link>http://localhost:1313/tags/general-skills/</link>
+    <description>Recent content in General Skills on cybernotes.uk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Apr 2025 19:44:05 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/general-skills/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>picoCTF - Bases</title>
-      <link>http://localhost:1313/docs/cyber-security/capture-the-flag/picoctf/bases/</link>
+      <title>Bases</title>
+      <link>http://localhost:1313/docs/cyber-security/capture-the-flag/bases/</link>
       <pubDate>Thu, 17 Apr 2025 19:44:05 +0300</pubDate>
-      <guid>http://localhost:1313/docs/cyber-security/capture-the-flag/picoctf/bases/</guid>
+      <guid>http://localhost:1313/docs/cyber-security/capture-the-flag/bases/</guid>
       <description>&lt;p&gt;What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.&lt;/p&gt;&#xA;&lt;p&gt;Run the following command in the terminal.&lt;/p&gt;&#xA;&#xA;&#xA;    &#xA;    &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;bDNhcm5fdGgzX3IwcDM1&amp;#39;&lt;/span&gt; | base64 -d&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;Engulf the output inside picoCTF{output}&lt;/p&gt;&#xA;&lt;p&gt;But, let&amp;rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format.&lt;/p&gt;&#xA;&lt;p&gt;So, base64 is just a format that is in a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read.&lt;/p&gt;</description>
     </item>
   </channel>

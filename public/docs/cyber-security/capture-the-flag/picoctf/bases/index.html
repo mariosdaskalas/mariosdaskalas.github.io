@@ -18,7 +18,7 @@
 
 <html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
-    <title>Capture the Flag | cybernotes.uk</title>
+    <title>picoCTF - Bases | cybernotes.uk</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
@@ -33,13 +33,31 @@
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
-<meta property="og:title" content="Capture the Flag" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/docs/cyber-security/capture-the-flag/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu_98621046e721bc0a.png"/><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu_98621046e721bc0a.png"/>
-<meta name="twitter:title" content="Capture the Flag"/>
-<meta name="twitter:description" content=""/>
+<meta property="og:title" content="picoCTF - Bases" />
+<meta property="og:description" content="What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
+Run the following command in the terminal.
+
+
+    
+    echo &#39;bDNhcm5fdGgzX3IwcDM1&#39; | base64 -d
+Engulf the output inside picoCTF{output}
+But, let&rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format.
+So, base64 is just a format that is in a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/docs/cyber-security/capture-the-flag/picoctf/bases/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu_8ed9199c01082cb8.png"/><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2025-04-17T19:44:05+03:00" />
+<meta property="article:modified_time" content="2025-04-17T19:44:05+03:00" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu_8ed9199c01082cb8.png"/>
+<meta name="twitter:title" content="picoCTF - Bases"/>
+<meta name="twitter:description" content="What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
+Run the following command in the terminal.
+
+
+    
+    echo &#39;bDNhcm5fdGgzX3IwcDM1&#39; | base64 -d
+Engulf the output inside picoCTF{output}
+But, let&rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format.
+So, base64 is just a format that is in a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read."/>
 
     
         <link rel="alternate" type="application/atom+xml" title="Atom feed for cybernotes.uk" href="/index.xml" />
@@ -268,17 +286,17 @@
                                                         
                                                             
                                                             
-                                                                <li class="sidebar-dropdown nested  ">
+                                                                <li class="sidebar-dropdown nested  current active">
                                                                     <button class="btn">
                                                                         
                                                                         PicoCTF
                                                                     </button>
-                                                                    <div class="sidebar-submenu ">
+                                                                    <div class="sidebar-submenu d-block">
                                                                         <ul>
                                                                             
                                                                                 
                                                                                 
-                                                                                    <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/cyber-security/capture-the-flag/picoctf/bases/">picoCTF - Bases</a></li>
+                                                                                    <li class="current "><a class="sidebar-nested-link" href="http://localhost:1313/docs/cyber-security/capture-the-flag/picoctf/bases/">picoCTF - Bases</a></li>
                                                                                 
                                                                             
                                                                         </ul>
@@ -450,10 +468,26 @@
                     <meta itemprop="position" content='2' />
                 </li>
             
+            
+                <li class="breadcrumb-item text-capitalize" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a itemprop="item" href="/docs/cyber-security/capture-the-flag/">
+                        <span itemprop="name">Capture the Flag</span>
+                    </a>
+                    <meta itemprop="position" content='3' />
+                </li>
+            
+            
+                <li class="breadcrumb-item text-capitalize" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a itemprop="item" href="/docs/cyber-security/capture-the-flag/picoctf/">
+                        <span itemprop="name">PicoCTF</span>
+                    </a>
+                    <meta itemprop="position" content='4' />
+                </li>
+            
         
             <li class="breadcrumb-item text-capitalize active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name">Capture the Flag</span>
-                <meta itemprop="position" content='3' />
+                <span itemprop="name">picoCTF - Bases</span>
+                <meta itemprop="position" content='5' />
             </li>
         
     </ul>
@@ -461,13 +495,13 @@
                                     
                                     <div class="row flex-xl-nowrap">
                                         
-                                        <div class="docs-toc col-xl-3 visually-hidden visually-hidden  d-xl-block"><toc>
+                                        <div class="docs-toc col-xl-3  visually-hidden  d-xl-block"><toc>
     <div class="fw-bold text-uppercase mb-2">On this page</div>
     <nav id="TableOfContents"></nav>
     </toc></div>
                                         
                                         
-                                        <div class="docs-toc-mobile visually-hidden visually-hidden  d-print-none d-xl-none">
+                                        <div class="docs-toc-mobile  visually-hidden  d-print-none d-xl-none">
                                             <button id="toc-dropdown-btn" class="btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-offset="0,0" aria-expanded="false">
                                                 Table of Contents
                                             </button>
@@ -476,34 +510,31 @@
                                             <div class="mb-0 d-flex">
                                                 
                                                 <h1 class="content-title mb-0">
-                                                    Capture the Flag
+                                                    picoCTF - Bases
                                                     
                                                 </h1>
                                             </div>
                                             
                                             <div id="content" class="main-content" >
                                                 
-    <div class="row flex-xl-wrap">
-        
-        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
-            <a class="text-decoration-none text-reset" href="http://localhost:1313/docs/cyber-security/capture-the-flag/picoctf/">
-                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
-                    <span class="icon-color d-flex my-3">
-                        <i class="material-icons align-middle">article</i>
-                        
-                        <i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>
-                    </span>
-                    <div class="card-body p-0 content">
-                        <p class="fs-5 fw-semibold card-title mb-1">PicoCTF</p>
-                        <p class="para card-text mb-0"></p>
-                    </div>
-                    
-                </div>
-            </a>
-        </div>
-        
+    
+    <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
+        <p>What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.</p>
+<p>Run the following command in the terminal.</p>
+
+
+    
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;bDNhcm5fdGgzX3IwcDM1&#39;</span> | base64 -d</span></span></code></pre></div>
+<p>Engulf the output inside picoCTF{output}</p>
+<p>But, let&rsquo;s look a little deeper. The base64 command encodes binary strings into text representations using the base64 encoding format.</p>
+<p>So, base64 is just a format that is in a sense scrambled. The parameter -d just decodes from the base64 format to plain text, that we can read.</p>
+<p><a href="https://docs.oracle.com/cd/E19623-01/820-6171/base64.html" rel="external" target="_blank"><em>base64 Description</em><svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z"/></svg></a></p>
+
     </div>
 
+    
+
+    
                                             </div>
                                             <div><hr class="doc-hr">
 <div id="doc-nav" class="d-print-none">
